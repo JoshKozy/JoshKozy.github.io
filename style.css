@@ -25,10 +25,18 @@ h3 {
 }
 
 nav {
+  /* Your existing styles + the following additions */
   display: flex;
-  justify-content: space-around;
-  margin-bottom: 1em;
+  flex-direction: column;
+  align-items: flex-start;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px; /* Adjust width as desired */
+  height: 100%;
+  background-color: #f2f2f2; /* Optional background color */
 }
+
 
 nav a {
   text-decoration: none;
