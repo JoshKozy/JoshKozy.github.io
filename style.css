@@ -1,61 +1,62 @@
-/* Reset basic styles */
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f4f4f4;
 }
 
-/* Header styles */
-h1 {
-  text-align: center;
-  font-size: 2em;
-  margin-bottom: 1em;
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #0779e4 3px solid;
 }
 
-h2 {
-  text-align: center;
-  font-size: 1.5em;
-  margin-bottom: 1em;
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 15px;
 }
 
-h3 {
-  text-align: center;
-  font-size: 1em;
-  margin-bottom: 1em;
+header li {
+    display: inline;
+    margin: 0 5px;
 }
 
-nav {
-  /* Your existing styles + the following additions */
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 200px; /* Adjust width as desired */
-  height: 100%;
-  background-color: #f2f2f2; /* Optional background color */
+header nav {
+    float: right;
+    margin-top: -30px;
 }
 
-
-nav a {
-  text-decoration: none;
-  color: black;
-  padding: 0.5em 1em;
+h1, h2 {
+    color: #333;
 }
 
-nav a:hover {
-  background-color: lightgray;
+nav ul {
+    list-style: none;
 }
 
-/* Main content styles */
-main {
-  padding: 1em;
+nav ul li {
+    display: inline;
+    margin: 0 5px;
 }
 
-/* Footer styles */
 footer {
-  text-align: center;
-  padding: 1em;
-  font-size: 0.8em;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
