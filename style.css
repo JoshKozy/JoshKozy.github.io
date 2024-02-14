@@ -1,62 +1,61 @@
-/* Basic reset */
-* {
+/* Reset basic styles */
+body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    padding: 20px;
-    background-color: #f4f4f4;
-}
-
-header {
-    background: #333;
-    color: #fff;
-    padding-top: 30px;
-    min-height: 70px;
-    border-bottom: #0779e4 3px solid;
-}
-
-header a {
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    margin: 0 15px;
-}
-
-header li {
-    display: inline;
-    margin: 0 5px;
-}
-
-header nav {
-    float: right;
-    margin-top: -30px;
-}
-
-h1, h2 {
-    color: #333;
-}
-
-nav ul {
-    list-style: none;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 5px;
-}
-
-footer {
-    background: #333;
-    color: #fff;
+    font-family: sans-serif;
+  }
+  
+  /* Header styles */
+  h1 {
     text-align: center;
-    padding: 10px;
+    font-size: 2em;
+    margin-bottom: 1em;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+  }
+  
+  h3 {
+    text-align: center;
+    font-size: 1em;
+    margin-bottom: 1em;
+  }
+  
+  nav {
+    /* Your existing styles + the following additions */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     position: fixed;
+    top: 0;
     left: 0;
-    bottom: 0;
-    width: 100%;
-}
+    width: 200px; /* Adjust width as desired */
+    height: 100%;
+    background-color: #f2f2f2; /* Optional background color */
+  }
+  
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+    padding: 0.5em 1em;
+  }
+  
+  nav a:hover {
+    background-color: lightgray;
+  }
+  
+  /* Main content styles */
+  main {
+    padding: 1em;
+  }
+  
+  /* Footer styles */
+  footer {
+    text-align: center;
+    padding: 1em;
+    font-size: 0.8em;
+  }
