@@ -3,6 +3,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  display: flex;
+  flex-direction: row; /* Aligns children (nav and main) in a row */
 }
 
 /* Header styles */
@@ -15,8 +17,29 @@ h1 { font-size: 2em; }
 h2 { font-size: 1.5em; }
 h3 { font-size: 1em; }
 
+/* Navigation styles */
+nav {
+  margin: 0;
+  padding: 0.5em;
+  width: 200px; /* Fixed width for the nav */
+  height: auto; /* Adjust height as needed */
+  background-color: #f2f2f2;
+}
+
+nav a {
+  display: block; /* Makes the links stack vertically */
+  text-decoration: none;
+  color: black;
+  padding: 0.5em 0; /* Adjust padding as needed */
+}
+
+nav a:hover {
+  background-color: lightgray;
+}
+
 /* Main content styles */
 main {
+  flex-grow: 1; /* Allows main content to fill the rest of the space */
   padding: 1em;
 }
 
@@ -51,30 +74,37 @@ footer {
   text-align: center;
   padding: 1em;
   font-size: 0.8em;
+  width: 100%; /* Ensures footer spans the width of the page */
 }
 
 /* Dark Mode Styles */
 @media (prefers-color-scheme: dark) {
-  body {
+  body, nav {
     background-color: #222;
     color: #e6e6e6;
   }
 
-  .image-link span {
-    color: #ccc; /* Dark mode text color for image link labels */
+  nav a, .image-link span {
+    color: #ccc;
   }
-  
-  /* Adjust other dark mode styles as needed */
+
+  nav a:hover {
+    background-color: #444;
+  }
 }
 
 /* Responsive adjustments */
 @media (max-width: 600px) {
+  body {
+    flex-direction: column; /* Stacks nav and main vertically on small screens */
+  }
+
+  nav {
+    width: 100%; /* Allows nav to span the full width of the screen */
+    order: -1; /* Places nav above main content */
+  }
+
   .image-link img {
     width: 80px; /* Smaller images on smaller screens */
-  }
-  
-  /* Consider removing or hiding sidebar nav if still present */
-  nav {
-    display: none; /* Example to hide the nav bar on smaller screens */
   }
 }
