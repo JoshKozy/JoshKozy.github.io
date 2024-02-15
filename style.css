@@ -6,49 +6,44 @@ body {
 }
 
 /* Header styles */
-h1 {
+h1, h2, h3 {
   text-align: center;
-  font-size: 2em;
   margin-bottom: 1em;
 }
 
-h2 {
-  text-align: center;
-  font-size: 1.5em;
-  margin-bottom: 1em;
-}
-
-h3 {
-  text-align: center;
-  font-size: 1em;
-  margin-bottom: 1em;
-}
-
-nav {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 200px;
-  height: 100%;
-  background-color: #f2f2f2;
-}
-
-nav a {
-  text-decoration: none;
-  color: black;
-  padding: 0.5em 1em;
-}
-
-nav a:hover {
-  background-color: lightgray;
-}
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1em; }
 
 /* Main content styles */
 main {
   padding: 1em;
+}
+
+/* Image Links Container */
+.image-links-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the items */
+  gap: 20px; /* Space between items */
+}
+
+/* Individual image link styles */
+.image-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none; /* Remove underline from links */
+}
+
+.image-link img {
+  width: 100px; /* Set the image size */
+  height: auto;
+}
+
+.image-link span {
+  margin-top: 10px; /* Space between image and text */
+  color: black; /* Text color */
 }
 
 /* Footer styles */
@@ -65,17 +60,21 @@ footer {
     color: #e6e6e6;
   }
 
+  .image-link span {
+    color: #ccc; /* Dark mode text color for image link labels */
+  }
+  
+  /* Adjust other dark mode styles as needed */
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .image-link img {
+    width: 80px; /* Smaller images on smaller screens */
+  }
+  
+  /* Consider removing or hiding sidebar nav if still present */
   nav {
-    background-color: #333;
+    display: none; /* Example to hide the nav bar on smaller screens */
   }
-
-  nav a {
-    color: #ccc;
-  }
-
-  nav a:hover {
-    background-color: #444;
-  }
-
-  /* Additional dark mode styles as needed */
 }
