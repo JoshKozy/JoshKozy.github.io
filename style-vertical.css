@@ -1,30 +1,115 @@
-/* Example styles for style-vertical.css */
+/* Reset basic styles */
 body, html {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
 }
 
-/* Image Links Container for vertical layout */
-.image-links-container {
+/* Apply flex layout to a container instead of body to avoid global layout changes */
+.container {
+  display: flex;
+  flex-direction: row; /* Aligns nav and main in a row for larger screens */
+  width: 100%; /* Ensures the container spans the full width */
+}
+
+/* Header styles */
+h1, h2, h3 {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1em; }
+
+/* Navigation styles */
+nav {
+  margin: 0;
+  padding: 0.5em;
+  width: 200px; /* Fixed width for the nav */
+  background-color: #f2f2f2;
+}
+
+nav a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 0.5em 0;
+}
+
+nav a:hover {
+  background-color: lightgray;
+}
+
+/* Main content adjustments */
+main {
+  flex-grow: 1; /* Allows main content to expand */
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; /* Center-aligns the flex items (children of main) */
+  padding: 1em;
+}
+
+/* Image Links Container adjustments for vertical layout */
+.image-links-container {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
   gap: 30px; /* Increased space for larger items */
 }
 
 /* Adjustments for individual links and images for a larger display */
 .image-link {
-  width: 100%; /* Use full container width */
+  width: auto; /* Adjust width based on content */
 }
 
 .image-link img {
   width: 150px; /* Larger size for images */
-  height: auto;
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 10px; /* Space between image and text */
 }
 
 .image-link span {
-  margin-top: 12px; /* Slightly increased space */
-  color: black;
+  color: black; /* Text color */
+  text-align: center; /* Center the text */
+}
+
+/* Footer styles */
+footer {
   text-align: center;
+  padding: 1em;
+  font-size: 0.8em;
+  width: 100%;
+}
+
+/* Dark Mode Styles */
+@media (prefers-color-scheme: dark) {
+  body, nav {
+    background-color: #222;
+    color: #e6e6e6;
+  }
+
+  nav a, .image-link span {
+    color: #ccc;
+  }
+
+  nav a:hover {
+    background-color: #444;
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  body {
+    flex-direction: column; /* Stacks nav and main vertically on small screens */
+  }
+
+  nav {
+    width: 100%; /* Allows nav to span the full width of the screen */
+    order: -1; /* Places nav above main content */
+  }
+
+  .image-link img {
+    width: 80px; /* Adjusts for smaller screen sizes */
+  }
 }
