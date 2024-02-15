@@ -50,7 +50,33 @@ main {
   padding: 1em;
 }
 
-/* Image Links Container & Other Styles Remain Unchanged */
+/* Image Links Container */
+.image-links-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the items */
+  gap: 20px; /* Space between items */
+}
+
+/* Individual image link styles */
+.image-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none; /* Remove underline from links */
+  width: 120px; /* Set a fixed width for the container */
+}
+
+.image-link img {
+  max-width: 100%; /* Ensure image doesn't exceed the container's width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.image-link span {
+  margin-top: 10px; /* Space between image and text */
+  color: black; /* Text color */
+  text-align: center; /* Center the text */
+}
 
 /* Footer styles */
 footer {
@@ -87,7 +113,11 @@ footer {
     order: -1; /* Places nav above main content */
   }
 
+  .image-link {
+    width: auto; /* Allows image link containers to adjust their size on smaller screens */
+  }
+
   .image-link img {
-    width: 80px; /* Smaller images on smaller screens */
+    width: 80px; /* Ensures a consistent size for images on smaller screens */
   }
 }
