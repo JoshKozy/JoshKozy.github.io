@@ -157,10 +157,14 @@ tr:hover {
     overflow-x: auto; /* Allows table to scroll horizontally on small screens */
   }
 }
+
+/* ... your existing CSS ... */
+
 /* Home button styles */
 .home-button-container {
-  text-align: center; /* Center the home button */
-  margin: 1em 0; /* Add some margin above and below the button */
+  position: absolute; /* Position the button absolutely relative to its positioned parent */
+  top: 10px; /* Distance from the top of the page */
+  right: 10px; /* Distance from the right of the page */
 }
 
 .home-button {
@@ -178,11 +182,13 @@ tr:hover {
   background-color: lightgray; /* Change background color on hover */
 }
 
-/* ... your existing media queries ... */
-
-/* Add additional media query adjustments for the home button if necessary */
 @media (max-width: 600px) {
-  /* ... your existing responsive adjustments ... */
+
+  .home-button-container {
+    position: static; /* Resets the positioning for mobile to flow with the document */
+    text-align: center; /* Center the button on mobile */
+    margin: 10px 0; /* Add some margin on mobile */
+  }
 
   .home-button {
     padding: 8px 16px; /* Adjust padding for smaller screens */
