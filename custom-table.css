@@ -62,3 +62,38 @@ tr:hover {
     overflow-x: auto;
   }
 }
+
+/* Home button styles */
+.home-button-container {
+  position: absolute; /* Position the button absolutely relative to its positioned parent */
+  top: 10px; /* Distance from the top of the page */
+  right: 10px; /* Distance from the right of the page */
+}
+
+.home-button {
+  display: inline-block; /* Make the link behave like a block */
+  padding: 10px 20px; /* Padding inside the button */
+  text-decoration: none; /* Remove underline from the link */
+  background-color: #f2f2f2; /* Background color */
+  color: black; /* Text color */
+  border: 1px solid #ddd; /* Border color */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.home-button:hover {
+  background-color: lightgray; /* Change background color on hover */
+}
+
+@media (max-width: 600px) {
+
+  .home-button-container {
+    position: static; /* Resets the positioning for mobile to flow with the document */
+    text-align: center; /* Center the button on mobile */
+    margin: 10px 0; /* Add some margin on mobile */
+  }
+
+  .home-button {
+    padding: 8px 16px; /* Adjust padding for smaller screens */
+  }
+}
