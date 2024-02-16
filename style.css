@@ -93,23 +93,22 @@ footer {
 
 /* Dark Mode Styles */
 @media (prefers-color-scheme: dark) {
-  body, nav {
+  body, nav, .image-link span, nav a {
     background-color: #222;
     color: #e6e6e6;
   }
   
+  /* Ensuring table styles for dark mode are included */
   table {
-    border-color: #444; /* Darker border for dark mode */
+    border-color: #444; /* Example: ensuring border colors are set for dark mode */
   }
   th {
-    background-color: #333; /* Darker background for headers in dark mode */
-    color: #fff; /* Light text for headers in dark mode */
+    background-color: #333; /* Darker background for table headers */
+    color: #fff;
   }
   td {
-    color: #e6e6e6; /* Light text color for table data in dark mode */
-  }
-  tr:hover {
-    background-color: #3a3a3a; /* Darker background for row hover in dark mode */
+    background-color: #222; /* Darker background for table data cells */
+    color: #e6e6e6; /* Lighter text color for readability */
   }
   nav a, .image-link span {
     color: #ccc;
