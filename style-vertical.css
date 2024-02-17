@@ -113,3 +113,17 @@ footer {
     width: 80px; /* Adjusts for smaller screen sizes */
   }
 }
+
+.reference-banner {
+  background-color: green; /* Sets the background color */
+  color: white; /* Sets the text color */
+  text-align: center; /* Centers the text */
+  width: 100%; /* Ensures the banner spans the full width */
+  padding: 10px 0; /* Adds some padding above and below the text */
+  margin-top: 0; /* Removes the default top margin */
+  position: fixed; /* Fixes the header at the top of the page */
+  top: 0; /* Aligns the banner at the very top */
+  left: 0; /* Aligns the banner to the left */
+  z-index: 1000; /* Ensures the banner appears above other content */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Optional: Adds a shadow for depth */
+}
