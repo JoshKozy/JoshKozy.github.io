@@ -1,0 +1,263 @@
+/* Reset basic styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  position: relative;
+  display: flex; /* Makes the body element a flex container */
+  flex-direction: column; /* Stacks child elements vertically */
+  min-height: 100vh; /* Ensures the body takes up at least the height of the viewport */
+}
+
+/* Apply flex layout to a container instead of body to avoid global layout changes */
+.container {
+  display: flex;
+  flex-direction: row; /* Aligns nav and main in a row for larger screens */
+  width: 100%; /* Ensures the container spans the full width */
+}
+
+/* Header styles */
+h1, h2, h3 {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1em; }
+
+/* Navigation styles */
+nav {
+  margin: 0;
+  padding: 0.5em;
+  width: 200px; /* Fixed width for the nav */
+  background-color: #f2f2f2;
+}
+
+nav a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 0.5em 0;
+}
+
+nav a:hover {
+  background-color: lightgray;
+}
+
+/* Main content adjustments */
+main {
+  flex-grow: 1; /* Allows main content to expand */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center-aligns the flex items (children of main) */
+  padding: 1em;
+}
+
+/* Image Links Container */
+.image-links-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the items */
+  gap: 20px; /* Space between items */
+}
+
+/* Individual image link styles */
+.image-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none; /* Remove underline from links */
+  width: 120px; /* Set a fixed width for the container */
+}
+
+.image-link img {
+  max-width: 100%; /* Ensure image doesn't exceed the container's width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.image-link span {
+  margin-top: 10px; /* Space between image and text */
+  color: black; /* Text color */
+  text-align: center; /* Center the text */
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 1em;
+  font-size: 0.8em;
+  width: 100%;
+  margin-top: auto; /* Pushes the footer to the bottom if there's not enough content */
+}
+
+/* Dark Mode Styles */
+@media (prefers-color-scheme: dark) {
+  body, nav, .image-link span, nav a {
+    background-color: #222;
+    color: #e6e6e6;
+  }
+  
+  /* Ensuring table styles for dark mode are included */
+  table {
+    border-color: #444; /* Example: ensuring border colors are set for dark mode */
+  }
+  th {
+    background-color: #333; /* Darker background for table headers */
+    color: #fff;
+  }
+  td {
+    background-color: #222; /* Darker background for table data cells */
+    color: #e6e6e6; /* Lighter text color for readability */
+  }
+  nav a, .image-link span {
+    color: #ccc;
+  }
+
+  nav a:hover {
+    background-color: #444;
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column; /* Stacks nav and main vertically on small screens */
+  }
+
+  nav {
+    width: 100%; /* Allows nav to span the full width of the screen */
+    order: -1; /* Places nav above main content */
+  }
+
+  .image-link {
+    width: auto; /* Allows image link containers to adjust their size on smaller screens */
+  }
+
+  .image-link img {
+    width: 80px; /* Ensures a consistent size for images on smaller screens */
+  }
+}
+
+/* Table styles */
+table {
+  width: 100%; /* Full-width tables */
+  border-collapse: collapse; /* Collapses the border */
+  margin-bottom: 2em; /* Spacing after the table */
+}
+
+th, td {
+  border: 1px solid #ddd; /* Light grey border */
+  padding: 8px; /* Spacing inside cells */
+  text-align: left; /* Align text to the left */
+}
+
+th {
+  background-color: #f2f2f2; /* Light grey background for headers */
+  color: black; /* Text color for headers */
+}
+
+/* Striped table rows for better readability */
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Hover effect for table rows */
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Responsive table adjustments */
+@media screen and (max-width: 600px) {
+  table {
+    display: block;
+    overflow-x: auto; /* Allows table to scroll horizontally on small screens */
+  }
+}
+
+/* ... your existing CSS ... */
+
+/* Home button styles */
+.home-button-container {
+  position: absolute; /* Position the button absolutely relative to its positioned parent */
+  top: 10px; /* Distance from the top of the page */
+  right: 10px; /* Distance from the right of the page */
+}
+
+.home-button {
+  display: inline-block; /* Make the link behave like a block */
+  padding: 10px 20px; /* Padding inside the button */
+  text-decoration: none; /* Remove underline from the link */
+  background-color: #f2f2f2; /* Background color */
+  color: black; /* Text color */
+  border: 1px solid #ddd; /* Border color */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.home-button:hover {
+  background-color: lightgray; /* Change background color on hover */
+}
+
+@media (max-width: 600px) {
+
+  .home-button-container {
+    position: static; /* Resets the positioning for mobile to flow with the document */
+    text-align: center; /* Center the button on mobile */
+    margin: 10px 0; /* Add some margin on mobile */
+  }
+
+  .home-button {
+    padding: 8px 16px; /* Adjust padding for smaller screens */
+  }
+}
+
+#zuluTimeClock, #julianDate {
+  text-align: center; /* Center the text */
+  font-size: 24px; /* Increase the text size */
+  margin-top: 20px; /* Add some space above the elements */
+}
+
+.reference-banner {
+  background-color: green; /* Sets the background color */
+  color: white; /* Sets the text color */
+  text-align: center; /* Centers the text */
+  width: 100%; /* Ensures the banner spans the full width */
+  padding: 10px 0; /* Adds some padding above and below the text */
+  margin-top: 0; /* Removes the default top margin */
+  position: fixed; /* Fixes the header at the top of the page */
+  top: 0; /* Aligns the banner at the very top */
+  left: 0; /* Aligns the banner to the left */
+  z-index: 1000; /* Ensures the banner appears above other content */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Optional: Adds a shadow for depth */
+}
+
+body {
+  padding-top: 50px; /* Adds padding to the top of the body to prevent content from being hidden behind the fixed banner */
+}
+
+/* ... your existing CSS ... */
+
+/* Checklist styles */
+.checklist h2 {
+    font-size: 1.5em;
+}
+
+.ietm-list, .ietm-list ul {
+    list-style-type: none; /* Removes default list bullets */
+    padding-left: 0;
+}
+
+.ietm-list li {
+    margin: 5px 0;
+}
+
+.ietm-list li ul {
+    padding-left: 20px; /* Indent nested lists */
+}
+
+.ietm-list li::before {
+    content: "→ ";
+    color: black;
+    margin-right: 5px;
+}
