@@ -67,7 +67,7 @@ main {
 }
 
 .image-link img {
-  width: 150px; /* Default size for images */
+  width: 150px; /* Default size for images, adjust if needed */
   height: auto; /* Maintain aspect ratio */
   margin-bottom: 10px; /* Space between image and text */
 }
@@ -81,8 +81,9 @@ main {
 @media (max-width: 600px) {
   .image-link img {
     width: 75%; /* Images take up 75% of screen width */
-    max-width: 400px; /* Optional: Prevent the image from being too large on slightly bigger screens */
+    height: auto; /* Maintain aspect ratio */
   }
+}
 
 /* Footer styles */
 footer {
@@ -118,10 +119,6 @@ footer {
     width: 100%; /* Allows nav to span the full width of the screen */
     order: -1; /* Places nav above main content */
   }
-
-  .image-link img {
-    width: 80px; /* Adjusts for smaller screen sizes */
-  }
 }
 
 /* Home button styles */
@@ -144,19 +141,6 @@ footer {
 
 .home-button:hover {
   background-color: lightgray; /* Change background color on hover */
-}
-
-@media (max-width: 600px) {
-
-  .home-button-container {
-    position: static; /* Resets the positioning for mobile to flow with the document */
-    text-align: center; /* Center the button on mobile */
-    margin: 10px 0; /* Add some margin on mobile */
-  }
-
-  .home-button {
-    padding: 8px 16px; /* Adjust padding for smaller screens */
-  }
 }
 
 .reference-banner {
