@@ -179,7 +179,7 @@ tr:hover {
 /* Home button styles */
 .home-button-container {
   position: fixed; /* Adjusted for fixed positioning relative to viewport */
-  top: 20px; /* Aligned with the banner */
+  top: 10px; /* Aligned with the banner */
   right: 10px; /* Distance from the right of the viewport */
   z-index: 1001; /* Ensures it's above the banner */
 }
