@@ -179,14 +179,14 @@ tr:hover {
 /* Home button styles */
 .home-button-container {
   position: fixed; /* Adjusted for fixed positioning relative to viewport */
-  top: 10px; /* Aligned with the banner */
+  top: 1px; /* Aligned with the banner */
   right: 10px; /* Distance from the right of the viewport */
   z-index: 1001; /* Ensures it's above the banner */
 }
 
 .home-button {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 1px 20px;
   text-decoration: none;
   background-color: #f2f2f2;
   color: black;
