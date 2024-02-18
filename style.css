@@ -179,10 +179,11 @@ tr:hover {
 
 /* Home button styles */
 .home-button-container {
-  position: absolute; /* Position the button absolutely relative to its positioned parent */
-  top: 10px; /* Distance from the top of the page */
-  right: 10px; /* Distance from the right of the page */
-}
+  position: absolute; /* Keep it absolute but relative to the banner now */
+  top: 50%; /* Adjust this value to vertically center it within the banner */
+  right: 10px; /* Keep it to the right */
+  transform: translateY(-50%); /* Center it vertically relative to the banner */
+  z-index: 1010; /* Ensure it's above the banner if needed */
 
 .home-button {
   display: inline-block; /* Make the link behave like a block */
