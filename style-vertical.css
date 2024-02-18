@@ -61,10 +61,13 @@ main {
 /* Adjustments for individual links and images for a larger display */
 .image-link {
   width: auto; /* Adjust width based on content */
+  display: flex; /* Use flex layout */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
 }
 
 .image-link img {
-  width: 150px; /* Larger size for images */
+  width: 150px; /* Default size for images */
   height: auto; /* Maintain aspect ratio */
   margin-bottom: 10px; /* Space between image and text */
 }
@@ -73,6 +76,13 @@ main {
   color: black; /* Text color */
   text-align: center; /* Center the text */
 }
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 600px) {
+  .image-link img {
+    width: 75%; /* Images take up 75% of screen width */
+    max-width: 400px; /* Optional: Prevent the image from being too large on slightly bigger screens */
+  }
 
 /* Footer styles */
 footer {
