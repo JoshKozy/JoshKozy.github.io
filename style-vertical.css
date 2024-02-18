@@ -58,6 +58,12 @@ main {
   gap: 30px; /* Increased space for larger items */
 }
 
+.image-links-container img {
+  max-width: 100%;
+  height: auto;
+  display: block; /* Ensures images are block level, which can help with layout */
+}
+
 /* Adjustments for individual links and images for a larger display */
 .image-link {
   width: auto; /* Adjust width based on content */
