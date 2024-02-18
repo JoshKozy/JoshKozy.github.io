@@ -201,7 +201,7 @@ tr:hover {
 
 @media (max-width: 600px) {
   .home-button-container {
-    position: static;
+    position: fixed;
     text-align: center;
     margin: 10px 0;
   }
@@ -247,4 +247,11 @@ tr:hover {
     content: "→ ";
     color: black;
     margin-right: 5px;
+}
+
+#zuluTimeClock, #julianDate {
+  text-align: center; /* Ensure these are centered at all times */
+  font-size: 24px; /* Adjust if necessary for your design */
+  margin-top: 20px; /* Adjust spacing as needed */
+  display: block; /* Ensure block level for proper centering */
 }
