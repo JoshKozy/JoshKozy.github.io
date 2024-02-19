@@ -18,3 +18,40 @@ setInterval(updateZuluTime, 1000);
 
 // Update Julian Date (This could be set to run less frequently if needed, but once per page load is likely sufficient)
 getJulianDate();
+
+
+// Search function support
+document.getElementById('searchBox').addEventListener('input', function(e) {
+  const searchQuery = e.target.value.toLowerCase();
+
+  // List of your JSON files
+  const jsonFiles = ['/path/to/Ref_Des.json', '/path/to/Hyd.json', '/path/to/MESL.json'];
+  const searchPromises = jsonFiles.map(file => fetch(file).then(response => response.json()));
+
+  // Fetch all JSON files and process them together
+  Promise.all(searchPromises).then(dataArrays => {
+    // Flatten the array of arrays into a single array containing all items
+    const allData = dataArrays.flat();
+
+    // Filter the combined data based on the search query
+    const results = allData.filter(item => 
+      Object.values(item).some(value => 
+        value.toString().toLowerCase().includes(searchQuery)
+      )
+    );
+
+    // Display the combined search results
+    displayResults(results);
+  });
+});
+
+function displayResults(results) {
+  const resultsContainer = document.getElementById('searchResults');
+  resultsContainer.innerHTML = ''; // Clear previous results
+  results.forEach(result => {
+    // Assuming each item has a 'title' and 'url' property for demonstration
+    const elem = document.createElement('div');
+    elem.innerHTML = `<a href="${result.url}">${result.title}</a>`;
+    resultsContainer.appendChild(elem);
+  });
+}
