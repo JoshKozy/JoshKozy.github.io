@@ -128,3 +128,53 @@ tr:hover {
 body {
   padding-top: 50px; /* Adds padding to the top of the body to prevent content from being hidden behind the fixed banner */
 }
+
+/* New Table layout from GPT, delete if issues. */
+
+/* New Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1em; /* Adjust as needed */
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: left;
+}
+
+th {
+  background-color: #4CAF50; /* Green background for headers */
+  color: white;
+}
+
+.section-header {
+  background-color: #f2f2f2; /* Light grey background for section headers */
+  text-align: center;
+}
+
+/* Ensure dark mode styles are compatible with new table styles */
+@media (prefers-color-scheme: dark) {
+  body, nav, .image-link span, nav a {
+    /* existing dark mode styles... */
+  }
+  
+  /* Dark mode styles for new table structure */
+  table {
+    border-color: #444;
+  }
+  th {
+    background-color: #333;
+    color: #fff;
+  }
+  td {
+    background-color: #222;
+    color: #e6e6e6;
+  }
+  .section-header {
+    background-color: #333; /* Darker background for section headers in dark mode */
+    color: #fff;
+  }
+  /* Add any other dark mode styles for table elements as needed */
+}
