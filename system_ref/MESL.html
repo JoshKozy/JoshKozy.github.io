@@ -41,7 +41,7 @@
   <!-- Data rows -->
   <tr>
     <td>2100</td>
-    <td colspan="12">AIR CONDITIONING / PRESSURIZATION</td>
+    <td class="section-header" colspan="12">AIR CONDITIONING / PRESSURIZATION</td>
   </tr>
   <tr>
     <td>2122</td>
@@ -90,19 +90,228 @@
   </tr>
   <tr>
     <td>2122</td>
-    <td>AC Environmental Control Panel APU Air</td>
+    <td>Environmental Control Panel APU Air</td>
     <td></td>
-    <td>4</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0*</td>
+    <td>X</td>
+    <td></td> 
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Required if no air cart is available for engine start.</td>
+  </tr>
+  <tr>
+    <td>2122</td>
+    <td>Cargo Compartment Redistribution Fan</td>
+    <td></td>
+    <td>1</td>
+    <td>0*</td>
+    <td>0*</td>
+    <td>X</td>
+    <td></td> 
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Required for Aerial Bulk Fuel Delivery System and Dispensing System Operations.</td>
+  </tr>
+  <tr>
+    <td>2126</td>
+    <td>Avionics Cooling Fan</td>
+    <td></td>
+    <td>3</td>
     <td>2*</td>
     <td>2*</td>
     <td>X</td>
-    <td></td> <!-- Continue with empty cells as needed -->
+    <td>X</td> 
+    <td>X</td>
+    <td>X</td>
     <td></td>
     <td></td>
-    <td></td>
-    <td></td>
-    <td>One per side required, inop valve will be closed.</td>
+    <td>3 required for airdrop above 25K feet.</td>
   </tr>
+  <tr>
+    <td>2126</td>
+    <td>Avionics Cooling Fan Check Valves</td>
+    <td></td>
+    <td>3</td>
+    <td>3</td>
+    <td>3</td>
+    <td>X</td>
+    <td>X</td> 
+    <td>X</td>
+    <td>X</td>
+    <td>X</td>
+    <td>X</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>2126</td>
+    <td>Avionics Ground Cooling Inlet Filter Assembly</td>
+    <td></td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>X</td>
+    <td>X</td> 
+    <td>X</td>
+    <td>X</td>
+    <td>X</td>
+    <td>X</td>
+    <td>Will have filter installed for ground operation of avionics equipment.</td>
+  </tr>
+  <tr>
+    <td>2126</td>
+    <td>Avionics Cooling Differential Pressure Sensor</td>
+    <td></td>
+    <td>2</td>
+    <td>1</td>
+    <td>1</td>
+    <td>X</td>
+    <td></td> 
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>2126</td>
+    <td>Ground Inlet Shutoff Valve</td>
+    <td>GND COOLING INLET</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0*</td>
+    <td>X</td>
+    <td></td> 
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Will be manually closed for flight if inop.</td>
+  </tr>
+  <tr>
+    <td>2126</td>
+    <td>Avionics Cooling Skin Heat Exchanger</td>
+    <td></td>
+    <td>1</td>
+    <td>0*</td>
+    <td>0*</td>
+    <td>X</td>
+    <td></td> 
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Will have air conditioning pack operating for ground ops. Valve will be manually locked open if inop.</td>
+  </tr>
+  <tr>
+    <td>2126</td>
+    <td>Avionics Cooling Equipment Air Shutoff Valve</td>
+    <td></td>
+    <td>10</td>
+    <td>0*</td>
+    <td>0*</td>
+    <td>X</td>
+    <td></td> 
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Valve required to be closed if corresponding avionics equipment is not installed.</td>
+  </tr>
+  <tr>
+    <td>2127</td>
+    <td>Cargo Compartment Exhaust Fan</td>
+    <td></td>
+    <td>2</td>
+    <td>0*</td>
+    <td>0*</td>
+    <td>X</td>
+    <td></td> 
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Required when loading/unloading exhaust producing cargo.</td>
+  </tr>
+  <tr>
+    <td>2129</td>
+    <td>Ram Air Ventilation Valve</td>
+    <td></td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>X</td>
+    <td>X</td> 
+    <td>X</td>
+    <td>X</td>
+    <td>X</td>
+    <td>X</td>
+    <td>Left RAM air ducts me be intact.</td>
+  </tr>
+  <tr>
+    <td>2131</td>
+    <td>Cabin Pressure Outflow Valve</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1*</td>
+    <td>X</td>
+    <td>X</td>
+    <td>X</td>
+    <td>X</td>
+    <td>X</td>
+    <td>X</td>
+    <td>Outflow valve must be opertaional in manual mode.</td>
+  </tr>
+  <tr>
+    <td>2131</td>
+    <td>Cabin Pressure Controller</td>
+    <td></td>
+    <td>2</td>
+    <td>1</td>
+    <td>1*</td>
+    <td>X</td>
+    <td></td> 
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>These requirements include Cabin Pressure Sensor and AC Outflow Valve Motor. One complete cabin pressure system will be operational.</td>
+  </tr>
+  <tr>
+    <td>2131</td>
+    <td>Cabin Pressure Selector Panel</td>
+    <td></td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>X</td>
+    <td>X</td> 
+    <td>X</td>
+    <td>X</td>
+    <td>X</td>
+    <td>X</td>
+    <td></td>
+  </tr>
+  <tr>                                     
+    <td>21</td>          <!-- REF DES -->
+    <td>PLACEHOLDER</td>   <!-- Item/System -->
+    <td></td>              <!-- Message/Cue/Alert -->
+    <td>4</td>             <!-- Number Installed -->
+    <td>2*</td>            <!-- HSD -->
+    <td>2*</td>            <!-- ERD -->
+    <td>X</td>             <!-- REQ FULL SYSTEM LIST (FSL) -->
+    <td></td>              <!-- ACD -->
+    <td></td>              <!-- ADCP -->
+    <td></td>              <!-- ADP -->
+    <td></td>              <!-- ARC -->
+    <td></td>              <!-- AMF -->
+    <td></td>              <!-- NOTES -->
+  </tr>                                    <!-- PLACEHOLDER COPY AND PASTE -->
 </table>
 
   <h2>Discrepancy Information</h2>
