@@ -178,7 +178,31 @@ footer {
 
   /* Dark Mode Styles */
   @media (prefers-color-scheme: dark) {
-    /* ... existing dark mode styles for body, nav, etc... */
+    body, html {
+      background-color: #121212; /* Dark background for the whole page */
+      color: #e0e0e0; /* Lighter text color for better readability */
+    }
+
+    nav {
+      background-color: #242424; /* Darker background for navigation */
+    }
+
+    nav a {
+      color: #c0c0c0; /* Lighter color for links in dark mode */
+    }
+
+    nav a:hover {
+      background-color: #333333; /* Darker shade for hover state */
+    }
+
+    h1, h2, h3 {
+      color: #ffffff; /* Light color for headers */
+    }
+
+    footer {
+      background-color: #242424; /* Dark background for footer */
+      color: #e0e0e0; /* Light text color for footer */
+    }
 
     table {
       border-color: #444; /* Darker border for dark mode */
