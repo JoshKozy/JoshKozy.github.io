@@ -25,7 +25,7 @@ document.getElementById('searchBox').addEventListener('input', function(e) {
   const searchQuery = e.target.value.toLowerCase();
 
   // List of your JSON files
-  const jsonFiles = ['/path/to/Ref_Des.json', '/path/to/Hyd.json', '/path/to/MESL.json'];
+  const jsonFiles = ['../json_search/Ref_Des.json', '../json_search/Hyd.json', '../json_search/MESL.json'];
   const searchPromises = jsonFiles.map(file => fetch(file).then(response => response.json()));
 
   // Fetch all JSON files and process them together
