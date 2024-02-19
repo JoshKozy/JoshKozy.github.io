@@ -9,23 +9,30 @@ def is_section_header(ref_des):
 
 # Function to process each row and generate HTML
 def process_row(row):
-    html = '<tr>\n'
+    html = ''
     # Check if this row is a section header
     if is_section_header(row['REF DES']):
-        # The section header spans 12 columns, adjust as needed
+        # Create a section header row with REF DES number and header spanning 12 columns
+        html += '<tr>\n'
+        html += f'    <td>{row["REF DES"]}</td>\n'
         html += '    <td class="section-header" colspan="12">{}</td>\n'.format(row['Item/System'])
+        html += '</tr>\n'
     else:
-        # Normal cells
+        # Start a normal row
+        html += '<tr>\n'
         for index, item in row.iteritems():
-            # Add class for center-text where needed, and handle missing data
-            class_attr = ' class="center-text"' if pd.notnull(item) and index in ["Installed", "HSD", "ERD", "REQ FULL SYSTEM LIST (FSL)"] else ""
+            # Skip 'REF DES' if it's a section header
+            if index == 'REF DES' and is_section_header(item):
+                continue
+            # Add class for center-text for all but 'Item/System' and 'Notes'
+            class_attr = '' if index in ['Item/System', 'Notes'] else ' class="center-text"'
             value = item if pd.notnull(item) else ""
             html += f'    <td{class_attr}>{value}</td>\n'
-    html += '</tr>\n'
+        html += '</tr>\n'
     return html
 
 # Generate the HTML for each row
-html_rows = df.apply(process_row, axis=1)
+html_rows = [process_row(row) for index, row in df.iterrows()]
 
 # Combine all rows into a single string
 complete_html = ''.join(html_rows)
