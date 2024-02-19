@@ -255,3 +255,22 @@ tr:hover {
   margin-top: 20px; /* Adjust spacing as needed */
   display: block; /* Ensure block level for proper centering */
 }
+
+.search-container {
+    margin: 20px 0;
+}
+
+#searchBox {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-results div {
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
