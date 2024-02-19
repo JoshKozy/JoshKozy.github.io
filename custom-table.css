@@ -159,3 +159,8 @@ th {
   body, nav, .image-link span, nav a {
     /* existing dark mode styles... */
   }
+
+.center-text {
+  text-align: center; /* Center the text horizontally */
+  vertical-align: middle; /* Center the text vertically if needed */
+}
