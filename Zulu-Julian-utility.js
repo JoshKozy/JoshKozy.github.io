@@ -24,7 +24,7 @@ getJulianDate();
 function search() {
   // Corrected to match the ID of the input box in your HTML
   const input = document.getElementById('searchBox').value.toLowerCase();
-  fetch('../json_search/combined_index.json') // Ensure the path to your JSON file is correct
+  fetch('json_search/combined_index.json') // Ensure the path to your JSON file is correct
     .then(response => response.json())
     .then(data => {
       const results = data.index.filter(item => item.keywords.some(keyword => keyword.toLowerCase().includes(input)));
