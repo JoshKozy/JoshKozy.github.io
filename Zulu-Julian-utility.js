@@ -54,6 +54,8 @@ function search() {
 function displayResults(results) {
   const container = document.getElementById('searchResults');
   container.innerHTML = ''; // Clear previous results
+  container.style.display = 'block'; // Make sure the container is always shown after a search
+    
   if (results.length > 0) {
     results.forEach(result => {
       const element = document.createElement('div');
