@@ -263,7 +263,7 @@ tr:hover {
 .search-input-container {
     display: flex;
     justify-content: space-between; /* Adjusts the spacing */
-    align-items: center; /* Centers them vertically */
+    width: 100%; /* Ensure full width to encompass both elements */
 }
 
 #searchBox {
