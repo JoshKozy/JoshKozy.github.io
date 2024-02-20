@@ -284,6 +284,7 @@ tr:hover {
 }
 
 .search-results {
+    display: none; /* Hide the container initially */
     margin-top: 10px; /* Space between the search inputs and results */
     background-color: #ffffff; /* Light background for visibility */
     padding: 10px; /* Add some padding around the results for better spacing */
