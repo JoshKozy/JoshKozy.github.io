@@ -258,31 +258,14 @@ tr:hover {
 
 .search-container {
     margin: 20px 0;
-    position: relative; /* Added */
-    display: flex; /* Align input and button */
 }
 
 #searchBox {
     width: 100%;
     padding: 10px;
-    padding-right: 40px; /* Make space for the button inside the input */
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-}
-
-.search-button {
-    position: absolute;
-    right: 0;
-    top: 0;
-    height: 100%;
-    border: none;
-    background: none;
-    padding: 0 15px; /* Adjust as needed */
-    cursor: pointer;
-    color: #333; /* Adjust as needed */
-    font-size: 20px; /* Adjust as needed */
-    border-radius: 0 5px 5px 0; /* Match the input field border-radius */
 }
 
 .search-results div {
