@@ -21,37 +21,49 @@ getJulianDate();
 
 
 // Search function support
-document.getElementById('searchBox').addEventListener('input', function(e) {
-  const searchQuery = e.target.value.toLowerCase();
-
-  // List of your JSON files
-  const jsonFiles = ['../json_search/Ref_Des.json', '../json_search/Hyd.json', '../json_search/MESL.json'];
-  const searchPromises = jsonFiles.map(file => fetch(file).then(response => response.json()));
-
-  // Fetch all JSON files and process them together
-  Promise.all(searchPromises).then(dataArrays => {
-    // Flatten the array of arrays into a single array containing all items
-    const allData = dataArrays.flat();
-
-    // Filter the combined data based on the search query
-    const results = allData.filter(item => 
-      Object.values(item).some(value => 
-        value.toString().toLowerCase().includes(searchQuery)
-      )
-    );
-
-    // Display the combined search results
-    displayResults(results);
-  });
-});
-
 function displayResults(results) {
   const resultsContainer = document.getElementById('searchResults');
   resultsContainer.innerHTML = ''; // Clear previous results
-  results.forEach(result => {
-    // Assuming each item has a 'title' and 'url' property for demonstration
-    const elem = document.createElement('div');
-    elem.innerHTML = `<a href="${result.url}">${result.title}</a>`;
-    resultsContainer.appendChild(elem);
+
+  // Group results by category
+  const groupedResults = results.reduce((acc, result) => {
+    const { category } = result;
+    if (!acc[category]) {
+      acc[category] = [];
+    }
+    acc[category].push(result);
+    return acc;
+  }, {});
+
+  Object.entries(groupedResults).forEach(([category, results]) => {
+    // Create and append category header
+    const categoryHeader = document.createElement('h3');
+    categoryHeader.textContent = category;
+    resultsContainer.appendChild(categoryHeader);
+
+    results.forEach(result => {
+      const elem = document.createElement('div');
+      let url = constructUrl(result); // Function to construct URL based on the result's properties
+      elem.innerHTML = `<a href="${url}">${result.title}</a>`;
+      resultsContainer.appendChild(elem);
+    });
   });
+}
+
+function constructUrl(result) {
+  // Dynamically construct URL based on result properties
+  let url = '#';
+  switch(result.category) {
+    case 'Hyd':
+      url = `/hydraulics-details.html#${result.identifier}`;
+      break;
+    case 'MESL':
+      url = `/maintenance-support.html#${result.identifier}`;
+      break;
+    // Add more cases as needed for different categories
+    default:
+      // Handle default case or unknown category
+      break;
+  }
+  return url;
 }
