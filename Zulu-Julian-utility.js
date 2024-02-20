@@ -21,49 +21,29 @@ getJulianDate();
 
 
 // Search function support
-function displayResults(results) {
-  const resultsContainer = document.getElementById('searchResults');
-  resultsContainer.innerHTML = ''; // Clear previous results
-
-  // Group results by category
-  const groupedResults = results.reduce((acc, result) => {
-    const { category } = result;
-    if (!acc[category]) {
-      acc[category] = [];
-    }
-    acc[category].push(result);
-    return acc;
-  }, {});
-
-  Object.entries(groupedResults).forEach(([category, results]) => {
-    // Create and append category header
-    const categoryHeader = document.createElement('h3');
-    categoryHeader.textContent = category;
-    resultsContainer.appendChild(categoryHeader);
-
-    results.forEach(result => {
-      const elem = document.createElement('div');
-      let url = constructUrl(result); // Function to construct URL based on the result's properties
-      elem.innerHTML = `<a href="${url}">${result.title}</a>`;
-      resultsContainer.appendChild(elem);
+function search() {
+  const input = document.getElementById('searchInput').value.toLowerCase();
+  fetch('../json_search/combined_index.json')
+    .then(response => response.json())
+    .then(data => {
+      const results = data.index.filter(item => item.keywords.some(keyword => keyword.toLowerCase().includes(input)));
+      displayResults(results);
     });
-  });
 }
 
-function constructUrl(result) {
-  // Dynamically construct URL based on result properties
-  let url = '#';
-  switch(result.category) {
-    case 'Hyd':
-      url = `/hydraulics-details.html#${result.identifier}`;
-      break;
-    case 'MESL':
-      url = `/maintenance-support.html#${result.identifier}`;
-      break;
-    // Add more cases as needed for different categories
-    default:
-      // Handle default case or unknown category
-      break;
+function displayResults(results) {
+  const container = document.getElementById('searchResults');
+  container.innerHTML = ''; // Clear previous results
+  if (results.length > 0) {
+    results.forEach(result => {
+      const element = document.createElement('div');
+      // This line constructs a more detailed display text for each result.
+      // Adjust it according to how you want to present the information.
+      const displayText = `${result.info} - See details on <a href="${result.page}">${result.page.replace('.html', '').toUpperCase()}</a>`;
+      element.innerHTML = displayText;
+      container.appendChild(element);
+    });
+  } else {
+    container.innerHTML = 'No results found.';
   }
-  return url;
 }
