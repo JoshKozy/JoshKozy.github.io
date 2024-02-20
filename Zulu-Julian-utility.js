@@ -22,13 +22,14 @@ getJulianDate();
 
 // Search function support
 function search() {
-  const input = document.getElementById('searchInput').value.toLowerCase();
-  fetch('../json_search/combined_index.json')
+  // Corrected to match the ID of the input box in your HTML
+  const input = document.getElementById('searchBox').value.toLowerCase();
+  fetch('../json_search/combined_index.json') // Ensure the path to your JSON file is correct
     .then(response => response.json())
     .then(data => {
       const results = data.index.filter(item => item.keywords.some(keyword => keyword.toLowerCase().includes(input)));
       displayResults(results);
-    });
+    }).catch(error => console.error('Error fetching the index:', error)); // Added error handling
 }
 
 function displayResults(results) {
@@ -37,8 +38,7 @@ function displayResults(results) {
   if (results.length > 0) {
     results.forEach(result => {
       const element = document.createElement('div');
-      // This line constructs a more detailed display text for each result.
-      // Adjust it according to how you want to present the information.
+      // Adjusted display text to ensure clarity and correct linking
       const displayText = `${result.info} - See details on <a href="${result.page}">${result.page.replace('.html', '').toUpperCase()}</a>`;
       element.innerHTML = displayText;
       container.appendChild(element);
