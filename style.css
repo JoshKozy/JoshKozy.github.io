@@ -258,16 +258,28 @@ tr:hover {
 
 .search-container {
     margin: 20px 0;
+    display: flex; /* This will lay out the search box and button in a row */
+    align-items: center; /* This ensures they are aligned in the middle vertically */
 }
 
 #searchBox {
-    width: 100%;
+    flex-grow: 1; /* This makes the search box grow to fill the container */
     padding: 10px;
-    margin-bottom: 10px;
+    margin-right: 10px; /* Add some space between the search box and button */
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 5px 0 0 5px; /* Rounded corners on the left side */
 }
 
+.search-button {
+    padding: 10px 15px; /* Adjust the padding to match the height of the search box */
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0; /* Rounded corners on the right side */
+    font-size: 16px; /* Adjust as needed */
+}
+
+/* Update your existing .search-results div as needed */
 .search-results div {
     margin-bottom: 5px;
     padding: 5px;
