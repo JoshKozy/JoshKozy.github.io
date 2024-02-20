@@ -38,9 +38,8 @@ function displayResults(results) {
   if (results.length > 0) {
     results.forEach(result => {
       const element = document.createElement('div');
-      // Adjusted display text to ensure clarity and correct linking
-      const displayText = `${result.info} - See details on <a href="${result.page}">${result.page.replace('.html', '').toUpperCase()}</a>`;
-      element.innerHTML = displayText;
+      // Assuming 'info' and 'page' properties exist in your result items
+      element.innerHTML = `<a href="${result.page}">${result.info}</a>`;
       container.appendChild(element);
     });
   } else {
