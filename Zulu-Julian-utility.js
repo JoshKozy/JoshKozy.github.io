@@ -64,3 +64,13 @@ function displayResults(results) {
     container.innerHTML = 'No results found.';
   }
 }
+
+// Adding event listener for the Enter key press
+document.addEventListener('DOMContentLoaded', (event) => {
+  document.getElementById('searchBox').addEventListener('keypress', function(e) {
+    if (e.key === 'Enter') {
+      e.preventDefault(); // Prevent the default action (form submission)
+      search(); // Call the search function
+    }
+  });
+});
