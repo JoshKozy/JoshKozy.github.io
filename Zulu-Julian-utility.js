@@ -34,9 +34,17 @@ function search() {
     })
     .then(data => {
       console.log("Data fetched successfully:", data); // Debugging log
+
+      // Log to inspect the keywords
+      console.log("Inspecting keywords in data.index:", data.index.map(item => item.keywords));
+
+      // Adjusted filter to check if keyword is a string
       const results = data.index.filter(item => 
-        item.keywords.some(keyword => keyword.toLowerCase().includes(input))
+        item.keywords.some(keyword => 
+          typeof keyword === 'string' && keyword.toLowerCase().includes(input)
+        )
       );
+
       console.log(`Found ${results.length} results`, results); // Debugging log
       displayResults(results);
     })
