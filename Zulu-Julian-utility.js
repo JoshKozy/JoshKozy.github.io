@@ -22,14 +22,25 @@ getJulianDate();
 
 // Search function support
 function search() {
-  // Corrected to match the ID of the input box in your HTML
+  console.log("Search initiated"); // Debugging log
   const input = document.getElementById('searchBox').value.toLowerCase();
+  console.log(`Searching for: ${input}`); // Debugging log
   fetch('json_search/combined_index.json') // Ensure the path to your JSON file is correct
-    .then(response => response.json())
+    .then(response => {
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      return response.json();
+    })
     .then(data => {
-      const results = data.index.filter(item => item.keywords.some(keyword => keyword.toLowerCase().includes(input)));
+      console.log("Data fetched successfully:", data); // Debugging log
+      const results = data.index.filter(item => 
+        item.keywords.some(keyword => keyword.toLowerCase().includes(input))
+      );
+      console.log(`Found ${results.length} results`, results); // Debugging log
       displayResults(results);
-    }).catch(error => console.error('Error fetching the index:', error)); // Added error handling
+    })
+    .catch(error => console.error('Error fetching the index or processing data:', error)); // Added error handling
 }
 
 function displayResults(results) {
@@ -38,7 +49,6 @@ function displayResults(results) {
   if (results.length > 0) {
     results.forEach(result => {
       const element = document.createElement('div');
-      // Assuming 'info' and 'page' properties exist in your result items
       element.innerHTML = `<a href="${result.page}">${result.info}</a>`;
       container.appendChild(element);
     });
