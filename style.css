@@ -128,7 +128,7 @@ footer {
 
   nav {
     width: 100%; /* Allows nav to span the full width of the screen */
-    order: -1; /* Places nav above main content */
+    /* order: -1;*/ /* Places nav above main content */
   }
 
   .image-link {
