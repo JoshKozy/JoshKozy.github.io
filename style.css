@@ -284,5 +284,9 @@ tr:hover {
 }
 
 .search-results {
-    margin-top: 10px; /* Adds space between the search input/button and the results */
+    margin-top: 10px; /* Space between the search inputs and results */
+    background-color: #ffffff; /* Light background for visibility */
+    padding: 10px; /* Add some padding around the results for better spacing */
+    border-radius: 5px; /* Optional: Adds rounded corners for a polished look */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional: Adds a subtle shadow for depth */
 }
