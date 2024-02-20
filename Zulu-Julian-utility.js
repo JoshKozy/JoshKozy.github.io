@@ -67,10 +67,11 @@ function displayResults(results) {
 
 // Adding event listener for the Enter key press
 document.addEventListener('DOMContentLoaded', (event) => {
-  document.getElementById('searchBox').addEventListener('keypress', function(e) {
+  document.getElementById('searchBox').addEventListener('keyup', function(e) {
+    console.log(`Key pressed: ${e.key}`); // To verify the event is triggered
     if (e.key === 'Enter') {
-      e.preventDefault(); // Prevent the default action (form submission)
-      search(); // Call the search function
+      e.preventDefault();
+      search();
     }
   });
 });
