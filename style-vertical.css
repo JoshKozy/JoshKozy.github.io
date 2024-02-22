@@ -102,7 +102,7 @@ footer {
 /* Dark Mode Styles */
 @media (prefers-color-scheme: dark) {
   body, nav {
-    background-color: #222;
+    background-color: #020D19;
     color: #e6e6e6;
   }
 
@@ -176,9 +176,12 @@ footer {
   box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Optional: Adds a shadow for depth */
 }
 
+/* Resetting or setting specific alignments and spacings */
 .DTS-list, .DTS-list ul {
     list-style-type: none; /* Removes default list bullets */
     padding-left: 0;
+    text-align: left; /* Ensures text aligns to the left */
+    margin: 0; /* Resets margin to ensure it doesn't center due to auto margins */
 }
 
 .DTS-list li {
@@ -190,7 +193,14 @@ footer {
 }
 
 .DTS-list li::before {
-    content: "→ ";
+    content: "→ "; /* Custom bullet point */
     color: black;
     margin-right: 5px;
+}
+
+/* If there's a container around your list, ensure it allows for left alignment */
+.DTScontainer { /* Adjust the class name as per your HTML */
+    width: 100%; /* Adjust width as necessary, ensures it takes full width if needed */
+    margin: 0 auto; /* Center container, adjust or remove if not needed */
+    text-align: left; /* Ensure content inside the container aligns left */
 }
