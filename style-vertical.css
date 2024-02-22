@@ -176,7 +176,7 @@ footer {
   box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Optional: Adds a shadow for depth */
 }
 
-/* Resetting or setting specific alignments and spacings */
+/* DTS styles */
 .DTS-list, .DTS-list ul {
     list-style-type: none; /* Removes default list bullets */
     padding-left: 0;
@@ -188,18 +188,28 @@ footer {
     margin: 5px 0;
 }
 
-.DTS-list li ul {
+.DTS-list ul {
     padding-left: 20px; /* Indent nested lists */
 }
 
-.DTS-list li::before {
+/* Moving the custom bullet point to ul */
+.DTS-list > ul::before {
     content: "→ "; /* Custom bullet point */
-    color: black;
+    color: black; /* Default color for light mode */
     margin-right: 5px;
+    position: relative;
+    left: -20px; /* Adjust as necessary to align with your design */
 }
 
-/* If there's a container around your list, ensure it allows for left alignment */
-.DTScontainer { /* Adjust the class name as per your HTML */
+/* Dark mode adjustments */
+@media (prefers-color-scheme: dark) {
+    .DTS-list > ul::before {
+        color: white; /* This color will be used in dark mode */
+    }
+}
+
+/* Optional: Container adjustments, if you have a container element */
+.container { /* Adjust the class name as per your HTML */
     width: 100%; /* Adjust width as necessary, ensures it takes full width if needed */
     margin: 0 auto; /* Center container, adjust or remove if not needed */
     text-align: left; /* Ensure content inside the container aligns left */
