@@ -180,31 +180,43 @@ footer {
 .DTS-list, .DTS-list ul {
     list-style-type: none; /* Removes default list bullets */
     padding-left: 0;
-    text-align: left; /* Ensures text aligns to the left */
-    margin: 0; /* Resets margin to ensure it doesn't center due to auto margins */
+    margin: 0;
 }
 
-.DTS-list li {
+/* Style for top-level li elements with the arrow */
+.DTS-list > li {
     margin: 5px 0;
-}
-
-.DTS-list ul {
-    padding-left: 20px; /* Indent nested lists */
-}
-
-/* Moving the custom bullet point to ul */
-.DTS-list > ul::before {
-    content: "→ "; /* Custom bullet point */
-    color: black; /* Default color for light mode */
-    margin-right: 5px;
     position: relative;
-    left: -20px; /* Adjust as necessary to align with your design */
+    padding-left: 15px; /* provide space for the arrow */
+}
+
+.DTS-list > li::before {
+    content: "→ "; /* Arrow for the top-level li */
+    position: absolute;
+    left: 0;
+    color: black; /* Change color as needed */
+}
+
+/* Style for nested ul/li elements with the bullet circle */
+.DTS-list ul {
+    padding-left: 20px; /* Indentation for nested lists */
+}
+
+.DTS-list ul > li {
+    list-style-type: circle; /* Adds bullet circle */
+    margin-left: 5px; /* Align with the parent li */
+}
+
+/* Adjust the h2 for trip overview to not have any list-style */
+.trip-overview {
+    padding-left: 0;
+    margin-bottom: 10px; /* Spacing after the title */
 }
 
 /* Dark mode adjustments */
 @media (prefers-color-scheme: dark) {
-    .DTS-list > ul::before {
-        color: white; /* This color will be used in dark mode */
+    .DTS-list > li::before {
+        color: white; /* Bullet point color for dark mode */
     }
 }
 
