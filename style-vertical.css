@@ -208,7 +208,7 @@ footer {
 }
 
 /* Adjust the h2 for trip overview to not have any list-style */
-.trip-overview {
+.section-header {
     padding-left: 0;
     margin-bottom: 10px; /* Spacing after the title */
 }
