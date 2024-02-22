@@ -202,12 +202,6 @@ footer {
     padding-left: 20px; /* Indentation for nested lists */
 }
 
-/* Style for nested li elements with the bullet circle */
-.DTS-list > li > ul > li {
-    list-style-type: circle; /* Adds bullet circle */
-    margin-left: 15px; /* Adjust as needed to align with the parent li */
-}
-
 /* Style for nested ul/li elements with the bullet circle */
 .DTS-list ul {
     padding-left: 20px; /* Indentation for nested lists */
