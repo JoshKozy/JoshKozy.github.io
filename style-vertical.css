@@ -191,10 +191,21 @@ footer {
 }
 
 .DTS-list > li::before {
-    content: "→ "; /* Arrow for the top-level li */
+    content: "→\00a0"; /* Arrow with a non-breaking space for gap */
     position: absolute;
     left: 0;
     color: black; /* Change color as needed */
+}
+
+/* Style for nested ul elements */
+.DTS-list > li > ul {
+    padding-left: 20px; /* Indentation for nested lists */
+}
+
+/* Style for nested li elements with the bullet circle */
+.DTS-list > li > ul > li {
+    list-style-type: circle; /* Adds bullet circle */
+    margin-left: 15px; /* Adjust as needed to align with the parent li */
 }
 
 /* Style for nested ul/li elements with the bullet circle */
