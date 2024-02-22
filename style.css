@@ -97,7 +97,7 @@ footer {
 /* Dark Mode Styles */
 @media (prefers-color-scheme: dark) {
   body, nav, .image-link span, nav a {
-    background-color: #020D19;
+    background-color: #222;
     color: #e6e6e6;
   }
   
