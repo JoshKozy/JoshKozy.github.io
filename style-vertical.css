@@ -175,3 +175,22 @@ footer {
   z-index: 1000; /* Ensures the banner appears above other content */
   box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Optional: Adds a shadow for depth */
 }
+
+.DTS-list, .DTS-list ul {
+    list-style-type: none; /* Removes default list bullets */
+    padding-left: 0;
+}
+
+.DTS-list li {
+    margin: 5px 0;
+}
+
+.DTS-list li ul {
+    padding-left: 20px; /* Indent nested lists */
+}
+
+.DTS-list li::before {
+    content: "→ ";
+    color: black;
+    margin-right: 5px;
+}
