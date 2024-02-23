@@ -224,8 +224,9 @@ footer {
     }
 
     .section-key {
-      background-color: #99FF99; /* Dark grey background for section headers in dark mode */
+      background-color: #66FF66;
       text-align: center;
+      text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
       color: #fff; /* Light text for section headers in dark mode */
     }
 
