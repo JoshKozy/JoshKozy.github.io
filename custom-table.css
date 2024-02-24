@@ -166,17 +166,17 @@ footer {
 
 /* Specific adjustments for the first row of headers */
 th:first-row {
-  top: 50px; /* Height of the banner */
+  top: 60px; /* Height of the banner */
 }
 
 /* Specific adjustments for the second row of headers */
 th:second-row {
-  top: 80px; /* Height of the banner plus the first header row */
+  top: 100px; /* Height of the banner plus the first header row */
 }
 
 /* Adjusting for specific header rows */
 .header-row-1 th {
-  top: 30px; /* Height of the banner */
+  top: 60px; /* Height of the banner */
 }
 
 .header-row-2 th {
