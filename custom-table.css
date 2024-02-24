@@ -176,11 +176,11 @@ th:second-row {
 
 /* Adjusting for specific header rows */
 .header-row-1 th {
-  top: 50px; /* Height of the banner */
+  top: 30px; /* Height of the banner */
 }
 
 .header-row-2 th {
-  top: 80px; /* Approximate height of the banner plus the first header row */
+  top: 100px; /* Approximate height of the banner plus the first header row */
 }
 
   .section-header_bold {
