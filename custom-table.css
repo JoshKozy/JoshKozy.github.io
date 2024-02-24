@@ -160,6 +160,9 @@ footer {
   th {
     background-color: #f2f2f2; /* Light grey background for headers */
     color: black; /* Text color for headers */
+    position: sticky;
+    top: 0;
+    z-index: 2;
   }
 
   .section-header_bold {
