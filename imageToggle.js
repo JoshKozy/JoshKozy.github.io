@@ -1,12 +1,10 @@
-// Adding support for image toggling
-document.getElementById("toggleText").addEventListener("click", function() {
-    console.log("Text was clicked!"); // This will confirm the click event is working
-    var imageToggle = document.getElementById("imageToggle");
-    if (imageToggle.style.display === "none") {
-        console.log("Image was hidden, now showing...");
-        imageToggle.style.display = "block";
-    } else {
-        console.log("Image was shown, now hiding...");
-        imageToggle.style.display = "none";
-    }
+document.addEventListener("DOMContentLoaded", function() {
+  // Select all elements with the class 'toggleText' and iterate over them
+  document.querySelectorAll('.toggleText').forEach(function(toggleTextElement) {
+    toggleTextElement.addEventListener('click', function() {
+      console.log("Toggle image visibility");
+      // Find the nearest parent 'li', then find the 'imageToggle' class within it to toggle
+      this.closest('li').querySelector('.imageToggle').style.display = this.closest('li').querySelector('.imageToggle').style.display === 'none' ? 'block' : 'none';
+    });
+  });
 });
