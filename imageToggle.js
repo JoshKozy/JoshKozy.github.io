@@ -1,7 +1,7 @@
 // Adding support for image toggling
 document.getElementById("toggleText").addEventListener("click", function() {
     console.log("Text was clicked!"); // This will confirm the click event is working
-    var imageToggle = document.getElementById("imageContainer");
+    var imageToggle = document.getElementById("imageToggle");
     if (imageToggle.style.display === "none") {
         console.log("Image was hidden, now showing...");
         imageToggle.style.display = "block";
@@ -10,4 +10,3 @@ document.getElementById("toggleText").addEventListener("click", function() {
         imageToggle.style.display = "none";
     }
 });
-
