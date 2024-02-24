@@ -80,10 +80,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 // Adding support for image toggling
 document.getElementById("toggleText").addEventListener("click", function() {
-    var image = document.getElementById("toggleImage");
-    if (image.style.display === "none") {
-        image.style.display = "block";
+    var imageToggle = document.getElementById("toggleImage");
+    if (imageToggle.style.display === "none") {
+        imageToggle.style.display = "block";
     } else {
-        image.style.display = "none";
+        imageToggle.style.display = "none";
     }
 });
