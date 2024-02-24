@@ -299,3 +299,20 @@ tr:hover {
     width: 100%; /* or any specific size */
     display: none; /* Hide by default */
 }
+
+/* Style for  number input boxes */
+#specificNumberInput {
+  width: 80px; /* Example width */
+  padding: 8px; /* Padding for better text visibility */
+  margin: 5px; /* Margins to separate from other elements */
+  border: 1px solid #ccc; /* Subtle border */
+  border-radius: 4px; /* Rounded corners for a modern look */
+  font-size: 16px; /* Increased font size for better readability */
+}
+
+/* Style for the focus state to enhance user experience */
+#specificNumberInput:focus {
+  border-color: #4A90E2; /* Highlight color when input is focused */
+  outline: none; /* Remove default focus outline */
+  box-shadow: 0 0 5px rgba(74, 144, 226, 0.5); /* Soft glow effect */
+}
