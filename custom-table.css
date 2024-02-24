@@ -171,16 +171,16 @@ th:first-row {
 
 /* Specific adjustments for the second row of headers */
 th:second-row {
-  top: 100px; /* Height of the banner plus the first header row */
+  top: 150px; /* Height of the banner plus the first header row */
 }
 
 /* Adjusting for specific header rows */
 .header-row-1 th {
-  top: 60px; /* Height of the banner */
+  top: 30px; /* Height of the banner */
 }
 
 .header-row-2 th {
-  top: 100px; /* Approximate height of the banner plus the first header row */
+  top: 150px; /* Approximate height of the banner plus the first header row */
 }
 
   .section-header_bold {
