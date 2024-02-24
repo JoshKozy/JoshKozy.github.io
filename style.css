@@ -293,3 +293,9 @@ tr:hover {
     border-radius: 5px; /* Optional: Adds rounded corners for a polished look */
     box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional: Adds a subtle shadow for depth */
 }
+
+/* Toggle Images */
+#toggleImage {
+    width: 100%; /* or any specific size */
+    display: none; /* Hide by default */
+}
