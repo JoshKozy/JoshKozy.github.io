@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>TESTING PAGE (% MAC)</title>
 <link rel="stylesheet" href="style.css">
+  
   <script>
         function calculateTotal() {
             // Retrieve the values from the input boxes and parse them as integers
@@ -25,6 +26,7 @@
             document.getElementById('totalAcftWeight').value = totalAcftWeight;
         }
     </script>
+  
 </head>
 <body>
   <div class="home-button-container">
@@ -32,36 +34,45 @@
   </div>
   <div class="reference-banner">FOR REFERENCE USE ONLY</div>
   <h1>TESTING PAGE (% MAC)</h1>
-  <h2>Fuel Load Calculator</h2>
+  <h2>How to find % MAC</h2>
+  <h3>(No Cargo Onboard)</h3>
 
-      <label for="tank1">Tank 1:</label>
-      <input type="number" id="tank1" oninput="calculateTotal()">
-      <br>
+  <form>
+      <div class="input-container">
+          <label for="tank1">Tank 1:</label>
+          <input type="number" id="tank1" name="tank1" oninput="calculateTotal()">
+      </div>
 
-      <label for="tank2">Tank 2:</label>
-      <input type="number" id="tank2" oninput="calculateTotal()">
-      <br>
+      <div class="input-container">
+          <label for="tank2">Tank 2:</label>
+          <input type="number" id="tank2" name="tank2" oninput="calculateTotal()">
+      </div>
 
-      <label for="tank3">Tank 3:</label>
-      <input type="number" id="tank3" oninput="calculateTotal()">
-      <br>
+      <div class="input-container">
+          <label for="tank3">Tank 3:</label>
+          <input type="number" id="tank3" name="tank3" oninput="calculateTotal()">
+      </div>
 
-      <label for="tank4">Tank 4:</label>
-      <input type="number" id="tank4" oninput="calculateTotal()">
-      <br>
+      <div class="input-container">
+          <label for="tank4">Tank 4:</label>
+          <input type="number" id="tank4" name="tank4" oninput="calculateTotal()">
+      </div>
 
-      <label for="totalFuelWeight">Total Fuel Weight:</label>
-      <input type="text" id="totalFuelWeight" readonly>
-      <br>
+      <div class="input-container">
+          <label for="totalFuelWeight">Total Fuel Weight:</label>
+          <input type="text" id="totalFuelWeight" name="totalFuelWeight" readonly>
+      </div>
 
-      <label for="acftWeight">ACFT Weight:</label>
-      <input type="number" id="acftWeight" oninput="calculateTotal()">
-      <br>
+      <div class="input-container">
+          <label for="acftWeight">ACFT Weight:</label>
+          <input type="number" id="acftWeight" name="acftWeight" oninput="calculateTotal()">
+      </div>
 
-      <label for="totalAcftWeight">Total ACFT Weight:</label>
-      <input type="text" id="totalAcftWeight" readonly>
-      <br>
-
+      <div class="input-container">
+          <label for="totalAcftWeight">Total ACFT Weight:</label>
+          <input type="text" id="totalAcftWeight" name="totalAcftWeight" readonly>
+      </div>
+  </form>
 
 </body>
 </html>
