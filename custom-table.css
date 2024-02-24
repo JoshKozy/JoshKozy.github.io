@@ -161,9 +161,27 @@ footer {
     background-color: #f2f2f2; /* Light grey background for headers */
     color: black; /* Text color for headers */
     position: sticky;
-    top: 0;
     z-index: 2;
   }
+
+/* Specific adjustments for the first row of headers */
+th:first-row {
+  top: 50px; /* Height of the banner */
+}
+
+/* Specific adjustments for the second row of headers */
+th:second-row {
+  top: 80px; /* Height of the banner plus the first header row */
+}
+
+/* Adjusting for specific header rows */
+.header-row-1 th {
+  top: 50px; /* Height of the banner */
+}
+
+.header-row-2 th {
+  top: 80px; /* Approximate height of the banner plus the first header row */
+}
 
   .section-header_bold {
     background-color: #f2f2f2; /* Light grey background for section headers */
