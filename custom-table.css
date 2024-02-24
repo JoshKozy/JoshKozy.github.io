@@ -164,23 +164,13 @@ footer {
     z-index: 2;
   }
 
-/* Specific adjustments for the first row of headers */
-th:first-row {
-  top: 60px; /* Height of the banner */
-}
-
-/* Specific adjustments for the second row of headers */
-th:second-row {
-  top: 100px; /* Height of the banner plus the first header row */
-}
-
-/* Adjusting for specific header rows */
-.header-row-1 th {
-  top: 60px; /* Height of the banner */
-}
-
-.header-row-2 th {
-  top: 100px; /* Approximate height of the banner plus the first header row */
+/* Correcting the sticky header styles */
+.header-row-1 th, .header-row-2 th {
+    background-color: #f2f2f2; /* Light grey background for clarity */
+    color: black; /* Ensuring text color is black for contrast */
+    position: sticky;
+    top: 50px; /* Adjust this value based on the actual height of your fixed banner */
+    z-index: 10; /* Ensures headers stay on top */
 }
 
   .section-header_bold {
