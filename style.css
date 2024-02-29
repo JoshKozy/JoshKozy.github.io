@@ -97,8 +97,8 @@ footer {
 /* Dark Mode Styles */
 @media (prefers-color-scheme: dark) {
   body, nav, .image-link span, nav a {
-    background-color: #020D19;
-    color: #e6e6e6;
+    background-color: #0c0c0c;
+    color: #FFFFF0;
   }
   
   /* Ensuring table styles for dark mode are included */
@@ -214,8 +214,8 @@ tr:hover {
 }
 
 .reference-banner {
-  background-color: green;
-  color: white;
+  background-color: #0e600e;
+  color: #FFFFFF;
   text-align: center;
   width: 100%;
   padding: 10px 0;

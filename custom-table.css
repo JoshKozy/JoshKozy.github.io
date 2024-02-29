@@ -126,8 +126,8 @@ footer {
   /* ... previous styles ... */
 
   .reference-banner {
-    background-color: green; /* Sets the background color */
-    color: white; /* Sets the text color */
+    background-color: #0e600e; /* Sets the background color */
+    color: #FFFFFF; /* Sets the text color */
     text-align: center; /* Centers the text */
     width: 100%; /* Ensures the banner spans the full width */
     padding: 10px 0; /* Adds some padding above and below the text */
@@ -181,8 +181,8 @@ footer {
   /* Dark Mode Styles */
   @media (prefers-color-scheme: dark) {
     body, html {
-      background-color: #121212; /* Dark background for the whole page */
-      color: #e0e0e0; /* Lighter text color for better readability */
+      background-color: #0c0c0c; /* Dark background for the whole page */
+      color: #FFFFF0; /* Lighter text color for better readability */
     }
 
     nav {
