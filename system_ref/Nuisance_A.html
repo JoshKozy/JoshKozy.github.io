@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nuisance Alerts</title>
+<link rel="stylesheet" href="/custom-table.css">
+</head>
+<body>
+  <div class="home-button-container">
+    <a href="/index.html" class="home-button">Home</a>
+  </div>
+  <div class="reference-banner">FOR REFERENCE USE ONLY</div>
+  <h1>Nuisance Alerts</h1>
+<table>
+  <tr>
+    <th class="center-text">Nuisance Alert</th>
+    <th class="center-text">LRU</th>
+    <th class="center-text">Fault Annunciated</th>
+    <th class="center-text">Nuisance Description</th>
+    <th class="center-text">Action Required</th>
+  </tr>
+  <tr>
+    <td class="center-text"><AA> → <BR> APM-ENxT2T2P2HT (x=1, 2, 3, or 4)</td>
+    <td class="center-text">MCD (DU)</td>
+    <td class="center-text">APM-ENxT2P2HT (x=1, 2, 3, or 4)</td>
+    <td class="center-text">APM software may not reset the delay timer on power up. The timer exceeds the five second limit and all four engine heater faults are annunciated.</td>
+    <td class="center-text">Reset APM circuit breakers and recheck the fault list. When fault is still present, refer to appropriate TO procedures. When fault is not present, take no further action.</td>
+  </tr>
+  <tr>
+    <td class="center-text"><AA> → <BR> APM-ENxT2T2P2HT (x=1, 2, 3, or 4)</td>
+    <td class="center-text">MCD (DU)</td>
+    <td class="center-text">APM-ENxT2P2HT (x=1, 2, 3, or 4)</td>
+    <td class="center-text">APM software may not reset the delay timer on power up. The timer exceeds the five second limit and all four engine heater faults are annunciated.</td>
+    <td class="center-text">Reset APM circuit breakers and recheck the fault list. When fault is still present, refer to appropriate TO procedures. When fault is not present, take no further action.</td>
+  </tr>
+  <tr>
+    <td class="center-text">ASPO</td>
+    <td class="center-text">FFS</td>
+    <td class="center-text">ASPO</td>
+    <td class="center-text">The fault is an internal FFS processor fault that may be displayed on the front panel LCD display. This fault does not cause the LRU or aircraft level faults that would require organizational level maintenance.</td>
+    <td class="center-text">None.</td>
+  </tr>
+  <tr>
+    <td class="center-text">ATS DISCONNECTS WHEN ENGINE/WING ANTI-ICE IS SELECTED OR DESELECTED.</td>
+    <td class="center-text">CIP</td>
+    <td class="center-text">NONE</td>
+    <td class="center-text">The Autothrottle System (ATS) may disconnect when the engine/wing anti-ice is selected or deselected. This has been corrected for block 16 CIP software.</td>
+    <td class="center-text">No maintenance is required on aircraft prior to block 16.</td>
+  </tr>
+  <tr>
+    <td class="center-text">BDHI</td>
+    <td class="center-text">MCD (DU)</td>
+    <td class="center-text">BDH1/BDH2</td>
+    <td class="center-text">BDH1/BDH2 appears on avionics fault list intermittently.</td>
+    <td class="center-text">Ignore intermittent BDHI faults. No maintenance action required (information only).</td>
+  </tr>
+  <tr>
+    <td class="center-text">BUS POWER CONTROL UNIT (BPCU)</td>
+    <td class="center-text">BPCU</td>
+    <td class="center-text">AC CHANNEL APU/EP APU/EPCU</td>
+    <td class="center-text">BPCU faulted by internal BIT checks.</td>
+    <td class="center-text">None, when external power, APU generator, and aircraft configuration operate normally.</td>
+  </tr>
+  <tr>
+    <td class="center-text">CCU FAULT</td>
+    <td class="center-text">CCU</td>
+    <td class="center-text">CCU FAULT 1 OR CCU FAULT 2 OR CCU FAULT 1, 2</td>
+    <td class="center-text">During IBIT, CCU FAULT 1, CCU FAULT 2, or CCU FAULT 1, 2 may be displayed on the WAP, independent of the IBIT PASS/FAIL result.</td>
+    <td class="center-text">No maintenance action required (information only).</td>
+  </tr>
+  <tr>
+    <td class="center-text">DEGRADED MODE IS DISPLAYED ON MCD</td>
+    <td class="center-text">CIP (MC)</td>
+    <td class="center-text"></td>
+    <td class="center-text">CIP degraded modes are a normal but infrequent part of CIP operation. A normal degraded mode last two minutes or less. When such degraded mode occurs and the CIP clears automatically, no further maintenance action is required.</td>
+    <td class="center-text">1. When the degraded mode occurs, contact Boeing Engineering, when available. Download CIPS and forward data to Boeing Engineering for review.</td>
+  </tr>
+  <tr>
+    <td class="center-text"></td>
+    <td class="center-text"></td>
+    <td class="center-text"></td>
+    <td class="center-text"></td>
+    <td class="center-text">2. Proceed with fault code 34-62-AM-00  procedures.</td>
+  </tr>
+  <tr>
+    <td class="center-text">DME cycles between ACTIVE and STANDBY Un-commanded</td>
+    <td class="center-text">CIP (MC)</td>
+    <td class="center-text">NONE</td>
+    <td class="center-text">CIPs have known block 17 introduced software issues related to this condition. STANBY/ACTIVE status on EMCOM page will toggle if the STANBY/ACTIVE button is pressed when radio updating is enabled and there are no optimal pairs available.</td>
+    <td class="center-text">Only press the STANBY/ACTIVE DME buttons on the EMCOM page when radio updating is disabled on the Nav Sensors Control page. Double tap the affected DME LSK until the cycling ceases, then set to desired mode.</td>
+  </tr>
+  <tr>
+    <td class="center-text">ENGINE OIL PRESS x (x=1, 2, 3, or 4)</td>
+    <td class="center-text">APDMC</td>
+    <td class="center-text">WAP</td>
+    <td class="center-text">This annunciation can occur during engine shutdown because of the existing APDMC software logic determining the flight mode. When starter button is OUT, Burner Pressure (PB) is greater than 30 PSIA, and oil pressure is less than 70 PSID, the annunciation will occur.</td>
+    <td class="center-text">No further maintenance action required.</td>
+  </tr>
+  <tr>
+    <td class="center-text">ENV PANEL SINGLE</td>
+    <td class="center-text">ESM</td>
+    <td class="center-text">ENV PANEL SINGLE</td>
+    <td class="center-text">During power transfers, ENV PANEL SINGLE may be annunciated on the WAP.</td>
+    <td class="center-text">Cycle corresponding ESM circuit breaker to reset annunciation; OVERHEAD PANEL SECONDARY POWER ENVIR on overhead circuit breaker panel, row J, column 27 and OVERHEAD ENVIR PNL PRIMARY POWER on EPC, row N, column 39.</td>
+  </tr>
+  <tr>
+    <td class="center-text">FCC-F_Y_MECH</td>
+    <td class="center-text"></td>
+    <td class="center-text">FCC-F_Y_MECH</td>
+    <td class="center-text">This fault sometimes erroneously set with FCC-LR_RFM or FCC-UP_RFM.</td>
+    <td class="center-text">When FCC-LR_RFM or FCC-UP_RFM are also set, refer to fault isolation TO to clear FCC-LR_RFM or FCC-UP_RFM faults. When FCC-LR_RFM or FCC-UP_RFM are not also set, refer to fault isolation TO to clear FCC-F_R_MECH fault.</td>
+  </tr>
+  <tr>
+    <td class="center-text">FCC PREFLT</td>
+    <td class="center-text"></td>
+    <td class="center-text">FCC PREFLT FAIL LIGHT</td>
+    <td class="center-text">When there is an existing preflight BIT failure the FCC and/or SC/EFC PREFLT fail lamp will illuminate when EFCS/SCEFC maintenance.</td>
+    <td class="center-text">Clear PREFLT fault. Press PREFLT fail lamp to extinguish.</td>
+  </tr>
+  <tr>
+    <td class="center-text">FMCAPMADS IS DISPLAYED ON MCD (DU) AVIONICS FAULT LIST.</td>
+    <td class="center-text">CIP</td>
+    <td class="center-text">FMCAPMADS</td>
+    <td class="center-text">Due to a bias mismatch between the CIPS and the ADS controller, an erroneous FMCAPMADS failures can occur when MBIT is run.</td>
+    <td class="center-text">On the PADS panel select the RED LT button. Verify the RED LT light comes on. On the PADS panel, select AUTO. Run CIP MBIT. When MBIT still fails, perform maintenance per applicable TO. When MBIT passes, review ADS fault list. When there are faults, perform maintenance per applicable TO.</td>
+  </tr>
+  <tr>
+    <td class="center-text">FUEL PANEL SINGLE</td>
+    <td class="center-text">FSM</td>
+    <td class="center-text">FUEL PANEL SINGLE</td>
+    <td class="center-text">During power transfers, FUEL PANEL SINGLE may be annunciated on the WAP.</td>
+    <td class="center-text">Cycle corresponding FSM circuit breaker to reset annunciation; OVERHEAD FUEL PNL PRIMARY POWER on EPC, row S, column 36 and OVERHEAD PANEL SECONDARY POWER FUEL on overhead circuit breaker panel, row, J, column 25.</td>
+  </tr>
+  <tr>
+    <td class="center-text">GENERATOR CONTROL UNIT (GCU) x (x=Channel No).</td>
+    <td class="center-text">BPCU</td>
+    <td class="center-text">AC CHANNEL x GCU (x=Channel No).</td>
+    <td class="center-text">GCU x faulted by internal BIT checks. (x=Channel No).</td>
+    <td class="center-text">None, when generator comes on line and operates normally.</td>
+  </tr>
+  <tr>
+    <td class="center-text">GPSx LOCKS UP (x=1, 2, 3, or 4)</td>
+    <td class="center-text">RIRU</td>
+    <td class="center-text">NONE</td>
+    <td class="center-text">GPS position locks up.</td>
+    <td class="center-text">Perform inertial navigation system operational checkout (34-43-10). Return aircraft to service when no problems detected. When problems detected, refer to fault codes discovered during operational checkout.</td>
+  </tr>
+  <tr>
+    <td class="center-text">GPWS MODE 1</td>
+    <td class="center-text">GPWS/ CAWS</td>
+    <td class="center-text">SINK RATE</td>
+    <td class="center-text">When flying at high altitudes and receiving radar altimeter spikes, Mode 1 warnings may occur.</td>
+    <td class="center-text">No action required (information only). This alert is functioning per design.</td>
+  </tr>
+  <tr>
+    <td class="center-text">GPWS MODE 3B</td>
+    <td class="center-text">GPWS/ CAWS</td>
+    <td class="center-text">SINKING</td>
+    <td class="center-text">When executing a go-around and after the TOGA button is pressed, the GPWS Mode 3B is armed and the aural alert SINKING will be annunciated until the aircraft attains a positive rate of climb.</td>
+    <td class="center-text">No action required (information only). This alert is functioning per design.</td>
+  </tr>
+  <tr>
+    <td class="center-text">HSC SINGLE</td>
+    <td class="center-text">HSC</td>
+    <td class="center-text">HSC SINGLE</td>
+    <td class="center-text">During power transfers, HSC SINGLE may be annunciated on the WAP.</td>
+    <td class="center-text">Cycle corresponding circuit breakers to reset annunciation; HYD SYS CONTR 1 on overhead circuit breaker panel, row C, column 9 and HYD SYS CONTR 2 on EPC, row R, column 34.</td>
+  </tr>
+  <tr>
+    <td class="center-text">HYD PANEL SINGLE</td>
+    <td class="center-text">HSM</td>
+    <td class="center-text">HYD PANEL SINGLE</td>
+    <td class="center-text">During power transfers, HYD PANEL SINGLE may be annunciated on the WAP.</td>
+    <td class="center-text">Cycle corresponding circuit breakers to reset annunciation; OVERHEAD PANEL SECONDARY POWER HYDRAULIC on overhead circuit breaker panel, row J, column 26 and OVERHEAD HYD PNL PRIMARY POWER on EPC, row R, column 35.</td>
+  </tr>
+  <tr>
+    <td class="center-text">LEFT PACK DISAGREE OR RIGHT PACK DISAGREE</td>
+    <td class="center-text">FLOW CONTROL VALVES</td>
+    <td class="center-text">ENV OR ENV AND L OR R PACK DISAG LIGHT ON ENVIR PANEL</td>
+    <td class="center-text">During pack auto-shutdown for engine start, the flow control valve may not indicate fully closed within the 6 second on delay in the WCC attributes tables resulting in momentary nuisance annunciation.</td>
+    <td class="center-text">Disregard annunciation unless manifold pressure display indicates pack has not shut down.</td>
+  </tr>
+  <tr>
+    <td class="center-text">LANDING/TAXI LIGHTS</td>
+    <td class="center-text">LANDING /TAXI LIGHTS</td>
+    <td class="center-text">LANDING/TAXI LIGHTS</td>
+    <td class="center-text">During electrical emergency power functional check, LANDING/TAXI LIGHTS may be annunciated on WAP.</td>
+    <td class="center-text">No maintenance action required.</td>
+  </tr>
+  <tr>
+    <td class="center-text">LRUD33 IS DISPLAYED AFTER RUNNING CIP MIBIT (MAINTENANCE INTERACTIVE BUILT IN TEST).</td>
+    <td class="center-text">CIP</td>
+    <td class="center-text">LRUD33</td>
+    <td class="center-text">Due to a bias mismatch between the CIPS and the ADS controller, an erroneous LRUD 33 failures can occur when MBIT is run.</td>
+    <td class="center-text">On the PADS panel select the RED LT button. Verify the RED LT light comes on. On the PADS panel, select AUTO. Run CIP MBIT. When MBIT still fails, perform maintenance per applicable TO.</td>
+  </tr>
+  <tr>
+    <td class="center-text">MANIFOLD FAIL MESSAGES</td>
+    <td class="center-text">MFDC</td>
+    <td class="center-text">MANF FAIL DET OR OBIGG MANIFOLD L OR OBIGG MANIFOLD R OR OBIGG MANIFOLD L, R OR TRIM AIR MANIFOLD WHICH MAY BE ACCOMPANIED BY THE L, R MANIFOLD FAIL WARNING LIGHTS ON THE ENVIR PANEL. WING A/I MANF L OR WING A/I MANF R OR WING A/I MANF L, R WHICH MAY BE ACCOMPANIED BY THE ANTI ICE CUE ON THE WAP. ANY OR ALL ANNUNCIATIONS LISTED ABOVE MAY BE ACCOMPANIED BY THE CAWS AURAL ALERT MANIFOLD FAIL.</td>
+    <td class="center-text">During power transfers, the noted WAP and/or environmental panel alerts may illuminate. No faults are recorded by the MFDC. A manifold fail message may be sent to the OBIGGS controller.</td>
+    <td class="center-text">Cycle BLEED AIR MANIFOLD FAILURE DETECT circuit breaker on overhead circuit breaker panel, row E, column 15. Also erase associated manifold fail fault message from the OBIGGS controller.</td>
+  </tr>
+  <tr>
+    <td class="center-text">MFD ENGINE EPR VALUES SIMULTANEOUSLY CHANGE FROM HIGH POWER SETTING DOWN TO INT OR MCT RATED POWER.</td>
+    <td class="center-text">None</td>
+    <td class="center-text">None</td>
+    <td class="center-text">The Electronic Engine Controller (EEC) software will automatically reduce engine power to INT or MCT rating when aircraft is transitioning through 0.45 MACH or 17,000 ft.</td>
+    <td class="center-text">When event occur on all four engines simultaneously when aircraft is transitioned through 0.45 MACH and/or 17,000 ft, return aircraft to service. When power reduction occurred only on one engine, fault isolate per 1C-17A-2-71FI-00-1, fault codes 72-00-AN or 72-00-AT as applicable.</td>
+  </tr>
+  <tr>
+    <td class="center-text">MFD Video Shift</td>
+    <td class="center-text">MFD</td>
+    <td class="center-text">A MALFUNCTIONING LCD MFD MAY EXHIBIT A STATIC OR MOVING VIDEO SHIFT ANOMALY ON RADAR/TAWS FORMATS.</td>
+    <td class="center-text">This anomaly is a lateral displacement of radar returns and test patterns or a vertical black line on TAWS video and test pattern. This displacement/line on TAWS can be up to 1 inch right or left of the aircraft reference symbol.</td>
+    <td class="center-text">Cycling the MFD's Master Control Knob may temporarily clear the anomaly.</td>
+  </tr>
+  <tr>
+    <td class="center-text">MFD 1 (3) AND MFD 2 (4) ARE SET TO THE SAME ENGINE DISPLAY FORMAT, THEN MFD 2 (4) IS SHUTDOWN, ALL ENGINE DATA DISAPPEARS FROM MFD 1 (3).</td>
+    <td class="center-text">MFD</td>
+    <td class="center-text">None</td>
+    <td class="center-text">MFD 1 or MFD 3 will not display engine data when the adjacent MFD 2/ 4 is selected to the same engine page. The symbols for the ENGINE NORMAL Format (EPR) or ENGINE EXPANDED Format are displayed with no engine data (Numbers or Quantity) indications.</td>
+    <td class="center-text">No action required.</td>
+  </tr>
+  <tr>
+    <td class="center-text">N2 DISPLAY IS GREEN ON MFD, BUT ENGINE DOES NOT RESPOND TO THROTTLE MOVEMENT.</td>
+    <td class="center-text">None</td>
+    <td class="center-text">None</td>
+    <td class="center-text">In engine start sequence, engine accelerates normally to starter cut out speed and then stagnates/hangs and N2 stabilizes between 56% and 59% N2. N2 display indicates green, but engine is stuck in start mode and will not respond to throttle movement. This nuisance condition is usually caused by selecting engine pneumatic SOV and hydraulic pumps ON before engine is able to achieve idle speed.</td>
+    <td class="center-text">Perform engine start per TO 1C-17A-2-71JG-00-1, 71-00-01, task 01-3 ensuring pneumatic SOV, generator and hydraulic pumps are OFF until engine is at idle. When engine start is normal, return to service with no additional action. When condition repeats, perform fault isolation per fault code 72-00-BC-_ .</td>
+  </tr>
+  <tr>
+    <td class="center-text">RAD ALT</td>
+    <td class="center-text">RAD</td>
+    <td class="center-text">RADAR ALT 1 OR RADAR ALT 2</td>
+    <td class="center-text">RADAR ALT 1 or RADAR ALT 2 may appear on the WAP due to damaged antenna coax and/or connectors. During the radar altimeter failure, the PFD radar altimeter display will blank and systems which use radar altimeter data may go invalid or fail.</td>
+    <td class="center-text">Inspect antenna coax and/or connectors. Replace and/or repair as necessary.</td>
+  </tr>
+  <tr>
+    <td class="center-text">RAD ALT DATA FREEZE</td>
+    <td class="center-text">RAD</td>
+    <td class="center-text">None</td>
+    <td class="center-text">The radar altimeter may freeze at any altitude indefinitely. This is a known problem with the radar altimeter signal data converter. (A fix is currently being evaluated on an F16 which is the single largest user of this radar altimeter).</td>
+    <td class="center-text">Reset the corresponding radar altimeter circuit breaker; RADAR ALTIMETER 1 on EPC, row T, column 40 and RADAR ALTIMETER 2 on EPC, row T, column 27.</td>
+  </tr>
+  <tr>
+    <td class="center-text">STATIC INVERTER</td>
+    <td class="center-text">BPCU</td>
+    <td class="center-text">EMERGENCY DC CHAN STATIC INVERTER</td>
+    <td class="center-text">Supplier PN 1-002-0102-1725 may give nuisance faults. Other PNs OK.</td>
+    <td class="center-text">None, when emergency AC power operates normally.</td>
+  </tr>
+  <tr>
+    <td class="center-text">STATIC INVERTER</td>
+    <td class="center-text">MCD (DU)</td>
+    <td class="center-text">WCC-INVERTER</td>
+    <td class="center-text">Supplier PN 1-002-0102-1725 may give nuisance faults. Other PNs OK.</td>
+    <td class="center-text">None, when emergency AC power operates normally.</td>
+  </tr>
+  <tr>
+    <td class="center-text">SWB</td>
+    <td class="center-text">FFS</td>
+    <td class="center-text">TCAS INOP ON THE WAP OR SKE FAIL ON THE MFD WITH ASSOCIATED SWB FAULT ON THE FFS PROCESSOR</td>
+    <td class="center-text">The fault SWB is an internal FFS processor fault that momentarily prevents interrogation of TCAS targets. While this fault is active the "TCAS INOP" or "SKE FAIL" message may be displayed for 10-15 seconds. The system is designed to automatically reset and continue normal operation when this condition times out.</td>
+    <td class="center-text">None when "TCAS INOP" and/or "SKE FAIL annunciations are not hard faulted.</td>
+  </tr>
+  <tr>
+    <td class="center-text">WCC-</td>
+    <td class="center-text">MCD (DU)</td>
+    <td class="center-text">None</td>
+    <td class="center-text">The non-avionics fault list displays the WCC-fault message for any spare BIT that has been set by any of the non avionic LRU's.</td>
+    <td class="center-text">Disregard. No maintenance is required.</td>
+  </tr>
+</table>
+</body>
+</html>

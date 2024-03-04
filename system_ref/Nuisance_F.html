@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nuisance Faults</title>
+<link rel="stylesheet" href="/custom-table.css">
+</head>
+<body>
+  <div class="home-button-container">
+    <a href="/index.html" class="home-button">Home</a>
+  </div>
+  <div class="reference-banner">FOR REFERENCE USE ONLY</div>
+  <h1>Nuisance Faults</h1>
+  <table>
+    <tr>
+      <th class="center-text">Unnamed: 0</th>
+      <th class="center-text">Front Panel Display</th>
+      <th class="center-text">Unnamed: 2</th>
+      <th class="center-text">Unnamed: 3</th>
+      <th class="center-text">Unnamed: 4</th>
+    </tr>
+    <tr>
+      <td class="center-text">ADITS/
+  MCD/DU/WAP
+  Fault Message</td>
+      <td class="center-text">LRU</td>
+      <td class="center-text">Fault Message</td>
+      <td class="center-text">Nuisance Description</td>
+      <td class="center-text">Action Required</td>
+    </tr>
+    <tr>
+      <td class="center-text">APDMCx (x=1 or 2)</td>
+      <td class="center-text">APM</td>
+      <td class="center-text">None</td>
+      <td class="center-text">This is a WAP display. When an upper or lower Angle of Attack (AOA) vane is at max deflection (55-60 degrees) and the opposite side upper or lower AOA vane is less than 0 degree, one or both APDMCs will shut down when the FCCs are off, in MBIT, or in PFBIT.
+  
+  This is MCD (DU) Avionics Fault List display caused by Non-Volatile Random Access Memory (NOVRAM) corruption. NOVRAM corruptions do not inhibit normal APDMC operation. The corruption is defined as undesired data in any of the 32,000+ memory locations. The APDMC NOVRAM fault signs are that APM1 or APM2 is active on the Avionics Fault List and will remain after a circuit breaker reset is performed and the IBIT fails. It is permissible to fly the aircraft with this fault message when conditions in the Action Required column are met.</td>
+      <td class="center-text">When Flight Control Computer (FCC) aborted out of MBIT or PFBIT and APDMC1 or 2 is displayed on the WAP, reset the failed APDMC circuit breaker, initiate STALL TEST by turning STALL TEST switch to 1 and 2. Re-run FCC PFBIT or MBIT. Observe WAP: APDMCx is not displayed on the WAP.
+  
+  Verify a NOVRAM corruption has occurred with the following conditions:
+  
+  1. The affected APDMC is on the Avionics Fault List, APMx.
+  
+  2. No APDMC WAP message.
+  
+  3. The APDMC fault does not clear with a circuit breaker reset.
+  
+  4. The APDMC fails IBIT.
+  
+  5. Review MCD (DU) Avionics Status Page (LRU10 for APM1 and LRU58 for APM2) status words and subaddress 20 message for the following:
+  
+  (a) The status word is 0020 0000 5000 0000
+  
+  (b) The second word in the Subaddress 20 message at the bottom of the status page is 8000.
+  
+  (b) The second word in the Subaddress 20 message at the bottom of the status page is 8000.</td>
+    </tr>
+    <tr>
+      <td class="center-text">Non-Avionics Fault List: APM-xEECXFR, APM-xEECCSEC (x=1, 2, 3 or 4)</td>
+      <td class="center-text">None</td>
+      <td class="center-text">None</td>
+      <td class="center-text">1. During normal engine start and engine shutdown. APM-xEECSEC and/or APM-EECXFR may display on the non-avionics fault list. By design, the EEC momentarily switches over to its secondary (B-Ch) drivers for channel testing during engine start and engine shutdown.</td>
+      <td class="center-text">None.</td>
+    </tr>
+    <tr>
+      <td class="center-text">Non-Avionics Fault List: APM-AxPAMB_DR (x = 1, 2, 3, or 4)</td>
+      <td class="center-text">None</td>
+      <td class="center-text">None</td>
+      <td class="center-text">These faults can be driven by two different nuisance scenarios for EEC Pamb sensor drifting:1. Pamb Sensor Drift failures can occur during in-flight reverse thrust, especially during tactical descents. The Pamb sensor on the EEC local pressure differs too much from air data pressure altitude when the thrust reverser exhaust blocks the free stream airflow behind the fan accessory compartment cooling air exits.2. Pamb Sensor Drift failure can also occur during cruise. This can be due to air leakage into the accessory compartment causing the EEC local pressure to differ too much from air data pressure altitude. This may also cause the EPR ratings to display higher to the crew for the faulted engine. This may cause the crew to mismatch the throttles up to .05 or over a half a knob to match EPR as displayed on MFD. There is no operational impact.3. Ground operation check out - no nuisance condition.</td>
+      <td class="center-text">1 and 2 When AxPAMB_DR appears on the propulsion fault history list and no other related engine faults or operational anomalies except for noted throttle differential occurs: the Signal Data Recorder (QAR) data may be analyzed to confirm that the fault occurred during the scenarios described in Nuisance Description by requesting Signal Data Recorder (QAR) data review (31-33-10) to Engine Management Branch (EMB) or confirm fault does not repeat by performing an EEC operational checkout (TO 1C-17A-2-73JG-20-1, 73-21-01, task 01-1) or performing an engine idle run (TO 1C-17A-2-71JG-00-1, 71-00-01). To mitigate future nuisance faults at next maintenance opportunity, inspect engine accessory for fit and closure latch tension. (54-14-10)3. If fault occurs or repeats during EEC checkout or engine ground operation remove and replace EEC (73-21-10).</td>
+    </tr>
+    <tr>
+      <td class="center-text">Non-Avionics Fault List: APM-AxPAMB_DR (x = 1, 2, 3, or 4)</td>
+      <td class="center-text">None</td>
+      <td class="center-text">None</td>
+      <td class="center-text">These faults can be driven by two different nuisance scenarios for EEC Pamb sensor drifting:1. Pamb Sensor Drift failures can occur during in-flight reverse thrust, especially during tactical descents. The Pamb sensor on the EEC local pressure differs too much from air data pressure altitude when the thrust reverser exhaust blocks the free stream airflow behind the fan accessory compartment cooling air exits.2. Pamb Sensor Drift failure can also occur during cruise. This can be due to air leakage into the accessory compartment causing the EEC local pressure to differ too much from air data pressure altitude. This may also cause the EPR ratings to display higher to the crew for the faulted engine. This may cause the crew to mismatch the throttles up to .05 or over a half a knob to match EPR as displayed on MFD. There is no operational impact.3. Ground operation check out - no nuisance condition.</td>
+      <td class="center-text">1 and 2 When AxPAMB_DR appears on the propulsion fault history list, and no other related engine faults or operational anomalies except for noted throttle differential occurs: the Quick Access Recorder (QAR) data may be analyzed to confirm that the fault occurred during the scenarios described in nuisance description by requesting Quick Access Recorder (QAR) data review (31-33-10) to Engine Management Branch (EMB) or confirm fault does not repeat by performing an EEC operational check out (73-21-01, task 01-1) or performing an engine idle run (TO 1C-17A-2-71JG-00-1, 71-00-01, task 01-3). To mitigate future nuisance faults at next maintenance opportunity, inspect engine accessory for fit and closure latch tension. (54-14-10).3. If fault occurs or repeats during EEC checkout or engine ground operation remove and replace EEC (73-21-10).</td>
+    </tr>
+    <tr>
+      <td class="center-text">Non-Avionics Fault List: APM-EECx Propulsion Fault List: xEEC (x=1, 2, 3, or 4)</td>
+      <td class="center-text">None</td>
+      <td class="center-text">None</td>
+      <td class="center-text">This fault can be driven by different causes. There are three nuisance scenarios:
+  
+  1. Data communication loss. During engine shutdown the PMA de-energizes, thus does not power the EEC. During startup until the PMA is energized, EEC is not powered. EEC data communication to the APDMC is lost during this period causing the APDMC to set this fault.
+  
+  2. During ground maintenance EEC test, xEEC appears on propulsion fault list or APM-EECx on the non-avionics fault list. Per fault 73-21-RW fault isolation engine run, fault xEEC or APM-EECx does not appear. The cause of this is the EEC is performing ground maintenance checks. These are not operational faults and not critical in nature.</td>
+      <td class="center-text">1. When the xEEC appears on propulsion fault list or when APM-EECx occurs on the non-avionics fault list during engine shutdown or during engine start and clears, this is a nuisance condition and can be ignored.
+  
+  2. When xEEC does not repeat during an engine run, but continues to repeat during maintenance check: For discrepancy: "Remove and replace engine xEEC no later than next HSC because of xEEC faults during ground maintenance test". Enter note in aircraft forms: "xEEC occurs during maintenance test. When xEEC occurs during engine operation or propulsion fault history (and is not caused by nuisance items 1, 2, or 3) remove and replace the engine x EEC before next flight."</td>
+    </tr>
+    <tr>
+      <td class="center-text">Non-Avionics Fault List: APM-xyAPM-ECO APM-xyAPMRXND (x=A or B) (y=1, 2, 3, or 4)</td>
+      <td class="center-text">None</td>
+      <td class="center-text">None</td>
+      <td class="center-text">These faults will display on the non-avionics fault list after engine shutdown. APM-xyAPM-ECO or APM-xyAPMRXND will display until engine is started or EEC/TR switch is engaged on the maintenance interface panel located in the left electrical power center.</td>
+      <td class="center-text">None.</td>
+    </tr>
+    <tr>
+      <td class="center-text">WAP Annunciation - ENGINE OIL PRESSx, ENG OIL ABNORMAL x, ENG RPM ABNORMAL (x=1, 2, 3, or 4)Non-Avionic Fault List - APM-xyLO OILP, APM-yOILP ABN, APM-yOILQ ABN, APM-yOILT ABN, APM-yN2 ABN, APM-xy4BSCV (x=A or B) (y=1, 2, 3, or 4)Propulsion Fault List - xylo OILP, yOILP ABN, yOILT ABN, yN2 ABN, xy4BSCV (x=A or B) (y=1, 2, 3, or 4)</td>
+      <td class="center-text">None</td>
+      <td class="center-text">None</td>
+      <td class="center-text">These faults may display on non-avionic list during normal engine shutdown or when engine flames out. The faults may be recorded into propulsion fault history when the engine flamed out.</td>
+      <td class="center-text">When observed on the non-avionics fault list during normal shutdown, no action required. When engine flamed out and these faults are listed in the propulsion fault history, confirm QAR data that they occurred after the engine flame out and are not the cause.</td>
+    </tr>
+    <tr>
+      <td class="center-text">APM-yOILQ ABN (y=1, 2, 3, or 4) on non-avionics fault list and/or WAP ENGINE OIL ABNORMALNon-Avionics Fault List - APM-xyLO OILP. WAP Annunciation - ENG OIL PRESSy (X=A or B) (y=1, 2, 3, or 4)</td>
+      <td class="center-text">None</td>
+      <td class="center-text">None</td>
+      <td class="center-text">When aircraft performs rapid aircraft climb or decent (examples - during maximum take off or severe turbulence) followed by a quick leveling; the aircraft may experience near zero g conditions. This may induce the oil quantity to indicate a low(er) quantity for up to 5 seconds and may also momentarily interrupt oil pressure causing it to indicate less than 70 PSI for up to 15 seconds.</td>
+      <td class="center-text">When no other oil system issues (indication faults, leaks, or consumption) are observed and the event occurred as described in the nuisance description by the flight crew or QAR data review:1. Perform engine oil system servicing (12-79-01).2. Return aircraft to service.3. When ENG OIL PRESS appeared on WAP, perform inspection of engine oil system chip collectors for all six chip collector locations. (Refer to TO 1C-17A-2-70GS-00-1, Chapter 2).</td>
+    </tr>
+    <tr>
+      <td class="center-text">AxREVHYD, BxREVHYD (x=1, 2, 3, or 4)</td>
+      <td class="center-text"></td>
+      <td class="center-text"></td>
+      <td class="center-text">The REVHYD fault appears as a nuisance fault every time the thrust reverser is functioned for maintenance checks while the engine is not operating. The REVHYD fault is valid only when it appears while the engine is operating.</td>
+      <td class="center-text">Do not change the thrust reverser control valve unless REVHYD appears in propulsion fault history and REVHYD can be duplicated by functioning the reversers with the engine operating.</td>
+    </tr>
+    <tr>
+      <td class="center-text">AFC</td>
+      <td class="center-text">MC</td>
+      <td class="center-text"></td>
+      <td class="center-text">MC detected AFC fault.</td>
+      <td class="center-text">None.</td>
+    </tr>
+    <tr>
+      <td class="center-text"><LK><LQ><LR><LT> → <LV><LX><LZ> → <MB><ME>APM-F_STG</td>
+      <td class="center-text"></td>
+      <td class="center-text"></td>
+      <td class="center-text">Strain gauge fault is unreliable.</td>
+      <td class="center-text">None.</td>
+    </tr>
+    <tr>
+      <td class="center-text"><AA> → <LJ><LL> → <LP><LS><LW><LY><MC><MD><MF> →APM-F_STG</td>
+      <td class="center-text"></td>
+      <td class="center-text"></td>
+      <td class="center-text"></td>
+      <td class="center-text">Perform flight data recording system data download (31-31-02). Perform over-G inspection (TO 1C-17A-6, Chapter 2). Onsite engineering evaluation of the FDR is not required. (Refer to TO 1C-17A-2-31FI-00-1, 31-31-MF-00 )</td>
+    </tr>
+    <tr>
+      <td class="center-text"><BJ> →APU DOOR DISAGREE</td>
+      <td class="center-text">None</td>
+      <td class="center-text">None</td>
+      <td class="center-text">APU DOOR DISAGREE may illuminate on WAP for up to 15 seconds after APU shutdown.</td>
+      <td class="center-text">No action required unless annunciator fails to extinguish after 15 seconds.</td>
+    </tr>
+    <tr>
+      <td class="center-text">BLIN CODE 5AF</td>
+      <td class="center-text">None</td>
+      <td class="center-text">None</td>
+      <td class="center-text">This is a known problem with the Autopilot Control Indicator induced by operator technique.</td>
+      <td class="center-text">No action required when no other operational discrepancies are reported by aircrew.</td>
+    </tr>
+    <tr>
+      <td class="center-text">BLIN CODE 330</td>
+      <td class="center-text">None</td>
+      <td class="center-text">None</td>
+      <td class="center-text">This a known problem with the radar altimeter signal data converter.</td>
+      <td class="center-text">No action required when no other operational discrepancies are reported by aircrew.</td>
+    </tr>
+    <tr>
+      <td class="center-text">BRAKE TEMP HIGH</td>
+      <td class="center-text">None</td>
+      <td class="center-text">None</td>
+      <td class="center-text">BRAKE TEMP HIGH appears on WAP during cruise. Brake temp monitoring system has intermittent, erroneous, or blanking indications during cruise.</td>
+      <td class="center-text">Perform anti-skid/brake temperature system interrogation per TO 1C-17A-2-32JG-40-1, (32-40-01).</td>
+    </tr>
+    <tr>
+      <td class="center-text">LANDING/TAXI LIGHTS</td>
+      <td class="center-text">None</td>
+      <td class="center-text">None</td>
+      <td class="center-text">During electrical emergency power functional check, LANDING/TAXI LIGHTS may be annunciated on WAP.</td>
+      <td class="center-text">No maintenance action required.</td>
+    </tr>
+    <tr>
+      <td class="center-text">Non-Avionics Fault List - APM BxG1PWR A, APM AxG2PWR A, APM BxG2PWR A Propulsion Fault List - BxG1PWR A, AxG2PWR A, BxG2PWR A (x=1, 2, 3, or 4)</td>
+      <td class="center-text">None</td>
+      <td class="center-text">None</td>
+      <td class="center-text">During engine start and operation these faults will appear on propulsion fault list and non-avionics fault list, for any engine started when supplied with only battery power.</td>
+      <td class="center-text">None when verified the corresponding engine was only supplied with battery power during start.</td>
+    </tr>
+    <tr>
+      <td class="center-text">WAP - THRST REV xFAULT Non-Avionics Fault List - APM AxG1PWR A, APM BxG1PWR A Propulsion Fault List - AxG1PWR A, BxG1PWR A (x=1, 2, 3, or 4)</td>
+      <td class="center-text">None</td>
+      <td class="center-text">None</td>
+      <td class="center-text">During engine start and operation these faults will appear on propulsion fault list and non-avionics fault list, when the engine thrust reverser isolation solenoid circuit breakers are pulled. Refer to TO 1C-17A-2-78JG-30-1, (78-31-04).</td>
+      <td class="center-text">Verify the following:
+  
+  1. The cause is due to the corresponding engine thrust reverser isolation solenoid circuit breakers are open per TO 1C-17A-2-78JG-30-1, (78-31-04).
+  
+  2. Verify or annotate aircraft forms that THRST REV FAULT 1 (2, 3, 4) on WAP will be annunciated during engine operation due to TR isolation circuit breakers open per lock out procedure.
+  
+  3. Verify at post flight no other causes for THRST REV FAULT 1 (2, 3, 4) occurred, refer to TO 1C-17A-2-71FI-00-1, fault charts 74-11 and 78-31. When other causes for THRST REVx FAULT on WAP did occur (example UNLK light or other faults), fault isolate per TO 1C-17A-2-71FI-00-1, fault chart 78-31.</td>
+    </tr>
+    <tr>
+      <td class="center-text">CCU-F_HF_1_C</td>
+      <td class="center-text">CCU</td>
+      <td class="center-text"></td>
+      <td class="center-text">HF Communication Function fault message sometimes appears when hydraulic auxiliary pumps are initially turned on.</td>
+      <td class="center-text">(Recycle HF system and recheck avionics fault list). Take no corrective action unless fault message reappears.</td>
+    </tr>
+    <tr>
+      <td class="center-text">CCU-F_HFS_1_C</td>
+      <td class="center-text">CCU</td>
+      <td class="center-text"></td>
+      <td class="center-text">Secure HF Communication Function fault.</td>
+      <td class="center-text">None</td>
+    </tr>
+    <tr>
+      <td class="center-text">CCU-TTU CCU-TSP</td>
+      <td class="center-text">CCU</td>
+      <td class="center-text">CCU-TTU CCU-TSP</td>
+      <td class="center-text">The radar beacon self-test is unreliable.</td>
+      <td class="center-text">No maintenance is required unless squawked by the flight crew.</td>
+    </tr>
+    <tr>
+      <td class="center-text"><AA> → <JM><JQ> → <KP><KS><KV> → <LB><LE><LF><LH><LL> → <LP><LS><MC><MD><MF> AFTER [2357] BEFORE [2501] CCU TCAS ALT STALE</td>
+      <td class="center-text">None</td>
+      <td class="center-text">None</td>
+      <td class="center-text">Briefly displayed when performing CCU NVRAM reset.</td>
+      <td class="center-text">None</td>
+    </tr>
+    <tr>
+      <td class="center-text"><BS> → <BW>CMD</td>
+      <td class="center-text">CIP</td>
+      <td class="center-text"></td>
+      <td class="center-text">CIP report CMD failure when no reply is received following CMD interrogation via 1553 bus.</td>
+      <td class="center-text">No maintenance action is required on aircraft.</td>
+    </tr>
+    <tr>
+      <td class="center-text"><EF> →CMUCPTPRT</td>
+      <td class="center-text">CIP</td>
+      <td class="center-text">None</td>
+      <td class="center-text">CIP controller reports printer to CMU functional fault. Fault disappears on avionics fault list when cockpit printer is turned ON.</td>
+      <td class="center-text">No maintenance is required unless fault fails to extinguish after cockpit printer is turned ON. Otherwise, refer to TO 1C-17A-2-23FI-00-1, fault code 23-14-MY-00.</td>
+    </tr>
+    <tr>
+      <td class="center-text">CMU-x_ACPx (x=1 or 2)</td>
+      <td class="center-text">None</td>
+      <td class="center-text">None</td>
+      <td class="center-text">With HF 1 turned OFF, CMU-1_ACP1 and CMU2_ACP1 will appear on the AVIONICS FAULT list. With HF 2 turned OFF, CMU-1_ACP2 and CMU-2ACP2 will appear on the AVIONICS FAULT list. After switching the HF radios are turned on and the HF systems becomes operational, the faults will normally come off the AVIONICS FAULT list.</td>
+      <td class="center-text">None</td>
+    </tr>
+    <tr>
+      <td class="center-text">xyEEC-APM (x=A or B) (y=1, 2, 3, or 4)</td>
+      <td class="center-text">None</td>
+      <td class="center-text">None</td>
+      <td class="center-text">This fault may be displayed in APDMC propulsion fault history at the time of the first engine shutdown, on ground or in the air. When other engines are shut down within approximately 2 seconds of the first engine shutdown, the fault may display for more than one engine.</td>
+      <td class="center-text">When this fault(s) is displayed in fault history after engine shutdown, maintenance should record any other faults and clear fault history.</td>
+    </tr>
+    <tr>
+      <td class="center-text">WAP - ENG RPM ABNORMAL Non-Avionics Fault List - APM xN1 ABN, APM xN2 ABN Propulsion Fault List - xN1 ABN xN2 ABN (x=1, 2, 3, or 4)</td>
+      <td class="center-text">None</td>
+      <td class="center-text">None</td>
+      <td class="center-text">A nuisance ENG RPM ABNORMAL message on the WAP and corresponding fault codes may appear during start due to the minimum speed thresholds for either N1 or N2, or both are not initially met.</td>
+      <td class="center-text">None when no N1 or N2 sensor faults exist and warning extinguishes, and fault clears as the engine reaches idle speed.</td>
+    </tr>
+    <tr>
+      <td class="center-text">WAP - ENG RPM ABNORMAL Non-Avionics Fault List - APM xN1 ABN Propulsion Fault List - xN1 ABN (x=1, 2, 3, or 4)</td>
+      <td class="center-text">None</td>
+      <td class="center-text">None</td>
+      <td class="center-text">A nuisance ENG RPM ABNORMAL message on the WAP and corresponding fault code can occur.</td>
+      <td class="center-text">None when identified (by crew or data review) as one of these two conditions:
+  
+  1. Maximum N1 RPM was 101% or less.
+  
+  (a) No N1 sensor faults exist.
+  
+  (b) Aircraft was less than 17250 feet, mach less than 0.45.
+  
+  (c) Engine(s) commanded to maximum EPR.
+  
+  (d) Overspeed (above 100.5%) was five seconds or less.
+  
+  2. Maximum N1 RPM 102% or less.
+  
+  (a) No N1 sensor faults exist.
+  
+  (b) Aircraft was between 9000 feet and 17250 feet, mach less than 0.45 and OAT between -10 deg C and 10 deg C.
+  
+  (c) Engine(s) commanded to maximum EPR.
+  
+  (d) Overspeed (above 100.5%) was five seconds or less.</td>
+    </tr>
+    <tr>
+      <td class="center-text">WAP - ENG RPM ABNORMAL Non-Avionics Fault List - APM xN2 ABN Propulsion Fault List - xN2 ABN (x=1, 2, 3, or 4)</td>
+      <td class="center-text">None</td>
+      <td class="center-text">None</td>
+      <td class="center-text">A nuisance ENG RPM ABNORMAL message on the WAP and corresponding fault code can occur during very cold ambient operations, the idle speeds can be at or slightly below the N2 lower limit of 54.7%.</td>
+      <td class="center-text">None when -
+  
+  1. No N2 sensor faults exist.
+  
+  2. Occurred during cold ambient conditions.
+  
+  3. Annunciation and fault clears when throttles are advanced above N2 55% indicated on SED or MFD.</td>
+    </tr>
+    <tr>
+      <td class="center-text">Non-Avionics Fault List - APM-AxP2LN A, APM-AxAPMEEC, APM-BxAPMEEC, APM-BAPM (x=A or B)(y=1, 2, 3, or 4)Propulsion Fault History - AxP2LN A, AxAPMEEC, BxAPMEEC, BxAPM</td>
+      <td class="center-text">None</td>
+      <td class="center-text">None</td>
+      <td class="center-text">Condition only occurs on the ground. Typically occurs during ground reverse idle operation. Engine may revert to N1 mode operation when engine is in forward idle. Cause - strong crosswinds or tail winds which cause air data errors between the engine and airplane.</td>
+      <td class="center-text">Position engine into the wind and/or shutdown and restart engine. When fault or condition repeats, fault isolation is required. NOTE: when engine was shutdown with probe heat on and restarted quickly, may cause engine to revert N2 mode. Shutdown end allow probes to cool and restart engines.</td>
+    </tr>
+    <tr>
+      <td class="center-text">Propulsion Fault History - A#P2T2P B, A#P2T2P D, B#P2T2P D</td>
+      <td class="center-text">None</td>
+      <td class="center-text">None</td>
+      <td class="center-text">These engine inlet (T2) temperature signal drifting faults may occur as a result of turbulence during flight or during tactical descent. The faults may be present on one or more engines.
+  
+  MCD propulsion fault history will indicate 'AIR' for these fault messages when they occur in flight. Fault messages indicated with 'GND' (engine operation while on ground) or 'START' (engine start) do not qualify as nuisance.</td>
+      <td class="center-text">Review aircraft forms and GO81 history for any previous instances that may have occurred within the last 50 flight hours in flight. Occurrences on the ground do not qualify as nuisance.
+  
+  If there were no prior instances within the last 50 flight hours, and if no related A#P2T2P A, B#P2T2P A, or A#P2T2P C faults are present: document the faults in aircraft 781A forms and close the discrepancy with the following statement in the corrective action block "Current aircraft flight hours is _____. No prior occurrences within last 50 flight hours. Refer to supplemental data, DMC-1C17-A-E40-00-0003-00001-410A-A)". No additional maintenance action is required.
+  
+  If the faults had previously occurred within the last 50 flight hours without the presence of other related faults, this may be indicative of a P2T2 probe failure. Troubleshoot per 73-21-NW-_ .</td>
+    </tr>
+    <tr>
+      <td class="center-text">A#P2T2P C</td>
+      <td class="center-text">None</td>
+      <td class="center-text">None</td>
+      <td class="center-text">The A#P2T2P C fault (T2 inlet temperature signal cross check failure) indicates that the A-Ch and B-Ch T2 signals disagree. The signal channel ultimately failing may be revealed through A#P2T2P A or B#P2T2P A faults (signal failure faults).
+  
+  Root cause for engine T2 signal cross check failures may be difficult to locate without the presence of A#P2T2P A or B#P2T2P A to determine which signal channel is ultimately failing. The A#P2T2P C fault alone does not impact engine operation.
+  
+  If the condition worsens and eventually produces A#P2T2P A or B#P2T2P A faults, EEC FAULT # may post on the WAP.</td>
+      <td class="center-text">When no other engine P2T2 signal failure or signal disagreement faults are present (A#P2T2P A, B#P2T2P A, A#P2T2P B, A#P2T2P D, or B#P2T2P D), troubleshooting this A#P2T2P C fault may be deferred to next HSC.
+  
+  Note: Refer to TO 1C-17A-2-71FI-00-1, Chapter 3) (PROPULSION SYSTEM GENERAL GUIDANCE FOR CAN NOT DUPLICATE OR INTERMITTENT FAULTS) if the fault cannot be duplicated due to intermittency. When troubleshooting is accomplished, fault isolate per 73-21-NU-_  for the P2T2 probe inspection and electrical harness checks. If troubleshooting results in no discrepancies noted, consideration should be made to remove and replace the inlet total pressure/temperature probe, REF DES (, , ) (73-21-15), if not already accomplished, before any other hardware removal and replacements for this fault.</td>
+    </tr>
+    <tr>
+      <td class="center-text">FCCx (x=1 or 4)</td>
+      <td class="center-text">Modernized FCC</td>
+      <td class="center-text"></td>
+      <td class="center-text">FCC1 and/or FCC4 may be displayed on Avionics Fault List following an APU battery start, and will not clear after pressing an EFCS RESET button. When this condition exists, FCC PFBIT and Maintenance BIT can not be entered.</td>
+      <td class="center-text">1. Open FCC1 primary circuit breakers on overhead circuit breaker panel row H, column 27 and/or FCC4 primary circuit breaker on overhead panel row G, column 30.
+  
+  3. Close FCC1 primary circuit breakers on overhead circuit breaker panel row H, column 27 and/or FCC4 primary circuit breaker on overhead panel row G, column 30.
+  
+  4. Wait approximately 8 seconds until FCC 1 and/or FCC 4 clears from WAP.
+  
+  5. Press EFCS RESET button.</td>
+    </tr>
+    <tr>
+      <td class="center-text">FCC-F_AOAx (x=1, 2, 3, 4, 5, or 6)</td>
+      <td class="center-text">Modernized FCC</td>
+      <td class="center-text">None</td>
+      <td class="center-text">FCC-F_AOAx may be displayed in the EFCS Fault History/EFCS Fault List or on the Avionics Fault List after a flight.</td>
+      <td class="center-text">Check EFCS Fault List and Fault History. No action required if BLIN codes 318 to 31D are set and no other operational discrepancies are reported by the aircrew related to the AOA limiting system.</td>
+    </tr>
+    <tr>
+      <td class="center-text">FCC-F_LR_RFM</td>
+      <td class="center-text">Modernized FCC</td>
+      <td class="center-text"></td>
+      <td class="center-text">Upon completion of FCC hydraulic PFBIT, BLIN code 113 and/or 3E1 may display on the EFCS fault list.</td>
+      <td class="center-text">Press the EFCS RESET button. When failure clears, no further maintenance action is required. When failure does not clear, perform lower rudder MBIT.</td>
+    </tr>
+    <tr>
+      <td class="center-text">FCC-F_R_MECH</td>
+      <td class="center-text">FCC</td>
+      <td class="center-text">EFCS RESET (associated BLIN code 9F5)</td>
+      <td class="center-text">This fault can occur after the maintenance bit is performed. R_Mech maintenance bit fails due to marginal test limits impacted by Roll Auto-Pilot Actuator movement of the stick.</td>
+      <td class="center-text">Verify full surface travel in Full Mech mode in the roll axis, and 50% travel in Part Mech mode. Otherwise, refer to TO 1C-17A-2-22FI-00-1, fault chart 22-00.</td>
+    </tr>
+    <tr>
+      <td class="center-text">FCC-F_RTA</td>
+      <td class="center-text">MFCC</td>
+      <td class="center-text">FCC-F_RTA is displayed on the avionics fault list/EFCS fault list or EFCS fault history</td>
+      <td class="center-text">During flight, FCC-F_RTA may show up on the avionics fault list.</td>
+      <td class="center-text">Press the EFCS RESET button. When failure clears from the avionics fault list, then no further maintenance action is required. When failure does not clear, then perform Roll Trim Actuator (RTA) MBIT per 1C-17A-2-27JG-10-9, by performing aileron trim system operational checkout (27-12-01).</td>
+    </tr>
+    <tr>
+      <td class="center-text">FCC-INLK_WOW</td>
+      <td class="center-text">Modernized FCC</td>
+      <td class="center-text">None</td>
+      <td class="center-text">When the FCC declares a FCC-F_TMD fault, it will also set FCC-INLK_WOW.</td>
+      <td class="center-text">Enter EFCS MAINTENANCE BIT. If EFCS MAINTENANCE BIT was successfully entered, no further action is required.
+  
+  If EFCS MAINTENANCE BIT was not successfully entered, the fault is legitimate, following fault isolation procedure for FCC-INLK_WOW.</td>
+    </tr>
+    <tr>
+      <td class="center-text">F FDR SN</td>
+      <td class="center-text">None</td>
+      <td class="center-text">None</td>
+      <td class="center-text">Fault appears on AP/DMC fault history. This fault indicates a strain gauge problem. Strain gauges are no longer used on aircraft.</td>
+      <td class="center-text">No maintenance is required on aircraft.</td>
+    </tr>
+    <tr>
+      <td class="center-text"><AA> → <LJ><LL> → <LP><LS><LW><LY><MC><MD><MF> →FDR</td>
+      <td class="center-text">None</td>
+      <td class="center-text">None</td>
+      <td class="center-text">Fault appears on the A/PDMC Fault List with engines off. Associated with APM-SAU fault on the MCD (DU) Avionics Fault List. Flight Data Recorder operation can be verified after engine start.</td>
+      <td class="center-text">None.</td>
+    </tr>
+    <tr>
+      <td class="center-text"><AA> → <EE>FMCxADTD (x=1, 2)</td>
+      <td class="center-text">CIP</td>
+      <td class="center-text">None</td>
+      <td class="center-text">Aircraft have been updated to Block 13/15. Modification of the ADTD and CIP to Block 15 means the CIP looks for the ADTD, AOC printer, and loadmaster printer on the Ethernet. Ethernet hubs do not exist on these aircraft and CIP is not hooked up to Ethernet. This means the CIP will constantly report the failures on the avionics fault list.</td>
+      <td class="center-text">None.</td>
+    </tr>
+    <tr>
+      <td class="center-text"><EF> → <FD>FMCxADTD (x=1, 2)</td>
+      <td class="center-text">CIP</td>
+      <td class="center-text">None</td>
+      <td class="center-text">CIP controller reports the printer or ADTD ethernet network ping response functional fault when turned OFF. Faults disappear on avionics fault list when LRUs are turned ON.</td>
+      <td class="center-text">No maintenance is required unless fault fails to extinguish after approximately 25 seconds after LRUs are turned ON. Otherwise, refer to TO 1C-17A-2-23FI-00-1, fault chart 23-14.</td>
+    </tr>
+    <tr>
+      <td class="center-text"><AA> → <EE>FMCxCPTPRT (x=1, 2)</td>
+      <td class="center-text">CIP</td>
+      <td class="center-text">None</td>
+      <td class="center-text">Aircraft have been updated to Block 13/15. Modification of the ADTD and CIP to Block 15 means the CIP looks for the ADTD, AOC printer, and loadmaster printer on the Ethernet. Ethernet hubs do not exist on these aircraft and CIP is not hooked up to Ethernet. This means the CIP will constantly report the failures on the avionics fault list.</td>
+      <td class="center-text">None.</td>
+    </tr>
+    <tr>
+      <td class="center-text"><EF> → <FD>FMCxCPTPRT (x=1, 2)</td>
+      <td class="center-text">CIP</td>
+      <td class="center-text">None</td>
+      <td class="center-text">CIP controller reports the printer or ADTD ethernet network ping response functional fault when turned OFF. Faults disappear on avionics fault list when LRUs are turned ON.</td>
+      <td class="center-text">No maintenance is required unless fault fails to extinguish after approximately 25 seconds after LRUs are turned ON. Otherwise, refer to TO 1C-17A-2-23FI-00-1, fault chart 23-14.</td>
+    </tr>
+    <tr>
+      <td class="center-text"><AA> → <EE>FMCxLDMPRT (x=1, 2)</td>
+      <td class="center-text">CIP</td>
+      <td class="center-text">None</td>
+      <td class="center-text">Aircraft have been updated to Block 13/15. Modification of the ADTD and CIP to Block 15 means the CIP looks for the ADTD, AOC printer, and loadmaster printer on the Ethernet. Ethernet hubs do not exist on these aircraft and CIP is not hooked up to Ethernet. This means the CIP will constantly report the failures on the avionics fault list.</td>
+      <td class="center-text">None.</td>
+    </tr>
+    <tr>
+      <td class="center-text"><EF> →FMCxLDMPRT (x=1, 2)</td>
+      <td class="center-text">CIP</td>
+      <td class="center-text">None</td>
+      <td class="center-text">CIP controller reports the printer or ADTD ethernet network ping response functional fault when turned OFF. Faults disappear on avionics fault list when LRUs are turned ON.</td>
+      <td class="center-text">No maintenance is required unless fault fails to extinguish after approximately 25 seconds after LRUs are turned ON. Otherwise, refer to TO 1C-17A-2-23FI-00-1, fault chart 23-14.</td>
+    </tr>
+    <tr>
+      <td class="center-text">FMCKxMCDxx (x=1 or 2, xx= 1, 2, 3, or 4)</td>
+      <td class="center-text">MCK</td>
+      <td class="center-text">None</td>
+      <td class="center-text">FMCKxMCDxx is displayed on the AVIONICS FAULT list when CCU has page control on MCDxx.</td>
+      <td class="center-text">Exit out of CCU pages by pressing MCD MSN button.</td>
+    </tr>
+    <tr>
+      <td class="center-text">FMCKxSEI (x=1, 2)</td>
+      <td class="center-text">None</td>
+      <td class="center-text">None</td>
+      <td class="center-text">ARINC signal is degraded to SEI, MCD provides higher capacitance on the bus due to an EMI filter. This causes SEI to intermittently miss MCK 429 commands such as status reports. Fault appears intermittently, flashing on avionics fault list.</td>
+      <td class="center-text">No maintenance is required on aircraft.</td>
+    </tr>
+    <tr>
+      <td class="center-text"><AA> → <JM><JQ> → <KP><KS><KV> → <LB><LE><LF><LH><LL> → <LP><LS><MC><MD><MF> AFTER [2357] BEFORE [2501] IFF TCAS ALT STALE</td>
+      <td class="center-text">None</td>
+      <td class="center-text">None</td>
+      <td class="center-text">1. Briefly displayed when performing CCU NVRAM reset.
+  
+  2. On the ground for aircraft with IFF software version L.0, if the ADC senses a negative barometric pressure altitude, an erroneous IFF TCAS ALT STALE status may annunciate.
+  
+  3. On ground and in flight for aircraft with IFF software version L.3, a continuous erroneous IFF TCAS ALT STALE annunciation will occur. Due to transient non-annunciated CCU 1553 data transmission failures, the annunciation may intermittently extinguish and then re-annunciate with IFF software version L.3.</td>
+      <td class="center-text">1. None
+  
+  2. Toggle Pilot ID switch. If message clears, it is a nuisance. It may re-annunciate on the ground, but will clear in flight. Otherwise, refer to TO 1C-17A-2-34FI-00-1, fault code, 34-54-AR-_ .
+  
+  3. None.</td>
+    </tr>
+    <tr>
+      <td class="center-text">IRUx (x=1, 2, 3, or 4)</td>
+      <td class="center-text">None</td>
+      <td class="center-text">None</td>
+      <td class="center-text">With the aircraft parked, the IRU switch is selected to OFF. When this fault is displayed with the IRU switch selected to OFF, no maintenance action should be initiated. This fault will normally come off the avionics fault list when the IRU switch selected to ON.</td>
+      <td class="center-text">None.</td>
+    </tr>
+    <tr>
+      <td class="center-text"><AA> → <GM>IRU-GPS_AEU x (x=1 or 2)</td>
+      <td class="center-text">AEU</td>
+      <td class="center-text">None</td>
+      <td class="center-text">This fault can be caused by the presence of GPS L1 or L2 band interference during AEU power on BIT.</td>
+      <td class="center-text">Check NAV SENSORS-GPS page GPS 1 for AEU 1, GPS 2 for AEU 2. Verify GPS position is correct with a low ERR (<5), and time is updating. When so, no maintenance is required. When GPS position is incorrect or a large ERR exists (>5) for more than 2 hours, swap #1 and #4 IRU (34-43-10). When problem does not follow, check AEU for loose or damaged connectors. When no defect is found, remove and replace AEU.</td>
+    </tr>
+    <tr>
+      <td class="center-text"><GN> →IRU-GPS_AEU x (x=1 or 2)</td>
+      <td class="center-text">AEU</td>
+      <td class="center-text">None</td>
+      <td class="center-text">This fault can be caused by the presence of GPS L1 or L2 band interference during AEU power on BIT.</td>
+      <td class="center-text">The HE and VE are 95% values and do not correspond directly with the relegated ERR value. When verifying GPS accuracy, verify the horizontal and vertical errors (HE and VE) are less than 328 feet (<100 meters). Check NAV SENSORS-MGPS page MGPS 1 for AEU 1, MGPS 2 for AEU 2. Verify MGPS position is correct with a low HE (<350 feet), and time is updating. When so, no maintenance is required. When MGPS position is incorrect or a large HE exists (>350 feet) for more than 2 hours , swap #1 and #4 IRU (34-43-10) . When problem does not follow, check AEU for loose or damaged connectors. When no defect is found, remove and replace AEU.</td>
+    </tr>
+    <tr>
+      <td class="center-text">N2 Mode (1, 2, 3, 4) occurs during engine start APM-CxP2T2P A (x=1, 2, 3, or 4) (C=A, B)</td>
+      <td class="center-text">None</td>
+      <td class="center-text">None</td>
+      <td class="center-text">Engine will revert to N2 when probe heat is on while starting engine due to lack of cooling airflow over the probe. The probe heats up to a point where it is declared out of range. APM-CxP2T2P A is shown on the non-avionics fault list.</td>
+      <td class="center-text">Set probe heat to off, allow probe to cool for 30 seconds. Shut down engine and restart with probe heat set to off. When fault repeats, fault isolation is required, otherwise no action required.</td>
+    </tr>
+    <tr>
+      <td class="center-text">Pitch Trim Fail OP</td>
+      <td class="center-text"></td>
+      <td class="center-text">Pitch Trim Fail OP (associated BLIN codes 511 and 513)</td>
+      <td class="center-text">The Pitch Trim Actuator (PTA) will fail when the measured PTA rate is less than 0.091 degrees of stab/second for about 4 seconds. The nominal rate for the PTA is 0.15 degrees of stab/second, with one motor driving. The time it takes the PTA to achieve 0.091 degrees of stab/second increases following extended periods of flight at cold temperature.</td>
+      <td class="center-text">Perform Horizontal Stabilizer System Operational Checkout (27-40-01) and Horizontal Stabilizer Position Sensor Operational Checkout (27-45-11). Return aircraft to service when no problems are detected. When problems are detected, refer to fault codes discovered during operational checkouts.</td>
+    </tr>
+    <tr>
+      <td class="center-text">SEF-F_FPD</td>
+      <td class="center-text">SCEFC</td>
+      <td class="center-text">None</td>
+      <td class="center-text">SEF-F_FPD is displayed on avionics fault list.</td>
+      <td class="center-text">Check SCEFC fault list. When BLIN code 540 is present in SCEFC 1 of SCEFC no.2, no maintenance action is required. When BLIN code 540 is not present, perform SCEFC FPD MBIT.</td>
+    </tr>
+    <tr>
+      <td class="center-text">SEI</td>
+      <td class="center-text">None</td>
+      <td class="center-text">None</td>
+      <td class="center-text">ARINC signal is degraded to SEI, MCD provides higher capacitance on the bus due to an EMI filter. This causes SEI to intermittently miss MCK 429 commands such as status reports. Fault appears intermittently, flashing on avionics fault list.</td>
+      <td class="center-text">No maintenance is required on aircraft.</td>
+    </tr>
+    <tr>
+      <td class="center-text">SEF-SEFx (x=1 or 2)</td>
+      <td class="center-text">Modernized SCEFC</td>
+      <td class="center-text">None</td>
+      <td class="center-text">SEF-SEF1 and/ or SEF-SEF2 may be displayed on the Avionics Fault List after aircraft electrical power is applied, and will not clear after pressing an EFCS RESET button on FCS ACTR panel. When this condition exists, SCEFC PFBIT and Maintenance BIT can not be entered.</td>
+      <td class="center-text">1. Open SCEFC 1 and 2 primary circuit breakers on overhead circuit breaker panel row H, column 28 and row H, column 29 respectively.
+  
+  2. Wait until SCEFC 1 and 2 appear on the WAP.
+  
+  3. Close SCEFC 1 primary circuit breaker on overhead circuit breaker panel, row H, column 28.
+  
+  4. Wait until SCEFC 1 clears from WAP.
+  
+  5. Close SCEFC 2 primary circuit breaker on overhead circuit breaker panel, row H, column 29.
+  
+  6. Wait until SCEFC 2 clears from WAP.
+  
+  7. Press the EFCS RESET button on FCS ACTR panel.</td>
+    </tr>
+    <tr>
+      <td class="center-text">THRST REV x DISAG (x=1, 2, 3, or 4)</td>
+      <td class="center-text"></td>
+      <td class="center-text"></td>
+      <td class="center-text">The THRST REV x DISAG Master Caution Warning can occur while starting an engine with the throttle initially set to move the thrust reverser, especially on aircraft equipped with EEC Back-Up Power. EEC logic senses that reverser position disagrees with commanded position and logs the REVHYD fault before N2 rises above 10.5% rpm, and the EEC can power the thrust reverser control valve solenoids. When engine acceleration is fast enough or the reverser translates slowly enough, THRST REV x DISAG will be annunciated when the fuel switch is turned ON for the start.</td>
+      <td class="center-text">Verify THRST REV x DISAG clears shortly after the FUEL switch for the engine was place to ON during the start procedure. During battery start procedures , when the hydraulic pressure was not available during the start, verify THRST REV xDISAG clears shortly after hydraulic pressure is applied.</td>
+    </tr>
+    <tr>
+      <td class="center-text">WCC-</td>
+      <td class="center-text">MCD (DU)</td>
+      <td class="center-text">None</td>
+      <td class="center-text">The non-avionics fault list displays the WCC-fault message for any spare BIT that has been set by any of the non avionic LRU's.</td>
+      <td class="center-text">Disregard. No maintenance is required.</td>
+    </tr>
+    <tr>
+      <td class="center-text">WCC-ABC</td>
+      <td class="center-text">None</td>
+      <td class="center-text">None</td>
+      <td class="center-text">With the aircraft parked, the ANTI-SKID/BRAKE TEMP switch is selected to OFF. When this fault is displayed with the ANTI-SKID/BRAKE TEMP switch selected to OFF, no maintenance action should be initiated. This fault will normally come off the avionics fault list when the ANTI-SKID/BRAKE TEMP switch is selected to ARM.</td>
+      <td class="center-text">None.</td>
+    </tr>
+    <tr>
+      <td class="center-text">WCC-ADS RPT</td>
+      <td class="center-text">ADSC</td>
+      <td class="center-text">DOOR OFFSET ERROR OR DOOR RVDT OUT OF TOLERANCE OR RAMP OFFSET ERROR OR RAMP RVDT OUT OF TOLERANCE</td>
+      <td class="center-text">ADSC latches its faults. Faults not deleted off MCD (DU) fault list when they no longer occur.</td>
+      <td class="center-text">Validate fault by reviewing front panel fault list. When fault exists, perform cargo door position transmitter adjustment (52-31-29, task 5-1).</td>
+    </tr>
+    <tr>
+      <td class="center-text">WCC-CPCx (x=1 or 2)</td>
+      <td class="center-text">CPC</td>
+      <td class="center-text">L (or R)-CPC-xx</td>
+      <td class="center-text">CPC faulted CONTRL, with AUTO PRESSURE SINGLE or INOP displayed on WAP.</td>
+      <td class="center-text">While observing WAP display, toggle selector panel from AUTO 1 to AUTO 2 and back to original position (or vice versa) to reset. When no WAP message appears, this is a nuisance fault. When WAP message remains, this is valid fault. Replace CPC.</td>
+    </tr>
+    <tr>
+      <td class="center-text">WCC-CPCx (x=1 or 2)</td>
+      <td class="center-text">CPC</td>
+      <td class="center-text">APDMC1, APDMC2, or 2 APDMC</td>
+      <td class="center-text">APDMC faulted by CPC, with AUTO PRESSURE SINGLE or INOP displayed on WAP.</td>
+      <td class="center-text">While observing WAP display, toggle selector panel from AUTO 1 to AUTO 2 and back to original position (or vice versa) to reset. When no WAP message appears, this is a nuisance fault. When WAP message remains, this is valid fault. Trouble shoot signal from APDMC to CPC.</td>
+    </tr>
+    <tr>
+      <td class="center-text">WCC-CPCx (x=1 or 2)</td>
+      <td class="center-text">CPP</td>
+      <td class="center-text">CPPNL-XX</td>
+      <td class="center-text">CP panel faulted by CPC, with AUTO PRESSURE SINGLE or INOP displayed on WAP.</td>
+      <td class="center-text">While observing WAP display, toggle selector panel from AUTO 1 to AUTO 2 and back to original position (or vice versa) to reset. When no WAP message appears, this is a nuisance fault. When WAP message remains, this is valid fault. Replace CP panel.</td>
+    </tr>
+    <tr>
+      <td class="center-text"><AA> → <CX> BEFORE [1616] <CY> → <FW> BEFORE [1617]WCC-ECS PACKx (x=L or R)</td>
+      <td class="center-text">ECSC</td>
+      <td class="center-text">PACK ANTI-ICE VALVE, LEFT (or RIGHT) WHEEL POD</td>
+      <td class="center-text">Legacy ECSC faults pack anti-ice valve during unpressurized high altitude airdrops above FL250 for failing to open. Failure to open is a result of low pack flow during non-normal operating envelope.</td>
+      <td class="center-text">When anti-ice fault is present after unpressurized flight above FL250, no action required.</td>
+    </tr>
+    <tr>
+      <td class="center-text">WCC-ECSPPR/Px(x=1, 2, 3, or 4)</td>
+      <td class="center-text">ECSC</td>
+      <td class="center-text">PYLON PRESS REG/PILOT, ENG x FAULT ISOLATE (x=1, 2, 3, or 4)</td>
+      <td class="center-text">ECSC faults pylon press reg/pilot on shutdown. ECSC interpret trapped pressure as PPRV failure.</td>
+      <td class="center-text">Perform fault isolation only when engine bleed switch DISAG on same engine is reported.</td>
+    </tr>
+    <tr>
+      <td class="center-text">WCC-ECSTAIRRL (WCC-ECSTAIRRR)</td>
+      <td class="center-text">Trim Air Pressure Regulator</td>
+      <td class="center-text">TRIM AIR REG, LEFT WHEEL POD (TRIM AIR REG, RIGHT WHEEL POD)</td>
+      <td class="center-text">Trim Air Regulator faults are nuisance when they only occur during a ground cabin pressure check and not during normal operations.</td>
+      <td class="center-text">If fault only appears on the non-avionics fault list during ground cabin pressure check, clear the fault from the ECS controller. No further action required. If the fault appears during operation outside of a ground cabin pressure check, troubleshoot per fault code 21-61-MB-01  (21-61-MB-02 ).</td>
+    </tr>
+    <tr>
+      <td class="center-text">WCC-ESM RPT</td>
+      <td class="center-text"></td>
+      <td class="center-text">None</td>
+      <td class="center-text">Environmental panel single channel fault.</td>
+      <td class="center-text">Validate fault by cycling circuit breaker. When fault returns, perform maintenance per applicable TO.</td>
+    </tr>
+    <tr>
+      <td class="center-text">WCC-ESM RPT</td>
+      <td class="center-text">None</td>
+      <td class="center-text">None</td>
+      <td class="center-text">The WCC-ESM RPT fault may intermittently blink on the avionics fault list. Concurrently, the ESP panel's digits and lights may flash intermittently while aircraft is on the ground with either APU power or external power applied to aircraft.</td>
+      <td class="center-text">Verify that the WCC-ESM RPT fault and the flashing ESP lights and digits stop after applying APU air and power to aircraft. When condition does not terminate when air and power is applied to aircraft via APU, then perform maintenance per applicable TO.</td>
+    </tr>
+    <tr>
+      <td class="center-text"><BJ> →WCC-FQC DENSX</td>
+      <td class="center-text">FQC</td>
+      <td class="center-text">FUEL DENSX</td>
+      <td class="center-text">No. 1, 3, and 4 fuel tank densitometers were faulted on the non-avionics fault list indicating the fuel quantity computer had failed to receive any information from the densitometer in the fuel tank.</td>
+      <td class="center-text">Clear the faults on the ground refuel panel and cycle the fuel quantity computer primary power circuit breaker. Perform a return to service per 28-40-01 and take no corrective action unless the fault repeats.</td>
+    </tr>
+    <tr>
+      <td class="center-text">WCC-FQC RPT</td>
+      <td class="center-text">GRU</td>
+      <td class="center-text">FUEL QTY COMPUTER</td>
+      <td class="center-text">Fuel quantity computer reported fault.</td>
+      <td class="center-text">Erase fault using LRU front panel display. Perform return to service test. When test fails, perform maintenance per applicable TO.</td>
+    </tr>
+    <tr>
+      <td class="center-text">WCC-FSM RPT</td>
+      <td class="center-text"></td>
+      <td class="center-text">None</td>
+      <td class="center-text">Fuel panel single is displayed on Warning Annunciator Panel (WAP).</td>
+      <td class="center-text">Validate fault by cycling circuit breaker. When fault returns, perform maintenance per applicable TO.</td>
+    </tr>
+    <tr>
+      <td class="center-text">WCC-HSM RPT</td>
+      <td class="center-text"></td>
+      <td class="center-text">None</td>
+      <td class="center-text">Hydraulic panel single channel fault.</td>
+      <td class="center-text">Validate fault by cycling circuit breaker. When fault returns, perform maintenance per applicable TO.</td>
+    </tr>
+    <tr>
+      <td class="center-text">WCC-HCU 1 RPT</td>
+      <td class="center-text">HSC</td>
+      <td class="center-text">HSC FAULT</td>
+      <td class="center-text">This fault sometimes occurs during the bus power-up sequence. Since the HSC latches its faults, it will not reset when the fault no longer occurs.</td>
+      <td class="center-text">Validate fault by reviewing front panel list. When fault exists, perform maintenance per applicable TO.</td>
+    </tr>
+    <tr>
+      <td class="center-text">WCC-HCUADSVLV</td>
+      <td class="center-text">HSC</td>
+      <td class="center-text">CARGO/ADS ISO VLV</td>
+      <td class="center-text">This fault sometimes occurs during the bus power-up sequence. Since the HSC latches its faults, it will not reset when the fault no longer occurs.</td>
+      <td class="center-text">Validate fault by reviewing front panel list. When fault exists, perform maintenance per applicable TO.</td>
+    </tr>
+    <tr>
+      <td class="center-text"><AA> → <CB>WCC-HCUAPSLVx (x=1 or 2)</td>
+      <td class="center-text">HSC</td>
+      <td class="center-text">AUX PUMP SERVO VLVx (x=1 or 2)</td>
+      <td class="center-text">This fault sometimes occurs during the bus power-up sequence. Since the HSC latches its faults, it will not reset when the fault no longer occurs.</td>
+      <td class="center-text">Validate fault by reviewing front panel list. When fault exists, perform maintenance per applicable TO.</td>
+    </tr>
+    <tr>
+      <td class="center-text">WCC-HCUARCBx (x=1, 2, 3 or 4)</td>
+      <td class="center-text">HSC</td>
+      <td class="center-text">AUX PUMP RCCBx (x=1, 2, 3 or 4)</td>
+      <td class="center-text">This fault sometimes occurs during the bus power-up sequence. Since the HSC latches its faults, it will not reset when the fault no longer occurs.</td>
+      <td class="center-text">Validate fault by reviewing front panel list. When fault exists, perform maintenance per applicable TO.</td>
+    </tr>
+    <tr>
+      <td class="center-text"><AA> → <CB>WCC-HCURSVTTx (x=1, 2, 3, 4)</td>
+      <td class="center-text">HSC</td>
+      <td class="center-text">RSVR TEMP XDCRx (x=1, 2, 3, or 4)</td>
+      <td class="center-text">This fault sometimes occurs during the bus power-up sequence. Since the HSC latches its faults, it will not reset when the fault no longer occurs.</td>
+      <td class="center-text">Validate fault by reviewing front panel list. When fault exists, perform maintenance per applicable TO.</td>
+    </tr>
+    <tr>
+      <td class="center-text">WCC-LFPWNCHCO</td>
+      <td class="center-text">LFCP</td>
+      <td class="center-text">WINCH CONTROLLER</td>
+      <td class="center-text">This fault is the result of the remote switch on the forward or aft loadmaster winch control panel being set in the ORIDE position.</td>
+      <td class="center-text">Validate fault by erasing fault from fault list and viewing front panel fault list. When fault returns, perform maintenance per applicable TO.</td>
+    </tr>
+    <tr>
+      <td class="center-text">WCC-LFPWNCHCO</td>
+      <td class="center-text">LFCP</td>
+      <td class="center-text">WINCH CONTROLLER - CHRG FAIL light is ON and one or both sides of battery's CHARGING and CHARGED lights are OFF. The OFF side is the indication of failure.</td>
+      <td class="center-text">This fault is a result of weaker battery which during trickle charge mode, could not maintain voltage threshold.</td>
+      <td class="center-text">Swap Battery between RWC and Spare and leave the weaker battery as Spare. Cycle CB located on R-EPC ROW S-23 (WIRELESS COMM AND CTRL SYSTEM). Validate that fault is erased and no CHRG FAIL light is ON. Recommend to select DISCH prior to take off if long mission permits for at least (7-8 hrs). If fault persists and affects the RWC operational readiness (operational duration to be determined), then R/R battery.</td>
+    </tr>
+    <tr>
+      <td class="center-text">WCC-OBGSHDMFL WCC-OBGSHDMFR</td>
+      <td class="center-text">OBIG GS Controller (FPC)</td>
+      <td class="center-text">S-DWN MAN FAIL-L S-DWN MAN FAIL-R</td>
+      <td class="center-text">Manifold Fail messages/faults can show up on the WAP, ADITS, and OBIGGS controllers.</td>
+      <td class="center-text">Cycle OBIGGS ON/OFF switches as applicable.</td>
+    </tr>
+  </table>
+</body>
+</html>
