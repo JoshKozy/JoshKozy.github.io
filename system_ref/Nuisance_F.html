@@ -14,20 +14,14 @@
   <h1>Nuisance Faults</h1>
   <table>
     <tr>
-      <th class="center-text">Unnamed: 0</th>
-      <th class="center-text">Front Panel Display</th>
-      <th class="center-text">Unnamed: 2</th>
-      <th class="center-text">Unnamed: 3</th>
-      <th class="center-text">Unnamed: 4</th>
+      <td class="center-text" rowspan="2">ADITS/MCD/DU/WAP Fault Message</td>
+      <th class="center-text" colspan="2">Front Panel Display</th>
+      <td class="center-text" rowspan="2">Nuisance Description</td>
+      <td class="center-text" rowspan="2">Action Required</td>
     </tr>
     <tr>
-      <td class="center-text">ADITS/
-  MCD/DU/WAP
-  Fault Message</td>
       <td class="center-text">LRU</td>
       <td class="center-text">Fault Message</td>
-      <td class="center-text">Nuisance Description</td>
-      <td class="center-text">Action Required</td>
     </tr>
     <tr>
       <td class="center-text">APDMCx (x=1 or 2)</td>
@@ -126,21 +120,21 @@
       <td class="center-text">None.</td>
     </tr>
     <tr>
-      <td class="center-text"><LK><LQ><LR><LT> → <LV><LX><LZ> → <MB><ME>APM-F_STG</td>
-      <td class="center-text"></td>
-      <td class="center-text"></td>
+      <td class="center-text">{LK}{LQ}{LR}{LT} → {LV}{LX}{LZ} → {MB}{ME}APM-F_STG</td>
+      <td class="center-text">N/A</td>
+      <td class="center-text">N/A</td>
       <td class="center-text">Strain gauge fault is unreliable.</td>
       <td class="center-text">None.</td>
     </tr>
     <tr>
-      <td class="center-text"><AA> → <LJ><LL> → <LP><LS><LW><LY><MC><MD><MF> →APM-F_STG</td>
-      <td class="center-text"></td>
-      <td class="center-text"></td>
-      <td class="center-text"></td>
+      <td class="center-text">{AA} → {LJ}{LL} → {LP}{LS}{LW}{LY}{MC}{MD}{MF} →APM-F_STG</td>
+      <td class="center-text">N/A</td>
+      <td class="center-text">N/A</td>
+      <td class="center-text">N/A</td>
       <td class="center-text">Perform flight data recording system data download (31-31-02). Perform over-G inspection (TO 1C-17A-6, Chapter 2). Onsite engineering evaluation of the FDR is not required. (Refer to TO 1C-17A-2-31FI-00-1, 31-31-MF-00 )</td>
     </tr>
     <tr>
-      <td class="center-text"><BJ> →APU DOOR DISAGREE</td>
+      <td class="center-text">{BJ} →APU DOOR DISAGREE</td>
       <td class="center-text">None</td>
       <td class="center-text">None</td>
       <td class="center-text">APU DOOR DISAGREE may illuminate on WAP for up to 15 seconds after APU shutdown.</td>
@@ -216,21 +210,21 @@
       <td class="center-text">No maintenance is required unless squawked by the flight crew.</td>
     </tr>
     <tr>
-      <td class="center-text"><AA> → <JM><JQ> → <KP><KS><KV> → <LB><LE><LF><LH><LL> → <LP><LS><MC><MD><MF> AFTER [2357] BEFORE [2501] CCU TCAS ALT STALE</td>
+      <td class="center-text">{AA} → {JM}{JQ} → {KP}{KS}{KV} → {LB}{LE}{LF}{LH}{LL} → {LP}{LS}{MC}{MD}{MF} AFTER [2357] BEFORE [2501] CCU TCAS ALT STALE</td>
       <td class="center-text">None</td>
       <td class="center-text">None</td>
       <td class="center-text">Briefly displayed when performing CCU NVRAM reset.</td>
       <td class="center-text">None</td>
     </tr>
     <tr>
-      <td class="center-text"><BS> → <BW>CMD</td>
+      <td class="center-text">{BS} → {BW}CMD</td>
       <td class="center-text">CIP</td>
       <td class="center-text"></td>
       <td class="center-text">CIP report CMD failure when no reply is received following CMD interrogation via 1553 bus.</td>
       <td class="center-text">No maintenance action is required on aircraft.</td>
     </tr>
     <tr>
-      <td class="center-text"><EF> →CMUCPTPRT</td>
+      <td class="center-text">{EF} →CMUCPTPRT</td>
       <td class="center-text">CIP</td>
       <td class="center-text">None</td>
       <td class="center-text">CIP controller reports printer to CMU functional fault. Fault disappears on avionics fault list when cockpit printer is turned ON.</td>
@@ -388,49 +382,49 @@
       <td class="center-text">No maintenance is required on aircraft.</td>
     </tr>
     <tr>
-      <td class="center-text"><AA> → <LJ><LL> → <LP><LS><LW><LY><MC><MD><MF> →FDR</td>
+      <td class="center-text">{AA} → {LJ}{LL} → {LP}{LS}{LW}{LY}{MC}{MD}{MF} →FDR</td>
       <td class="center-text">None</td>
       <td class="center-text">None</td>
       <td class="center-text">Fault appears on the A/PDMC Fault List with engines off. Associated with APM-SAU fault on the MCD (DU) Avionics Fault List. Flight Data Recorder operation can be verified after engine start.</td>
       <td class="center-text">None.</td>
     </tr>
     <tr>
-      <td class="center-text"><AA> → <EE>FMCxADTD (x=1, 2)</td>
+      <td class="center-text">{AA} → {EE}FMCxADTD (x=1, 2)</td>
       <td class="center-text">CIP</td>
       <td class="center-text">None</td>
       <td class="center-text">Aircraft have been updated to Block 13/15. Modification of the ADTD and CIP to Block 15 means the CIP looks for the ADTD, AOC printer, and loadmaster printer on the Ethernet. Ethernet hubs do not exist on these aircraft and CIP is not hooked up to Ethernet. This means the CIP will constantly report the failures on the avionics fault list.</td>
       <td class="center-text">None.</td>
     </tr>
     <tr>
-      <td class="center-text"><EF> → <FD>FMCxADTD (x=1, 2)</td>
+      <td class="center-text">{EF} → {FD}FMCxADTD (x=1, 2)</td>
       <td class="center-text">CIP</td>
       <td class="center-text">None</td>
       <td class="center-text">CIP controller reports the printer or ADTD ethernet network ping response functional fault when turned OFF. Faults disappear on avionics fault list when LRUs are turned ON.</td>
       <td class="center-text">No maintenance is required unless fault fails to extinguish after approximately 25 seconds after LRUs are turned ON. Otherwise, refer to TO 1C-17A-2-23FI-00-1, fault chart 23-14.</td>
     </tr>
     <tr>
-      <td class="center-text"><AA> → <EE>FMCxCPTPRT (x=1, 2)</td>
+      <td class="center-text">{AA} → {EE}FMCxCPTPRT (x=1, 2)</td>
       <td class="center-text">CIP</td>
       <td class="center-text">None</td>
       <td class="center-text">Aircraft have been updated to Block 13/15. Modification of the ADTD and CIP to Block 15 means the CIP looks for the ADTD, AOC printer, and loadmaster printer on the Ethernet. Ethernet hubs do not exist on these aircraft and CIP is not hooked up to Ethernet. This means the CIP will constantly report the failures on the avionics fault list.</td>
       <td class="center-text">None.</td>
     </tr>
     <tr>
-      <td class="center-text"><EF> → <FD>FMCxCPTPRT (x=1, 2)</td>
+      <td class="center-text">{EF} → {FD}FMCxCPTPRT (x=1, 2)</td>
       <td class="center-text">CIP</td>
       <td class="center-text">None</td>
       <td class="center-text">CIP controller reports the printer or ADTD ethernet network ping response functional fault when turned OFF. Faults disappear on avionics fault list when LRUs are turned ON.</td>
       <td class="center-text">No maintenance is required unless fault fails to extinguish after approximately 25 seconds after LRUs are turned ON. Otherwise, refer to TO 1C-17A-2-23FI-00-1, fault chart 23-14.</td>
     </tr>
     <tr>
-      <td class="center-text"><AA> → <EE>FMCxLDMPRT (x=1, 2)</td>
+      <td class="center-text">{AA} → {EE}FMCxLDMPRT (x=1, 2)</td>
       <td class="center-text">CIP</td>
       <td class="center-text">None</td>
       <td class="center-text">Aircraft have been updated to Block 13/15. Modification of the ADTD and CIP to Block 15 means the CIP looks for the ADTD, AOC printer, and loadmaster printer on the Ethernet. Ethernet hubs do not exist on these aircraft and CIP is not hooked up to Ethernet. This means the CIP will constantly report the failures on the avionics fault list.</td>
       <td class="center-text">None.</td>
     </tr>
     <tr>
-      <td class="center-text"><EF> →FMCxLDMPRT (x=1, 2)</td>
+      <td class="center-text">{EF} →FMCxLDMPRT (x=1, 2)</td>
       <td class="center-text">CIP</td>
       <td class="center-text">None</td>
       <td class="center-text">CIP controller reports the printer or ADTD ethernet network ping response functional fault when turned OFF. Faults disappear on avionics fault list when LRUs are turned ON.</td>
@@ -451,7 +445,7 @@
       <td class="center-text">No maintenance is required on aircraft.</td>
     </tr>
     <tr>
-      <td class="center-text"><AA> → <JM><JQ> → <KP><KS><KV> → <LB><LE><LF><LH><LL> → <LP><LS><MC><MD><MF> AFTER [2357] BEFORE [2501] IFF TCAS ALT STALE</td>
+      <td class="center-text">{AA} → {JM}{JQ} → {KP}{KS}{KV} → {LB}{LE}{LF}{LH}{LL} → {LP}{LS}{MC}{MD}{MF} AFTER [2357] BEFORE [2501] IFF TCAS ALT STALE</td>
       <td class="center-text">None</td>
       <td class="center-text">None</td>
       <td class="center-text">1. Briefly displayed when performing CCU NVRAM reset.
@@ -473,18 +467,18 @@
       <td class="center-text">None.</td>
     </tr>
     <tr>
-      <td class="center-text"><AA> → <GM>IRU-GPS_AEU x (x=1 or 2)</td>
+      <td class="center-text">{AA} → {GM}IRU-GPS_AEU x (x=1 or 2)</td>
       <td class="center-text">AEU</td>
       <td class="center-text">None</td>
       <td class="center-text">This fault can be caused by the presence of GPS L1 or L2 band interference during AEU power on BIT.</td>
-      <td class="center-text">Check NAV SENSORS-GPS page GPS 1 for AEU 1, GPS 2 for AEU 2. Verify GPS position is correct with a low ERR (<5), and time is updating. When so, no maintenance is required. When GPS position is incorrect or a large ERR exists (>5) for more than 2 hours, swap #1 and #4 IRU (34-43-10). When problem does not follow, check AEU for loose or damaged connectors. When no defect is found, remove and replace AEU.</td>
+      <td class="center-text">Check NAV SENSORS-GPS page GPS 1 for AEU 1, GPS 2 for AEU 2. Verify GPS position is correct with a low ERR ({5), and time is updating. When so, no maintenance is required. When GPS position is incorrect or a large ERR exists (}5) for more than 2 hours, swap #1 and #4 IRU (34-43-10). When problem does not follow, check AEU for loose or damaged connectors. When no defect is found, remove and replace AEU.</td>
     </tr>
     <tr>
-      <td class="center-text"><GN> →IRU-GPS_AEU x (x=1 or 2)</td>
+      <td class="center-text">{GN} →IRU-GPS_AEU x (x=1 or 2)</td>
       <td class="center-text">AEU</td>
       <td class="center-text">None</td>
       <td class="center-text">This fault can be caused by the presence of GPS L1 or L2 band interference during AEU power on BIT.</td>
-      <td class="center-text">The HE and VE are 95% values and do not correspond directly with the relegated ERR value. When verifying GPS accuracy, verify the horizontal and vertical errors (HE and VE) are less than 328 feet (<100 meters). Check NAV SENSORS-MGPS page MGPS 1 for AEU 1, MGPS 2 for AEU 2. Verify MGPS position is correct with a low HE (<350 feet), and time is updating. When so, no maintenance is required. When MGPS position is incorrect or a large HE exists (>350 feet) for more than 2 hours , swap #1 and #4 IRU (34-43-10) . When problem does not follow, check AEU for loose or damaged connectors. When no defect is found, remove and replace AEU.</td>
+      <td class="center-text">The HE and VE are 95% values and do not correspond directly with the relegated ERR value. When verifying GPS accuracy, verify the horizontal and vertical errors (HE and VE) are less than 328 feet ({100 meters). Check NAV SENSORS-MGPS page MGPS 1 for AEU 1, MGPS 2 for AEU 2. Verify MGPS position is correct with a low HE ({350 feet), and time is updating. When so, no maintenance is required. When MGPS position is incorrect or a large HE exists (}350 feet) for more than 2 hours , swap #1 and #4 IRU (34-43-10) . When problem does not follow, check AEU for loose or damaged connectors. When no defect is found, remove and replace AEU.</td>
     </tr>
     <tr>
       <td class="center-text">N2 Mode (1, 2, 3, 4) occurs during engine start APM-CxP2T2P A (x=1, 2, 3, or 4) (C=A, B)</td>
@@ -583,7 +577,7 @@
       <td class="center-text">While observing WAP display, toggle selector panel from AUTO 1 to AUTO 2 and back to original position (or vice versa) to reset. When no WAP message appears, this is a nuisance fault. When WAP message remains, this is valid fault. Replace CP panel.</td>
     </tr>
     <tr>
-      <td class="center-text"><AA> → <CX> BEFORE [1616] <CY> → <FW> BEFORE [1617]WCC-ECS PACKx (x=L or R)</td>
+      <td class="center-text">{AA} → {CX} BEFORE [1616] {CY} → {FW} BEFORE [1617]WCC-ECS PACKx (x=L or R)</td>
       <td class="center-text">ECSC</td>
       <td class="center-text">PACK ANTI-ICE VALVE, LEFT (or RIGHT) WHEEL POD</td>
       <td class="center-text">Legacy ECSC faults pack anti-ice valve during unpressurized high altitude airdrops above FL250 for failing to open. Failure to open is a result of low pack flow during non-normal operating envelope.</td>
@@ -618,7 +612,7 @@
       <td class="center-text">Verify that the WCC-ESM RPT fault and the flashing ESP lights and digits stop after applying APU air and power to aircraft. When condition does not terminate when air and power is applied to aircraft via APU, then perform maintenance per applicable TO.</td>
     </tr>
     <tr>
-      <td class="center-text"><BJ> →WCC-FQC DENSX</td>
+      <td class="center-text">{BJ} →WCC-FQC DENSX</td>
       <td class="center-text">FQC</td>
       <td class="center-text">FUEL DENSX</td>
       <td class="center-text">No. 1, 3, and 4 fuel tank densitometers were faulted on the non-avionics fault list indicating the fuel quantity computer had failed to receive any information from the densitometer in the fuel tank.</td>
@@ -660,7 +654,7 @@
       <td class="center-text">Validate fault by reviewing front panel list. When fault exists, perform maintenance per applicable TO.</td>
     </tr>
     <tr>
-      <td class="center-text"><AA> → <CB>WCC-HCUAPSLVx (x=1 or 2)</td>
+      <td class="center-text">{AA} → {CB}WCC-HCUAPSLVx (x=1 or 2)</td>
       <td class="center-text">HSC</td>
       <td class="center-text">AUX PUMP SERVO VLVx (x=1 or 2)</td>
       <td class="center-text">This fault sometimes occurs during the bus power-up sequence. Since the HSC latches its faults, it will not reset when the fault no longer occurs.</td>
@@ -674,7 +668,7 @@
       <td class="center-text">Validate fault by reviewing front panel list. When fault exists, perform maintenance per applicable TO.</td>
     </tr>
     <tr>
-      <td class="center-text"><AA> → <CB>WCC-HCURSVTTx (x=1, 2, 3, 4)</td>
+      <td class="center-text">{AA} → {CB}WCC-HCURSVTTx (x=1, 2, 3, 4)</td>
       <td class="center-text">HSC</td>
       <td class="center-text">RSVR TEMP XDCRx (x=1, 2, 3, or 4)</td>
       <td class="center-text">This fault sometimes occurs during the bus power-up sequence. Since the HSC latches its faults, it will not reset when the fault no longer occurs.</td>
