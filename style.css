@@ -316,3 +316,7 @@ tr:hover {
   outline: none; /* Remove default focus outline */
   box-shadow: 0 0 5px rgba(74, 144, 226, 0.5); /* Soft glow effect */
 }
+
+.hidden {
+  display: none;
+}

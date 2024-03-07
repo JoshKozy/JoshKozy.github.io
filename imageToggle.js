@@ -8,3 +8,17 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   });
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+  const toggleButtons = document.querySelectorAll('.toggleButton'); // Modified to select all buttons if you have more than one
+  toggleButtons.forEach(button => {
+    button.addEventListener('click', function() {
+      const table = this.nextElementSibling; // Assuming the table directly follows the button
+      if (table.classList.contains('hidden')) {
+        table.classList.remove('hidden');
+      } else {
+        table.classList.add('hidden');
+      }
+    });
+  });
+});
