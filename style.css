@@ -320,3 +320,34 @@ tr:hover {
 .hidden {
   display: none;
 }
+
+.toggleButton {
+  padding: 8px 16px;
+  background-color: #f0f0f0; /* Light background */
+  color: #000; /* Dark text */
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.toggleButton:hover {
+  background-color: #e0e0e0;
+}
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+  .toggleButton {
+    background-color: #0c0c0c; /* Dark background */
+    color: #fffff0; /* Light text */
+    border: 1px solid #444;
+  }
+
+  .toggleButton:hover {
+    background-color: #444;
+  }
+
+  body {
+    background-color: #121212; /* Darker background */
+    color: #e0e0e0; /* Lighter text */
+  }
+}
