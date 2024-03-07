@@ -5301,6 +5301,4332 @@
       ],
       "info": "Ramp Blow Down System, REF DES 9531",
       "page": "system_ref/MESL.html"
+    },
+    {
+      "keywords": [
+        "A/D-D/A"
+      ],
+      "info": "A/D-D/A - Analog/Digital-Digital/Analog",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "A/PDMC"
+      ],
+      "info": "A/PDMC - Aircraft/Propulsion Data Management Computer",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "ABDR"
+      ],
+      "info": "ABDR - Aircraft Battle Damage Repair",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "AC"
+      ],
+      "info": "AC - Aircraft Commander",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "AC"
+      ],
+      "info": "AC - Air Conditioning",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "ACC"
+      ],
+      "info": "ACC - Air Combat Command",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "ACC"
+      ],
+      "info": "ACC - Active Clearance Control",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "ACFT"
+      ],
+      "info": "ACFT - Aircraft",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "ACM"
+      ],
+      "info": "ACM - Additional Crew Member",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "ACMS"
+      ],
+      "info": "ACMS - Additional Crew Member Seat",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "ACP"
+      ],
+      "info": "ACP - Automatic Communication Processing",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "ACR"
+      ],
+      "info": "ACR - Authorization Change Requests",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "AD"
+      ],
+      "info": "AD - Airworthiness Directives",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "ADC"
+      ],
+      "info": "ADC - Air Data Computer",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "ADCON"
+      ],
+      "info": "ADCON - Administrative Control",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "Adjust"
+      ],
+      "info": "Adjust - Adjustment",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "ADLCP"
+      ],
+      "info": "ADLCP - Aerial Delivery Locks Control Panel",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "ADR"
+      ],
+      "info": "ADR - Aircraft Document Review",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "ADS"
+      ],
+      "info": "ADS - Aerial Delivery System",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "ADTD"
+      ],
+      "info": "ADTD - Aircrew Data Transfer Device",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "AETC"
+      ],
+      "info": "AETC - Air Education and Training Command",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "AF"
+      ],
+      "info": "AF - Air Force",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "AFCSM"
+      ],
+      "info": "AFCSM - Air Force Computer Systems Manual",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "AFETS"
+      ],
+      "info": "AFETS - Air Force Engineering and Technical Service",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "AFI"
+      ],
+      "info": "AFI - Air Force Instruction",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "AFLCMC"
+      ],
+      "info": "AFLCMC - Air Force Life Cycle Management Center",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "AFMAN"
+      ],
+      "info": "AFMAN - Air Force Manual",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "AFMC"
+      ],
+      "info": "AFMC - Air Force Materiel Command",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "AFPAM"
+      ],
+      "info": "AFPAM - Air Force Pamphlet",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "AFPD"
+      ],
+      "info": "AFPD - Air Force Policy Directive",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "AFR"
+      ],
+      "info": "AFR - Air Force Reserve Command",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "AFREP"
+      ],
+      "info": "AFREP - Air Force Repair and Enhancement Program",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "AFRIMS"
+      ],
+      "info": "AFRIMS - Air Force Records Information Management System",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "AFSC"
+      ],
+      "info": "AFSC - Air Force Specialty Code",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "AFSCI"
+      ],
+      "info": "AFSCI - Air Force Sustainment Center Instruction",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "AFSOC"
+      ],
+      "info": "AFSOC - Air Force Special Operations Command",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "AFTO"
+      ],
+      "info": "AFTO - Air Force Technical Order",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "AGE"
+      ],
+      "info": "AGE - Aerospace Ground Equipment",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "AGILE"
+      ],
+      "info": "AGILE - Automated G-File",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "AGM"
+      ],
+      "info": "AGM - Air-to-Ground Missile",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "AGR"
+      ],
+      "info": "AGR - Active Guard Reserve",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "AIDS"
+      ],
+      "info": "AIDS - Airborne Integrated Data System",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "AIRCAT"
+      ],
+      "info": "AIRCAT - Automated Inspection, Repair, Corrosion, and Aircraft Tracking",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "AIU"
+      ],
+      "info": "AIU - Aircraft Interface Unit",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "ALC"
+      ],
+      "info": "ALC - Air Logistics Complex",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "ALIS"
+      ],
+      "info": "ALIS - Autonomic Logistics Information System",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "AMC"
+      ],
+      "info": "AMC - Air Mobility Command",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "AME"
+      ],
+      "info": "AME - Alternate Mission Equipment",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "AMS"
+      ],
+      "info": "AMS - Air Mobility Squadron",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "AMU"
+      ],
+      "info": "AMU - Aircraft Maintenance Unit",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "AMXS"
+      ],
+      "info": "AMXS - Aircraft Maintenance Squadron",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "ANDVT"
+      ],
+      "info": "ANDVT - Advanced Narrowband Digital Voice Terminal",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "ANG"
+      ],
+      "info": "ANG - Air National Guard",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "AOC"
+      ],
+      "info": "AOC - Airline Operation Control",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "AP/ATS"
+      ],
+      "info": "AP/ATS - Automatic Pilot/Automatic Throttle System",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "APM"
+      ],
+      "info": "APM - Antenna Preamp Module",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "APU"
+      ],
+      "info": "APU - Auxiliary Power Unit",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "AQL"
+      ],
+      "info": "AQL - Acceptable Quality Level",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "ARC"
+      ],
+      "info": "ARC - Air Reserve Component",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "ART"
+      ],
+      "info": "ART - Air Reserve Technician",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "AS"
+      ],
+      "info": "AS - Allowance Standard",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "ASC"
+      ],
+      "info": "ASC - Aircraft Service Changes",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "ASIP"
+      ],
+      "info": "ASIP - Aircraft Structural Integrity Program",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "ASM"
+      ],
+      "info": "ASM - Aircraft Structural Maintenance",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "ASM"
+      ],
+      "info": "ASM - Air Separation Module",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "AUD"
+      ],
+      "info": "AUD - Annunciator Dimming Unit",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "AVDO"
+      ],
+      "info": "AVDO - Aerospace Vehicle Distribution Office",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "AWM"
+      ],
+      "info": "AWM - Awaiting Maintenance",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "AWP"
+      ],
+      "info": "AWP - Awaiting Parts",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "BAS"
+      ],
+      "info": "BAS - Bleed Air System",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "BCS"
+      ],
+      "info": "BCS - Bench Check Serviceable",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "BIT"
+      ],
+      "info": "BIT - Built-in Test",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "BMM"
+      ],
+      "info": "BMM - Bulk Memory Module",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "BSIU"
+      ],
+      "info": "BSIU - Bus System Interface Unit",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "BSL"
+      ],
+      "info": "BSL - Basic Systems Listing",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "BSP"
+      ],
+      "info": "BSP - Base Support Plan",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "CA"
+      ],
+      "info": "CA - Cannibalization Authority",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "CA/CRL"
+      ],
+      "info": "CA/CRL - Custodian Authorization/Custody Receipt Listing",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "CAAP"
+      ],
+      "info": "CAAP - COMAFFOR Apportionment and Allocation Process",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "CAD/PAD"
+      ],
+      "info": "CAD/PAD - Cartridge Actuated Device/Propellant Actuated Device",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "CAF"
+      ],
+      "info": "CAF - Combat Air Forces",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "CAI"
+      ],
+      "info": "CAI - Critical Application Items",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "CAIC"
+      ],
+      "info": "CAIC - C-17 Avionic Interface Card",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "CANN"
+      ],
+      "info": "CANN - Cannibalization",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "CASP"
+      ],
+      "info": "CASP - Common Advanced System Processor",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "CAT I"
+      ],
+      "info": "CAT I - Category I",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "CAT II"
+      ],
+      "info": "CAT II - Category II",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "CAWS"
+      ],
+      "info": "CAWS - Central Aural Warning System",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "CB"
+      ],
+      "info": "CB - Customer Bulletins",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "CBM+"
+      ],
+      "info": "CBM+ - Condition-Based Maintenance Plus",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "CBRNE"
+      ],
+      "info": "CBRNE - Chemical, Biological, Radiological, Nuclear and high-yield Explosive",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "CBU"
+      ],
+      "info": "CBU - Cluster Bomb Unit",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "CCDL"
+      ],
+      "info": "CCDL - Cross Channel Data Link",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "CCIP"
+      ],
+      "info": "CCIP - Commanders Inspection Program",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "CCP"
+      ],
+      "info": "CCP - Command Control Point",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "CCU"
+      ],
+      "info": "CCU - Communication Control Unit",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "CCW"
+      ],
+      "info": "CCW - Counter Chemical Warfare",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "CCY"
+      ],
+      "info": "CCY - Calculated Cycles",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "CD"
+      ],
+      "info": "CD - Deputy Commander (MXG/CD)",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "CDA"
+      ],
+      "info": "CDA - Commercial Derivative Aircraft",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "CDB"
+      ],
+      "info": "CDB - Central Database",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "CDDAR"
+      ],
+      "info": "CDDAR - Crashed, Damaged or Disabled Aircraft Recovery",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "CDS"
+      ],
+      "info": "CDS - Container Delivery System",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "CDS"
+      ],
+      "info": "CDS - Countermeasure Dispensing System",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "CDU"
+      ],
+      "info": "CDU - Central Display Unit",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "CE"
+      ],
+      "info": "CE - Civil Engineer",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "CEMS"
+      ],
+      "info": "CEMS - Comprehensive Engine Management System",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "CETS"
+      ],
+      "info": "CETS - Contractor Engineering and Technical Services",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "CFDU"
+      ],
+      "info": "CFDU - Central Fault Display Unit",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "CFETP"
+      ],
+      "info": "CFETP - Career Field Education and Training Plan",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "CFT"
+      ],
+      "info": "CFT - Contract Field Team",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "CIP"
+      ],
+      "info": "CIP - Core Integrated Processor",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "CIVV"
+      ],
+      "info": "CIVV - Compressor Inlet Variable Vane",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "CL"
+      ],
+      "info": "CL - Center Line",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "CM"
+      ],
+      "info": "CM - Configuration Management",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "CM"
+      ],
+      "info": "CM - Configuration Module",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "CM"
+      ],
+      "info": "CM - Communications Management Unit",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "CMS"
+      ],
+      "info": "CMS - Component Maintenance Squadron",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "CNC"
+      ],
+      "info": "CNC - Communication Navigation Control",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "CND"
+      ],
+      "info": "CND - Can Not Duplicate",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "COMAFFOR"
+      ],
+      "info": "COMAFFOR - Commander, Air Force Forces",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "COMSEC"
+      ],
+      "info": "COMSEC - Communications Security",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "Cont/Exp"
+      ],
+      "info": "Cont/Exp - Contingency/Expeditionary",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "CONUS"
+      ],
+      "info": "CONUS - Continental United States",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "CPCS"
+      ],
+      "info": "CPCS - Cabin Pressure Control System",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "CPINS"
+      ],
+      "info": "CPINS - Computer Program Identification Numbering System",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "CPIP"
+      ],
+      "info": "CPIP - Cabin Pressure Indicator Panel",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "CRF"
+      ],
+      "info": "CRF - Centralized Repair Facility",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "CSI"
+      ],
+      "info": "CSI - Critical Safety Items",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "CSMU"
+      ],
+      "info": "CSMU - Crash Survivable Memory Unit",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "CSSA"
+      ],
+      "info": "CSSA - Control Stick Sensor Assembly",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "CTK"
+      ],
+      "info": "CTK - Composite Tool Kit",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "CUI"
+      ],
+      "info": "CUI - Controlled Unclassified Information",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "CVR"
+      ],
+      "info": "CVR - Cockpit Voice Recorder",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "D23"
+      ],
+      "info": "D23 - Repair Cycle Asset Management Listing",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "DACT"
+      ],
+      "info": "DACT - Dissimilar Air Combat Tactics",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "DB"
+      ],
+      "info": "DB - Data Bus",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "DBM"
+      ],
+      "info": "DBM - Database Manager",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "DCA"
+      ],
+      "info": "DCA - Design Control Activity",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "DCC"
+      ],
+      "info": "DCC - Dedicated Crew Chief",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "DCMA"
+      ],
+      "info": "DCMA - Defense Contract Management Agency",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "DCPS"
+      ],
+      "info": "DCPS - Direct Current Power Supply",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "DDR"
+      ],
+      "info": "DDR - Daily Demand Rate",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "DFT"
+      ],
+      "info": "DFT - Depot Field Team",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "DI"
+      ],
+      "info": "DI - Dual Inline",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "DIAMONDS"
+      ],
+      "info": "DIAMONDS - Defense Integration and Management of Nuclear Data Services",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "DIFM"
+      ],
+      "info": "DIFM - Due-in From Maintenance",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "DISA"
+      ],
+      "info": "DISA - Defense Information System Agency",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "DIT"
+      ],
+      "info": "DIT - Data Integrity Team",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "DLA"
+      ],
+      "info": "DLA - Defense Logistics Agency",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "DLADS"
+      ],
+      "info": "DLADS - Defense Logistics Agency Disposition Service",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "DLNA"
+      ],
+      "info": "DLNA - Diplexer Low Noise Amplifier",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "DLRG"
+      ],
+      "info": "DLRG - Digital Laser Ring Gyro",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "DMS"
+      ],
+      "info": "DMS - Decentralized Materiel Support",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "DOC"
+      ],
+      "info": "DOC - Designed Operational Capability",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "DoD"
+      ],
+      "info": "DoD - Department of Defense",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "DoDD"
+      ],
+      "info": "DoDD - Department of Defense Directive",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "DoDI"
+      ],
+      "info": "DoDI - Department of Defense Instruction",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "DOI"
+      ],
+      "info": "DOI - Date of Installation",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "DOM"
+      ],
+      "info": "DOM - Date of Manufacture / Director of Maintenance",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "DOP"
+      ],
+      "info": "DOP - Dropped Object Prevention / Director of Propulsion",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "DR"
+      ],
+      "info": "DR - Deficiency Report",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "DRC"
+      ],
+      "info": "DRC - Dynamic Retasking Capability",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "DRU"
+      ],
+      "info": "DRU - Direct Report Unit",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "DSV"
+      ],
+      "info": "DSV - Detected Safety Violations",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "DT&E"
+      ],
+      "info": "DT&E - Development Testing and Evaluation",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "DTOS"
+      ],
+      "info": "DTOS - Digital Technical Order System",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "DU"
+      ],
+      "info": "DU - Display Unit",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "E&E"
+      ],
+      "info": "E&E - Electrical & Environmental",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "E&I"
+      ],
+      "info": "E&I - Evaluation and Inspection",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "EAWP"
+      ],
+      "info": "EAWP - Engine Automated Work Package",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "EBU"
+      ],
+      "info": "EBU - Engine Build-up",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "ECCM"
+      ],
+      "info": "ECCM - Electronic Counter-Measures",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "ECM"
+      ],
+      "info": "ECM - Electronic Countermeasures",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "ECS"
+      ],
+      "info": "ECS - Environmental Control System",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "ED"
+      ],
+      "info": "ED - Incapacitated",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "ED"
+      ],
+      "info": "ED - Engine Driven",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "EEC"
+      ],
+      "info": "EEC - Electronic Engine Control",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "EFCS"
+      ],
+      "info": "EFCS - Electronic Flight Control System",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "EGT"
+      ],
+      "info": "EGT - Exhaust Gas Temperature",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "EHM+"
+      ],
+      "info": "EHM+ - Engine Health Management",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "EHR"
+      ],
+      "info": "EHR - Event History Recorder",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "EID"
+      ],
+      "info": "EID - Event Identification Description / Equipment Identification Designator",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "ELT"
+      ],
+      "info": "ELT - Emergency Locator Transmitter",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "EM"
+      ],
+      "info": "EM - Engine Management/Emergency Management",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "EMI"
+      ],
+      "info": "EMI - Electromagnetic Interference",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "EMS"
+      ],
+      "info": "EMS - Equipment Maintenance Squadron",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "EMXG/CC"
+      ],
+      "info": "EMXG/CC - Expeditionary Maintenance Group Commander",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "ENMCS"
+      ],
+      "info": "ENMCS - Engine Not Mission Capable for Supply",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "EOD"
+      ],
+      "info": "EOD - Explosive Ordnance Disposal",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "EOR"
+      ],
+      "info": "EOR - End of Runway",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "EOT"
+      ],
+      "info": "EOT - Engine Operating Time",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "EPC"
+      ],
+      "info": "EPC - Electrical Power Center",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "EPCU"
+      ],
+      "info": "EPCU - Electrical Power Control Unit",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "EPE"
+      ],
+      "info": "EPE - Evaluator Proficiency Evaluation",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "ER"
+      ],
+      "info": "ER - Exceptional Release",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "ER"
+      ],
+      "info": "ER - Extended Range",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "ERRC"
+      ],
+      "info": "ERRC - Expendability, Recoverability, Reparability Code",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "ES"
+      ],
+      "info": "ES - Equipment Specialist",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "ESC"
+      ],
+      "info": "ESC - Environmental System Controller",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "ESCP"
+      ],
+      "info": "ESCP - Environmental System Control Panel",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "ESOH"
+      ],
+      "info": "ESOH - Environment Safety and Occupational Health",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "ESOHMS"
+      ],
+      "info": "ESOHMS - Environment, Safety, and Occupational Health Management System",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "ESP"
+      ],
+      "info": "ESP - Expeditionary Site Plan",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "ESS"
+      ],
+      "info": "ESS - Environmental Stress Screening",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "ET&D"
+      ],
+      "info": "ET&D - Engine Trending and Diagnostics",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "ETIC"
+      ],
+      "info": "ETIC - Estimated Time in Commission",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "ETIMS"
+      ],
+      "info": "ETIMS - Enhanced Technical Information Management System",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "eTools"
+      ],
+      "info": "eTools - Electronic Tools",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "ETS"
+      ],
+      "info": "ETS - Engineering and Technical Services/Engine Test Stand",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "EV"
+      ],
+      "info": "EV - Deviation",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "EW"
+      ],
+      "info": "EW - Electronic Warfare",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "EWS"
+      ],
+      "info": "EWS - Electronic Warfare System",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "EX"
+      ],
+      "info": "EX - Exercises/Contingencies",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "FAA"
+      ],
+      "info": "FAA - Federal Aviation Administration",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "FAB"
+      ],
+      "info": "FAB - Field Assistance Branch",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "FAR"
+      ],
+      "info": "FAR - Federal Acquisition Regulation",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "FCC"
+      ],
+      "info": "FCC - Flying Crew Chief",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "FCC"
+      ],
+      "info": "FCC - Flight Control Computer",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "FCDB"
+      ],
+      "info": "FCDB - Flight Control Data Bus",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "FCF"
+      ],
+      "info": "FCF - Functional Check Flight",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "FCS"
+      ],
+      "info": "FCS - Flight Control System",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "FD"
+      ],
+      "info": "FD - Fixed Deflector",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "FEDS"
+      ],
+      "info": "FEDS - Flotation Equipment Deployment System",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "FGC"
+      ],
+      "info": "FGC - Force Generation Center",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "FGC BW"
+      ],
+      "info": "FGC BW - Force Generation Center Battle Watch",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "FHP"
+      ],
+      "info": "FHP - Flying Hour Program",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "FIREX"
+      ],
+      "info": "FIREX - Fire Extinguisher",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "FLAN"
+      ],
+      "info": "FLAN - Flying Local Area Network",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "FLE"
+      ],
+      "info": "FLE - Forward Leading Edge",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "FO"
+      ],
+      "info": "FO - Foreign Object",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "FOA"
+      ],
+      "info": "FOA - Field Operating Unit",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "FOD"
+      ],
+      "info": "FOD - Foreign Object Damage",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "FOD"
+      ],
+      "info": "FOD - Foreign Object Damage",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "FOM"
+      ],
+      "info": "FOM - Facilitate Other Maintenance",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "FOM"
+      ],
+      "info": "FOM - Facilitate Other Maintenance",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "FOUO"
+      ],
+      "info": "FOUO - For Official Use Only",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "FSE"
+      ],
+      "info": "FSE - Flying Schedule Effectiveness",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "FSL"
+      ],
+      "info": "FSL - Full Systems Listing",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "FSR"
+      ],
+      "info": "FSR - Field Service Representatives",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "FSU"
+      ],
+      "info": "FSU - Fail Shear Ultimate",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "FTU"
+      ],
+      "info": "FTU - Force Tension Ultimate",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "FY"
+      ],
+      "info": "FY - Fiscal Year",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "G/CC"
+      ],
+      "info": "G/CC - Operations Group Commander",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "GBU"
+      ],
+      "info": "GBU - Guided Bomb Unit",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "GCU"
+      ],
+      "info": "GCU - Generator Control Unit",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "GEOLOC"
+      ],
+      "info": "GEOLOC - Geographical Location",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "GITA"
+      ],
+      "info": "GITA - Ground Instructional Trainer Aircraft",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "GOX"
+      ],
+      "info": "GOX - Gaseous Oxygen",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "GP"
+      ],
+      "info": "GP - Group",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "GPS"
+      ],
+      "info": "GPS - Global Positioning System",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "GRU"
+      ],
+      "info": "GRU - Ground Refueling Unit",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "GSU"
+      ],
+      "info": "GSU - Geographically Separated Units",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "HAF"
+      ],
+      "info": "HAF - Headquarters, US Air Force",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "HAZMAT"
+      ],
+      "info": "HAZMAT - Hazardous Material",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "HC/D"
+      ],
+      "info": "HC/D - Hazard Class Division",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "HF"
+      ],
+      "info": "HF - High Frequency",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "HGA"
+      ],
+      "info": "HGA - High Gain Antenna",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "HHQ"
+      ],
+      "info": "HHQ - Higher Headquarters",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "HMC"
+      ],
+      "info": "HMC - How Malfunction Code",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "HMSA"
+      ],
+      "info": "HMSA - Hatch Mounted Satellite Antenna",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "HPA"
+      ],
+      "info": "HPA - High Power Amplifier",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "HPC"
+      ],
+      "info": "HPC - High Pressure Compressor",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "HPO"
+      ],
+      "info": "HPO - Hourly Post-flight",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "HPT"
+      ],
+      "info": "HPT - High Pressure Turbine",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "HQ"
+      ],
+      "info": "HQ - Headquarters",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "HRP"
+      ],
+      "info": "HRP - Headset Receptacle Panel",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "HSC"
+      ],
+      "info": "HSC - Home Station Check",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "HSC"
+      ],
+      "info": "HSC - Home Station Check",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "HUD"
+      ],
+      "info": "HUD - Head Up Display",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "HX"
+      ],
+      "info": "HX - Any of the holding leg types (HA, HM, or HT)",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "I/O"
+      ],
+      "info": "I/O - Input/Output",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "I/UA"
+      ],
+      "info": "I/UA - Immediate and Urgent Action",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "IAW"
+      ],
+      "info": "IAW - In Accordance With",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "IC"
+      ],
+      "info": "IC - Infrared Countermeasures",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "ICT"
+      ],
+      "info": "ICT - Integrated Combat Turn",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "ID"
+      ],
+      "info": "ID - Identification / Integrated Defense",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "I-Deck"
+      ],
+      "info": "I-Deck - Initialization Deck",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "IDGS"
+      ],
+      "info": "IDGS - Integrated Drive Generator System",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "IETM"
+      ],
+      "info": "IETM - Interactive Electronic Technical Manuals",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "IFCS"
+      ],
+      "info": "IFCS - Instrument and Flight Control Systems",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "IFE"
+      ],
+      "info": "IFE - In-Flight Emergency",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "IFR"
+      ],
+      "info": "IFR - In Flight Refueling",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "IGA"
+      ],
+      "info": "IGA - Intermediate Gain Antenna",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "ILS-S"
+      ],
+      "info": "ILS-S - Integrated Logistics Systems-Supply",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "IMDS"
+      ],
+      "info": "IMDS - Integrated Maintenance Data System",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "IMIS"
+      ],
+      "info": "IMIS - Integrated Maintenance Information System",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "IMS"
+      ],
+      "info": "IMS - International Maritime Satellite",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "IOP"
+      ],
+      "info": "IOP - Input Output Processor",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "IOT&E"
+      ],
+      "info": "IOT&E - Initial Operational Testing and Evaluation",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "IP"
+      ],
+      "info": "IP - Instructor Pilot",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "IPCOT"
+      ],
+      "info": "IPCOT - In-Place Consecutive Overseas Tour",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "IPI"
+      ],
+      "info": "IPI - In-Process Inspection",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "IRM"
+      ],
+      "info": "IRM - Integrated Radio Management System",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "IRP"
+      ],
+      "info": "IRP - Interphone Receptacle Panel",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "IRU"
+      ],
+      "info": "IRU - Inertial Reference Unit",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "ISO"
+      ],
+      "info": "ISO - Isochronal Inspection",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "ISU"
+      ],
+      "info": "ISU - Intercommunication Station Unit",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "ISU/DOR"
+      ],
+      "info": "ISU/DOR - Issue/Due-Out Release",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "JCN"
+      ],
+      "info": "JCN - Job Control Number",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "JDD"
+      ],
+      "info": "JDD - Job Data Documentation",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "JDRS"
+      ],
+      "info": "JDRS - Joint Deficiency Reporting System",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "JEDMICS"
+      ],
+      "info": "JEDMICS - Joint Engineering Data management Information and Control System",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "JEIM"
+      ],
+      "info": "JEIM - Jet Engine Intermediate Maintenance",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "JML"
+      ],
+      "info": "JML - Job Standard Master Listing",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "JOAP"
+      ],
+      "info": "JOAP - Joint Oil Analysis Program",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "JST"
+      ],
+      "info": "JST - Job Standard",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "KSI"
+      ],
+      "info": "KSI - Thousand Pounds Per Square Inch",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "KTL"
+      ],
+      "info": "KTL - Key Task List",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "LAN"
+      ],
+      "info": "LAN - Local Area Network",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "LCFUS"
+      ],
+      "info": "LCFUS - Left Center Fuselage Inch",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "LCN"
+      ],
+      "info": "LCN - Logistics Control Number",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "LEAP"
+      ],
+      "info": "LEAP - Logistics Evaluation Assurance Program",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "LEP"
+      ],
+      "info": "LEP - Load Master\u2019s Environmental Control Panel",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "LM"
+      ],
+      "info": "LM - Limited-use Munition",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "LM"
+      ],
+      "info": "LM - Load Master",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "LME"
+      ],
+      "info": "LME - Locally Manufactured Equipment",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "LMR"
+      ],
+      "info": "LMR - Land Mobile Radio",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "LNA"
+      ],
+      "info": "LNA - Low Noise Amplifier",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "LO"
+      ],
+      "info": "LO - Low Observable",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "LOX"
+      ],
+      "info": "LOX - Liquid Oxygen",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "LPC"
+      ],
+      "info": "LPC - Low Pressure Compressor",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "LPT"
+      ],
+      "info": "LPT - Low Pressure Turbine",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "LPT"
+      ],
+      "info": "LPT - Low Pressure Turbine",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "LRS"
+      ],
+      "info": "LRS - Logistics Readiness Squadron",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "LRU"
+      ],
+      "info": "LRU - Line Replaceable Unit",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "LSC"
+      ],
+      "info": "LSC - Load Standardization Crew",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "LV"
+      ],
+      "info": "LV - Emergency Leave",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "MAF"
+      ],
+      "info": "MAF - Mobility Air Forces",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "MAJCOM"
+      ],
+      "info": "MAJCOM - Major Command",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "MAR"
+      ],
+      "info": "MAR - Maintenance Assistance Request",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "MB"
+      ],
+      "info": "MB - Mission Bus",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "MC"
+      ],
+      "info": "MC - Mission Capable",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "MC"
+      ],
+      "info": "MC - Mission Computer",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "MCD"
+      ],
+      "info": "MCD - Mission Computer Display",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "MCK"
+      ],
+      "info": "MCK - Mission Computer Keyboard",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "MDF"
+      ],
+      "info": "MDF - Mission Data File",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "MDS"
+      ],
+      "info": "MDS - Mission Design Series",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "MEL"
+      ],
+      "info": "MEL - Minimum Equipment Level",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "MESL"
+      ],
+      "info": "MESL - Minimum Essential Subsystems List",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "MFC"
+      ],
+      "info": "MFC - Multifunction Control",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "MFD"
+      ],
+      "info": "MFD - Multifunction Display",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "MFG"
+      ],
+      "info": "MFG - Munitions Family Group",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "MFM"
+      ],
+      "info": "MFM - MAJCOM Functional Manager",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "MGN"
+      ],
+      "info": "MGN - Mission Generation Networks",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "MI"
+      ],
+      "info": "MI - Management Inspection",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "MIB"
+      ],
+      "info": "MIB - Master Interconnect Board",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "MICAP"
+      ],
+      "info": "MICAP - Mission Impaired Capability Awaiting Parts",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "MIL"
+      ],
+      "info": "MIL - Master Inventory List",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "MILSPEC"
+      ],
+      "info": "MILSPEC - Military Specification",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "MIL-STD"
+      ],
+      "info": "MIL-STD - Military Standard",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "Miprcs"
+      ],
+      "info": "Miprcs - Microprocessor",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "MIS"
+      ],
+      "info": "MIS - Maintenance Information Systems",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "MLS"
+      ],
+      "info": "MLS - Microwave Landing System",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "MMA"
+      ],
+      "info": "MMA - Maintenance Management Analysis",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "MMHE"
+      ],
+      "info": "MMHE - Munitions Materiel Handling Equipment",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "MMP"
+      ],
+      "info": "MMP - Maintenance Monitor Panel",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "MMR"
+      ],
+      "info": "MMR - Multimode Receiver",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "MOA"
+      ],
+      "info": "MOA - Memorandum of Agreement",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "MOC"
+      ],
+      "info": "MOC - Maintenance Operations Center",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "MOU"
+      ],
+      "info": "MOU - Memorandum of Understanding",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "MPS"
+      ],
+      "info": "MPS - Military Personnel Section",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "MRPL"
+      ],
+      "info": "MRPL - Minimum Required Proficiency Load",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "MRSP"
+      ],
+      "info": "MRSP - Mobility Readiness Spares Package",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "MSA"
+      ],
+      "info": "MSA - Munitions Storage Area",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "MSE"
+      ],
+      "info": "MSE - Maintenance Scheduling Effectiveness",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "MSEP"
+      ],
+      "info": "MSEP - Maintenance Standardization & Evaluation Program",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "MSG"
+      ],
+      "info": "MSG - Mission Support Group",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "MSM"
+      ],
+      "info": "MSM - DS Maintenance Scheduling Module",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "MT"
+      ],
+      "info": "MT - Maintenance Training",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "MT"
+      ],
+      "info": "MT - Maintenance (for deviation codes only)",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "MUDM"
+      ],
+      "info": "MUDM - Maintenance User Data Module",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "MUNS"
+      ],
+      "info": "MUNS - Munitions Squadron",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "MWS"
+      ],
+      "info": "MWS - Missile Warning System",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "MX"
+      ],
+      "info": "MX - Maintenance",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "MX SUPT"
+      ],
+      "info": "MX SUPT - Maintenance Superintendent",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "MxCAP2"
+      ],
+      "info": "MxCAP2 - Maintenance Capability and Capacity (model)",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "MXG"
+      ],
+      "info": "MXG - Maintenance Group",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "MXG/CC"
+      ],
+      "info": "MXG/CC - Maintenance Group Commander",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "MXG/CD"
+      ],
+      "info": "MXG/CD - Maintenance Group Deputy Commander",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "MXO"
+      ],
+      "info": "MXO - Maintenance Operations",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "MXS"
+      ],
+      "info": "MXS - Maintenance Squadron",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "N/EAT"
+      ],
+      "info": "N/EAT - Nacelle/Engine Affordability Team",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "NAF"
+      ],
+      "info": "NAF - Numbered Air Force",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "NATO"
+      ],
+      "info": "NATO - North Atlantic Treaty Organization",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "NCE"
+      ],
+      "info": "NCE - Nuclear Certified Equipment",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "NCOIC"
+      ],
+      "info": "NCOIC - Non-Commissioned Officer in Charge",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "NDI"
+      ],
+      "info": "NDI - Nondestructive Inspection",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "NEA"
+      ],
+      "info": "NEA - Nitrogen Enriched Air",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "NIE"
+      ],
+      "info": "NIE - Normally Installed Equipment",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "NLT"
+      ],
+      "info": "NLT - Not Later Than",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "NMC"
+      ],
+      "info": "NMC - Non Mission Capable",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "NOC"
+      ],
+      "info": "NOC - Not Otherwise Coded",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "NORAD"
+      ],
+      "info": "NORAD - North American Aerospace Defense Command",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "NPA"
+      ],
+      "info": "NPA - Non-Powered AGE",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "NRTS"
+      ],
+      "info": "NRTS - Not Repairable This Station",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "NSN"
+      ],
+      "info": "NSN - National Stock Number",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "NSS"
+      ],
+      "info": "NSS - Noise Suppression System",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "NVG"
+      ],
+      "info": "NVG - Night Vision Goggles",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "NWRM"
+      ],
+      "info": "NWRM - Nuclear Weapons-Related Materiel",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "NWS"
+      ],
+      "info": "NWS - Nose Wheel Steering",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "O&M"
+      ],
+      "info": "O&M - Operations and Maintenance",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "OAP"
+      ],
+      "info": "OAP - Oil Analysis Program",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "OBIGGS"
+      ],
+      "info": "OBIGGS - On-Board Inert Gas Generating Systems",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "OBOGS"
+      ],
+      "info": "OBOGS - On-Board Oxygen Generating Systems",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "OCF"
+      ],
+      "info": "OCF - Operational Check Flight",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "OCONUS"
+      ],
+      "info": "OCONUS - Outside Continental U.S.",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "OF"
+      ],
+      "info": "OF - Oil Fill",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "OFLV"
+      ],
+      "info": "OFLV - Outflow Valve",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "OFP"
+      ],
+      "info": "OFP - Operations Flight Program",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "OG"
+      ],
+      "info": "OG - Operations Group",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "OI"
+      ],
+      "info": "OI - Operating Instruction",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "OIC"
+      ],
+      "info": "OIC - Officer in Charge",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "OJT"
+      ],
+      "info": "OJT - On-the-Job Training",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "OPDIR"
+      ],
+      "info": "OPDIR - Operational Direction",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "OPLAN"
+      ],
+      "info": "OPLAN - Operational Plan",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "OPR"
+      ],
+      "info": "OPR - Office of Primary Responsibility",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "OPREP"
+      ],
+      "info": "OPREP - Operations Report",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "Ops"
+      ],
+      "info": "Ops - Operations Squadron",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "ORE"
+      ],
+      "info": "ORE - Operational Readiness Exercises",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "OS"
+      ],
+      "info": "OS - Operational Squadron",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "OSS"
+      ],
+      "info": "OSS - Operations Support Squadron",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "OSS&E"
+      ],
+      "info": "OSS&E - Operational Safety Suitability and Effectiveness",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "OT&E"
+      ],
+      "info": "OT&E - Operational Testing and Evaluation",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "OTI"
+      ],
+      "info": "OTI - One Time Inspection",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "OWC"
+      ],
+      "info": "OWC - Owning Work Center",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "P&R"
+      ],
+      "info": "P&R - Programs and Resources",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "P/CP"
+      ],
+      "info": "P/CP - Pilot/Copilot",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "PA"
+      ],
+      "info": "PA - Passenger Address",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "PAA"
+      ],
+      "info": "PAA - Primary Aerospace Vehicle (Aircraft) Authorized",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "PAC"
+      ],
+      "info": "PAC - Public Address Control",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "PACAF"
+      ],
+      "info": "PACAF - Pacific Air Forces",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "PAFSC"
+      ],
+      "info": "PAFSC - Primary AFSC",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "PAI"
+      ],
+      "info": "PAI - Primary Aerospace Vehicle (Aircraft) Inventory",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "PAS"
+      ],
+      "info": "PAS - Protective Aircraft Shelter / Personnel Assignment Symbol (Code)",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "PBR"
+      ],
+      "info": "PBR - Percent of Base Repair",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "PCMCIA"
+      ],
+      "info": "PCMCIA - Personal Computer Memory Card International Association",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "PCS"
+      ],
+      "info": "PCS - Permanent Change of Station",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "PDM"
+      ],
+      "info": "PDM - Programmed Depot Maintenance",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "PDP"
+      ],
+      "info": "PDP - P Differential Pressure",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "PDT"
+      ],
+      "info": "PDT - Pole Double Throw",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "PE"
+      ],
+      "info": "PE - Personnel Evaluation/Periodic Inspection",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "PE"
+      ],
+      "info": "PE - Periodic Inspection",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "PED"
+      ],
+      "info": "PED - Portable Electronic Device",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "PH"
+      ],
+      "info": "PH - Phase",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "PIC"
+      ],
+      "info": "PIC - Purpose Identifier Code / Pilot In Charge",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "PII"
+      ],
+      "info": "PII - Personally Identifiable Information",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "PIM"
+      ],
+      "info": "PIM - Product Improvement Manager",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "PIP"
+      ],
+      "info": "PIP - Product Improvement Program",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "PLSR"
+      ],
+      "info": "PLSR - Precision Landing System Receiver",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "PM"
+      ],
+      "info": "PM - Primary Munition/Program Manager",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "PMA"
+      ],
+      "info": "PMA - Portable Maintenance Aids",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "PMA"
+      ],
+      "info": "PMA - Permanent Magnet Alternator",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "PMC"
+      ],
+      "info": "PMC - Partially Mission Capable",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "PMD"
+      ],
+      "info": "PMD - Portable Mission Display",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "PME"
+      ],
+      "info": "PME - Precision Measurement Equipment",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "PMEL"
+      ],
+      "info": "PMEL - Precision Measurement Equipment Laboratory",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "PMO"
+      ],
+      "info": "PMO - Program Management Office",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "PO"
+      ],
+      "info": "PO - Program Office",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "POC"
+      ],
+      "info": "POC - Point of Contact",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "PPE"
+      ],
+      "info": "PPE - Personal Protective Equipment",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "PRP"
+      ],
+      "info": "PRP - Personnel Reliability Program",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "PRS"
+      ],
+      "info": "PRS - Performance Requirements Statement",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "PS&D"
+      ],
+      "info": "PS&D - Plans, Scheduling, and Documentation",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "PSDAU"
+      ],
+      "info": "PSDAU - Proximity Sensor Data Acquisition Unit",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "PSIU"
+      ],
+      "info": "PSIU - Proximity Sensor Interface Unit",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "PWB"
+      ],
+      "info": "PWB - Printed Wiring Board",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "PWS"
+      ],
+      "info": "PWS - Performance Work Statement",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "QA"
+      ],
+      "info": "QA - Quality Assurance",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "QAD"
+      ],
+      "info": "QAD - Quick Attach/Detach",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "QAR"
+      ],
+      "info": "QAR - Quick Access Recorder",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "QASP"
+      ],
+      "info": "QASP - Quality Assurance Surveillance Plan",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "QE"
+      ],
+      "info": "QE - Quarterly Evaluation",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "QEC"
+      ],
+      "info": "QEC - Quick Engine Change",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "QRL"
+      ],
+      "info": "QRL - Quick Reference List",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "QVI"
+      ],
+      "info": "QVI - Quality Verification Inspections",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "RAMPOD"
+      ],
+      "info": "RAMPOD - Reliability, Availability, Maintainability for Pods",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "RAS"
+      ],
+      "info": "RAS - Reserve Airlift Support",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "RAS"
+      ],
+      "info": "RAS - Retriever Arm System",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "RAT"
+      ],
+      "info": "RAT - Ram Air Turbine",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "RAU"
+      ],
+      "info": "RAU - Remote Acquisition Unit",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "RC"
+      ],
+      "info": "RC - Recommended Change",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "RCCB"
+      ],
+      "info": "RCCB - Remote Control Circuit Breaker",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "RCIP/MRCIP"
+      ],
+      "info": "RCIP/MRCIP - Replacement Core Integrated Processor/Modernized Replacement Core Integrated Processor",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "RCU"
+      ],
+      "info": "RCU - Resource Control Unit",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "RCVV"
+      ],
+      "info": "RCVV - Rear Compressor Variable Vane",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "RegAF"
+      ],
+      "info": "RegAF - Regular Air Force",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "REMIS"
+      ],
+      "info": "REMIS - Reliability and Maintainability Information System",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "RIL"
+      ],
+      "info": "RIL - Routine Inspection List",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "RLS"
+      ],
+      "info": "RLS - Remote Light Sensor",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "RN"
+      ],
+      "info": "RN - Repair Network",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "RNM"
+      ],
+      "info": "RNM - Repair Network Manager",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "RPA"
+      ],
+      "info": "RPA - Remotely Piloted Aircraft",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "RPC"
+      ],
+      "info": "RPC - Remote Power Control",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "RS"
+      ],
+      "info": "RS - Reconfiguration System",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "RTR"
+      ],
+      "info": "RTR - Radio Transmitter-Receiver",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "SADL"
+      ],
+      "info": "SADL - Situational Awareness Data Link",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "SATCOM"
+      ],
+      "info": "SATCOM - Satellite Communication",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "SAU"
+      ],
+      "info": "SAU - Signal Acquisition Unit",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "SB"
+      ],
+      "info": "SB - Service Bulletins",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "SBU"
+      ],
+      "info": "SBU - Swift Broadband Unit",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "SCR"
+      ],
+      "info": "SCR - Special Certification Roster",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "SDAP"
+      ],
+      "info": "SDAP - Special Duty Assignment Pay",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "SDU"
+      ],
+      "info": "SDU - Satellite Data Unit",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "SE"
+      ],
+      "info": "SE - Support Equipment",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "SEF"
+      ],
+      "info": "SEF - Spoiler Control/Electronic Flap Computer",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "SEI"
+      ],
+      "info": "SEI - Special Experience Identifier",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "SI"
+      ],
+      "info": "SI - Special Inspection",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "SIF"
+      ],
+      "info": "SIF - Sound Intermediate Frequency",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "SIPRNET"
+      ],
+      "info": "SIPRNET - Secret Internet Protocol Router Network",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "SKE"
+      ],
+      "info": "SKE - Station Keeping Equipment",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "SLMG"
+      ],
+      "info": "SLMG - Senior Leader Mission Generation",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "SLTA"
+      ],
+      "info": "SLTA - Small Laser Transmitter Assembly",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "SM"
+      ],
+      "info": "SM - Support Munitions",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "SMDC"
+      ],
+      "info": "SMDC - Shielded Mild Detonating Cord",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "SME"
+      ],
+      "info": "SME - Subject Matter Expert",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "SMR"
+      ],
+      "info": "SMR - Source of Maintenance and Recoverability",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "SNCO"
+      ],
+      "info": "SNCO - Senior Non-Commissioned Officer",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "SOLL"
+      ],
+      "info": "SOLL - Special Operations, Low Level",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "SOW"
+      ],
+      "info": "SOW - Statement of Work",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "SPRAM"
+      ],
+      "info": "SPRAM - Special Purpose Recoverables Authorized Maintenance",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "SPRO"
+      ],
+      "info": "SPRO - Semi-prepared Runway Operations",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "SQ"
+      ],
+      "info": "SQ - Squadron",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "SQ/CC"
+      ],
+      "info": "SQ/CC - Squadron Commander",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "SRAN"
+      ],
+      "info": "SRAN - Stock Record Account Number",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "SRT"
+      ],
+      "info": "SRT - Satellite Receiver Transmitter",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "SRU"
+      ],
+      "info": "SRU - Shop Replaceable Unit",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "SSEA"
+      ],
+      "info": "SSEA - System Safety Engineering Analysis",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "SSI"
+      ],
+      "info": "SSI - Sensor Signals Interface",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "SSN"
+      ],
+      "info": "SSN - Social Security Number",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "SSS"
+      ],
+      "info": "SSS - Staff Summary Sheet",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "SUPT"
+      ],
+      "info": "SUPT - Superintendent (Enlisted Duties)",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "SureComm"
+      ],
+      "info": "SureComm - Secure Communications",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "TA"
+      ],
+      "info": "TA - Transient Alert",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "TAA"
+      ],
+      "info": "TAA - Training Aid Aircraft",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "TAC"
+      ],
+      "info": "TAC - Total Accumulated Cycles",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "TAR"
+      ],
+      "info": "TAR - Technical Assistance Request",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "TAS"
+      ],
+      "info": "TAS - Task Assignment List",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "TAT"
+      ],
+      "info": "TAT - Total Air Temperature",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "TAWS"
+      ],
+      "info": "TAWS - Terrain Awareness Warning System",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "TBA"
+      ],
+      "info": "TBA - Training Business Area",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "TCA"
+      ],
+      "info": "TCA - Turbine Cooling Air",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "TCAS"
+      ],
+      "info": "TCAS - Traffic Alert and Collision Avoidance System",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "TCC"
+      ],
+      "info": "TCC - Transaction Condition Code",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "TCI"
+      ],
+      "info": "TCI - Time Change Item",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "TCTO"
+      ],
+      "info": "TCTO - Time Compliance Technical Order",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "TD"
+      ],
+      "info": "TD - Training Detachment",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "TDV"
+      ],
+      "info": "TDV - Technical Data Violation",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "TDY"
+      ],
+      "info": "TDY - Temporary Duty",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "TE"
+      ],
+      "info": "TE - Thermal Electrical",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "TFI"
+      ],
+      "info": "TFI - Total Force Integration",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "TLA"
+      ],
+      "info": "TLA - Throttle Lever Angle",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "TMDE"
+      ],
+      "info": "TMDE - Test Measurement and Diagnostic Equipment",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "TMS"
+      ],
+      "info": "TMS - Type Model Series",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "TNB"
+      ],
+      "info": "TNB - Tail Number Bin",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "TO"
+      ],
+      "info": "TO - Technical Order",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "TODA"
+      ],
+      "info": "TODA - Technical Order Distribution Account",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "TODO"
+      ],
+      "info": "TODO - Technical Order Distribution Office",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "TPC"
+      ],
+      "info": "TPC - Training Proficiency Center",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "TQC"
+      ],
+      "info": "TQC - Weapons Task Qualification Crew",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "TR"
+      ],
+      "info": "TR - Traditional Reservist",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "TR"
+      ],
+      "info": "TR - Thrust Reverser",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "TTML"
+      ],
+      "info": "TTML - Test/Training Munitions List",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "TTP"
+      ],
+      "info": "TTP - Tactics, Techniques & Procedures",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "UARRSI"
+      ],
+      "info": "UARRSI - Universal Aerial Refueling Receptacle Slipway Installation",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "UCML"
+      ],
+      "info": "UCML - Unit Committed Munitions List",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "UCR"
+      ],
+      "info": "UCR - Unsatisfactory Condition Report",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "UDM"
+      ],
+      "info": "UDM - User Data Module",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "UE"
+      ],
+      "info": "UE - Unit Equipped",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "UEM"
+      ],
+      "info": "UEM - Unit Engine Manager",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "UFC"
+      ],
+      "info": "UFC - Unified Facilities Criteria",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "UHF"
+      ],
+      "info": "UHF - Ultra High Frequency",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "UII"
+      ],
+      "info": "UII - Unique Item Identifier",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "UMD"
+      ],
+      "info": "UMD - Unit Manpower Document",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "UMR"
+      ],
+      "info": "UMR - Urgent Maintenance Request",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "UPMR"
+      ],
+      "info": "UPMR - Unit Personnel Management Roster",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "USAF"
+      ],
+      "info": "USAF - United States Air Force",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "USAFE"
+      ],
+      "info": "USAFE - United States Air Forces in Europe",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "UTA"
+      ],
+      "info": "UTA - Unit Training Assembly",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "UTA"
+      ],
+      "info": "UTA - Unit Type-Code Availability",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "UTC"
+      ],
+      "info": "UTC - Unit Type Code",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "UTE"
+      ],
+      "info": "UTE - Utilization (rate)",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "UTM"
+      ],
+      "info": "UTM - Unit Training Manager",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "VHF"
+      ],
+      "info": "VHF - Very High Frequency",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "VIP"
+      ],
+      "info": "VIP - Video Integrated Processor",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "VRMS"
+      ],
+      "info": "VRMS - Volt Root Mean Square",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "VSAFS"
+      ],
+      "info": "VSAFS - Vertical Stabilizer Auxiliary Front Spar",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "VSFS"
+      ],
+      "info": "VSFS - Vertical Stabilizer Forward Spar",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "VSRS"
+      ],
+      "info": "VSRS - Vertical Stabilizer Rear Spar",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "W&B"
+      ],
+      "info": "W&B - Weight and Balance",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "W/O"
+      ],
+      "info": "W/O - Without",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "WAC"
+      ],
+      "info": "WAC - Warning and Caution",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "WACS"
+      ],
+      "info": "WACS - Warning and Caution System",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "WAP"
+      ],
+      "info": "WAP - Warning Annunciator Panel",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "WASP"
+      ],
+      "info": "WASP - Web Applications Software Product",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "WCC"
+      ],
+      "info": "WCC - Warning and Caution Computer",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "WCCS"
+      ],
+      "info": "WCCS - Wireless Communication Control System",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "WCE"
+      ],
+      "info": "WCE - Work Center Event",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "WG"
+      ],
+      "info": "WG - Wing",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "WG/CC"
+      ],
+      "info": "WG/CC - Wing Commander",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "WG/CV"
+      ],
+      "info": "WG/CV - Vice Wing Commander",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "WIU"
+      ],
+      "info": "WIU - Wireless Interface Unit",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "WJQS"
+      ],
+      "info": "WJQS - Work Center Job Qualification Standard",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "WLCMT"
+      ],
+      "info": "WLCMT - Weapons Load Crew Management Tool",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "WLCTP"
+      ],
+      "info": "WLCTP - Weapons Load Crew Training Program",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "WLT"
+      ],
+      "info": "WLT - Weapons Load Training",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "WRE"
+      ],
+      "info": "WRE - War Readiness Engine",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "WRM"
+      ],
+      "info": "WRM - War Reserve Materiel",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "WS"
+      ],
+      "info": "WS - Weapons Standardization",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "WSM"
+      ],
+      "info": "WSM - Weapon System Manager",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "WTQM"
+      ],
+      "info": "WTQM - Weapons Task Qualification Training Manager",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "WUC"
+      ],
+      "info": "WUC - Work Unit Code",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "WWID"
+      ],
+      "info": "WWID - Worldwide Identification (code for TCMax\u00ae)",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "WWM"
+      ],
+      "info": "WWM - Wing Weapons Manager",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "WX"
+      ],
+      "info": "WX - Weather",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "WXR"
+      ],
+      "info": "WXR - Weather Radar",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "REF DES"
+      ],
+      "info": "REF DES - Reference Designators",
+      "page": "Acronyms.html"
+    },
+    {
+      "keywords": [
+        "S/S/SN"
+      ],
+      "info": "S/S/SN - System/Subsystem and Sub-Subsystem/Subject Numbers",
+      "page": "Acronyms.html"
     }
   ]
 }
