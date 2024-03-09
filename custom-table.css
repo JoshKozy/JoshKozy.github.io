@@ -193,6 +193,10 @@ footer {
       color: #c0c0c0; /* Lighter color for links in dark mode */
     }
 
+    a, nav a:link, nav a:visited { /* Adjust for both unvisited and visited links */
+      color: #add8e6; /* Light blue for better visibility in dark mode */
+    }
+    
     nav a:hover {
       background-color: #333333; /* Darker shade for hover state */
     }
