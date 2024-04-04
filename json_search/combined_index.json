@@ -9640,133 +9640,133 @@
         "Launch"
       ],
       "info": "Launch",
-      "page": "APG/Launch.html"
+      "page": "tasks/APG/Launch.html"
     },
     {
       "keywords": [
         "External Electrical Power"
       ],
       "info": "External Electrical Power",
-      "page": "APG/ExtElecPow.html"
+      "page": "tasks/APG/ExtElecPow.html"
     },
     {
       "keywords": [
         "Main Battery Connect & Disconnect"
       ],
       "info": "Main Battery Connect & Disconnect",
-      "page": "APG/MainBatC&D.html"
+      "page": "tasks/APG/MainBatC&D.html"
     },
     {
       "keywords": [
         "Single Point Refueling Checklist"
       ],
       "info": "Single Point Refueling Checklist",
-      "page": "APG/SPRCheck.html"
+      "page": "tasks/APG/SPRCheck.html"
     },
     {
       "keywords": [
         "Hydro System Reservoir Service Primary"
       ],
       "info": "Hydro System Reservoir Service Primary",
-      "page": "APG/HydroSysServ.html"
+      "page": "tasks/APG/HydroSysServ.html"
     },
     {
       "keywords": [
         "Gust Damper Accumulator Servicing"
       ],
       "info": "Gust Damper Accumulator Servicing",
-      "page": "APG/GustDampSvc.html"
+      "page": "tasks/APG/GustDampSvc.html"
     },
     {
       "keywords": [
         "NLG Shock Strut Servicing"
       ],
       "info": "NLG Shock Strut Servicing",
-      "page": "APG/NLGShStSvc.html"
+      "page": "tasks/APG/NLGShStSvc.html"
     },
     {
       "keywords": [
         "MLG Shock Strut Servicing"
       ],
       "info": "MLG Shock Strut Servicing",
-      "page": "APG/MLGShStSvc.html"
+      "page": "tasks/APG/MLGShStSvc.html"
     },
     {
       "keywords": [
         "ACFT Tire Servicing"
       ],
       "info": "ACFT Tire Servicing",
-      "page": "APG/ACFTTSvc.html"
+      "page": "tasks/APG/ACFTTSvc.html"
     },
     {
       "keywords": [
         "LOX Converter Servicing Checklist"
       ],
       "info": "LOX Converter Servicing Checklist",
-      "page": "APG/LOXSvc.html"
+      "page": "tasks/APG/LOXSvc.html"
     },
     {
       "keywords": [
         "Engine Oil System Servicing"
       ],
       "info": "Engine Oil System Servicing",
-      "page": "APG/EngOil.html"
+      "page": "tasks/APG/EngOil.html"
     },
     {
       "keywords": [
         "Storage Battery Removal & Installation"
       ],
       "info": "Storage Battery Removal & Installation",
-      "page": "APG/BatR2.html"
+      "page": "tasks/APG/BatR2.html"
     },
     {
       "keywords": [
         "Life Raft Assembly Container"
       ],
       "info": "Life Raft Assembly Container",
-      "page": "APG/LifeRaft.html"
+      "page": "tasks/APG/LifeRaft.html"
     },
     {
       "keywords": [
         "Flap System Operation"
       ],
       "info": "Flap System Operation",
-      "page": "APG/FlapOp.html"
+      "page": "tasks/APG/FlapOp.html"
     },
     {
       "keywords": [
         "MLG Wheel & Tire Assembly Removal/Installation"
       ],
       "info": "MLG Wheel & Tire Assembly Removal/Installation",
-      "page": "APG/MLGWT.html"
+      "page": "tasks/APG/MLGWT.html"
     },
     {
       "keywords": [
         "Cargo Equipment (Winch) System Operational Checkout"
       ],
       "info": "Cargo Equipment (Winch) System Operational Checkout",
-      "page": "APG/CargoWinch.html"
+      "page": "tasks/APG/CargoWinch.html"
     },
     {
       "keywords": [
         "Cargo Ramp & Cargo Door Open/Close"
       ],
       "info": "Cargo Ramp & Cargo Door Open/Close",
-      "page": "APG/CRampDoor.html"
+      "page": "tasks/APG/CRampDoor.html"
     },
     {
       "keywords": [
         "Engine Exhaust Thrust Reverser System Operational Checkout"
       ],
       "info": "Engine Exhaust Thrust Reverser System Operational Checkout",
-      "page": "APG/TROpsChk.html"
+      "page": "tasks/APG/TROpsChk.html"
     },
     {
       "keywords": [
         "Ramp Emergency Egress Accumulator"
       ],
       "info": "Ramp Emergency Egress Accumulator",
-      "page": "APG/RampEmerEgrAcc.html"
+      "page": "tasks/APG/RampEmerEgrAcc.html"
     }
   ]
 }
